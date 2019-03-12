@@ -1,0 +1,43 @@
+name: cbm101
+dependencies:
+- python>=3.6.0
+- pip
+- ipython
+- ipywidgets
+- jupyter
+- git
+- numpy
+- matplotlib
+- pandas
+- scikit-learn>=0.20
+- ipykernel
+- conda-forge::jupyter_contrib_nbextensions
+- conda-forge::jupyterlab
+- conda-forge::statsmodels
+- conda-forge::biopython
+- scipy
+- seaborn
+- imageio
+- rpy2
+- simplegeneric
+- tzlocal
+- pip:
+  - pip
+  - opencv-python
+  - scikit-image
+  - kaggle
+  - graphviz
+  - networkx
+  - pandas-profiling
+  - xlrd
+  - nibabel
+  - nilearn
+  - eli5
+  - pdpbox
+  - wand
+  - python-louvain
+  - pandas_ml
+# - python-igraph (needs a workaround for Windows)
+# pip install .\python_igraph-0.7.1.post6-cp37-cp37m-win_amd64.whl
+# pip install py2cytoscape
+#  - py2cytoscape
