@@ -48,7 +48,7 @@ Links that redirects to the study programme pages of each NordBioMed partner uni
 You can read more about OER in this [Foundations for OER Strategy Development](http://www.oerstrategy.org/home/read-the-doc/) document.
 
 
-### Major topics in the "Introduction to Computational Biomedicine and Machine Learning" part of OERCompBiomed project are:
+#### Major topics in the "Introduction to Computational Biomedicine and Machine Learning" part of OERCompBiomed project are:
 
 
 - **Tools** (Python, R & friends) & **Data retrieval**  (see also https://computingskillsforbiologists.com)
