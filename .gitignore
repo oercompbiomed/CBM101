@@ -14,3 +14,7 @@ unsynceddata/
 
 # Mac OS
 .DS_Store
+
+# .md files
+*.md.save
+
