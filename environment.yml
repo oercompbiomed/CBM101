@@ -21,6 +21,8 @@ dependencies:
 - rpy2
 - simplegeneric
 - tzlocal
+- pytables
+- openpyxl
 - pip:
   - pip
   - opencv-python
