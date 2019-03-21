@@ -20,7 +20,6 @@ Learning objectives of the three notebooks
         Ego network
         Repeating Notebook 1 codes on pp network
         2)
-        (NOT MADE!!!)
         Apply layout and style in Networkx (short)
         Directed/undirected graphs
         3)
