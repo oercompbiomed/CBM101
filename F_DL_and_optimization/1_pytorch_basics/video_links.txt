@@ -1,0 +1,1 @@
+http://pc.cd/aqe7  --- 23.04 : Introduction to Optimization Algorithms, Gradient Descent, Finding Optimum in Python
