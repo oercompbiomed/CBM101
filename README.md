@@ -10,8 +10,11 @@ https://nordbiomed.org/news/summer-school-2019-computational-biomedicine (e-lear
 ## Content
 
 [Introduction](#introduction)
+
 [Exercises](#exercises)
+
 [Instructions for users](#instructions-for-users)
+
 [Instructions for teachers](#instructions-for-teachers)
 
 ## Introduction
@@ -77,9 +80,11 @@ _Note_: For the more advanced modules of this program, you will need to have the
 
 
 ### Folder structure
-_Topics:_ The main topics of this course are preceded by a capital letter. For instance, the content of the topic 'Tools and Data Resources' is available via [B_Tools-Data-Resources](B_Tools-Data-Resources).
+##### Topics
+The main topics of this course are preceded by a capital letter. For instance, the content of the topic 'Tools and Data Resources' is available via [B_Tools-Data-Resources](B_Tools-Data-Resources).
 
-_Subtopics:_ Each topic has several subtopics as subfolders of the main topic folder. These contain the jupyter notebooks with the corresponding exercises, e.g. [CBM101/D_Basic-Concepts-in-Statistics/Probabilities-and-Distributions/ProbsAndDistr.ipynb](CBM101/D_Basic-Concepts-in-Statistics/Probabilities-and-Distributions/ProbsAndDistr.ipynb)
+##### Subtopics
+Each topic has several subtopics as subfolders of the main topic folder. These contain the jupyter notebooks with the corresponding exercises, e.g. [CBM101/D_Basic-Concepts-in-Statistics/Probabilities-and-Distributions/ProbsAndDistr.ipynb](CBM101/D_Basic-Concepts-in-Statistics/Probabilities-and-Distributions/ProbsAndDistr.ipynb)
 
 ### Software requirements and installation instructions
 
