@@ -78,7 +78,7 @@ _Note_: For the more advanced modules of this program, you will need to have the
 The main topics of this course are preceded by a capital letter. For instance, the content of the topic 'Tools and Data Resources' is available via [B_Tools-Data-Resources](B_Tools-Data-Resources).
 
 ##### Subtopics
-Each topic has several subtopics as subfolders of the main topic folder. These contain the jupyter notebooks with the corresponding exercises, e.g. [CBM101/D_Basic-Concepts-in-Statistics/Probabilities-and-Distributions/ProbsAndDistr.ipynb](CBM101/D_Basic-Concepts-in-Statistics/Probabilities-and-Distributions/ProbsAndDistr.ipynb)
+Each topic has several subtopics as subfolders of the main topic folder. These contain the jupyter notebooks with the corresponding exercises, e.g. [CBM101/D_Basic-Concepts-in-Statistics/Probabilities-and-Distributions/ProbsAndDistr.ipynb](https://github.com/oercompbiomed/CBM101/blob/master/D_Basic-Concepts-in-Statistics/Probabilities-and-Distributions/ProbsAndDistr.ipynb)
 
 
 ### Get started - test your environment
@@ -91,7 +91,7 @@ This course is created and maintained as an international effort. The following 
 ### General layout
 The topics and subtopics should mirror the structure on [Bibsys](http://www.bibsys.no/en/). Each exercise notebook should have a specific entry with a link to it in Bibsys. 
 
-A typical notebook should follow the structure of the given [template](CBM101/Template-Topic/template_subtopic1/template.ipynb) and therefore contains a title with a short description, installation instructions, a cell for loading data and packages, and then exercises accompanied by code (if necessary) and questions.
+A typical notebook should follow the structure of the given **[template](https://github.com/oercompbiomed/CBM101/blob/master/Template-Topic/template_subtopic1/template.ipynb)** and therefore contains a title with a short description, installation instructions, a cell for loading data and packages, and then exercises accompanied by code (if necessary) and questions.
 
 ### Folder structure
 Topics start with a capital letter and have the subtopics organized as subfolders where teaching material such as the Jupyter notebooks is places.
