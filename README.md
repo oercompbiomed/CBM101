@@ -4,27 +4,21 @@
 
 This is the repository for the course CBM101: Introduction to Computational Biomedicine and Machine Learning, a collaboration within the [NordBiomed network](https://nordbiomed.org/).
 
-Here you find code and documentation for the course. You will find more information about the Summer school testing this course at
+Here you find exercises, code and documentation for the course. You will find more information about the Summer school testing this course at
 https://nordbiomed.org/news/summer-school-2019-computational-biomedicine (e-learning modules will later be avaialble on the [Open edX](https://open.edx.org) platform at [Bibsys](http://www.bibsys.no/en/)).
 
-# Setting up your system
+## Content
 
-**Follow the instructions at [Setting up your system](setup.md) to get ready**
+[Introduction](#introduction)
 
-Note: To access the course notebooks interactively without downloading any software we are planning to use Binder
+[Exercises](#exercises)
 
+[Instructions for users](#instructions-for-users)
 
-# Notebooks
-The course is based on the Jupyter Notebook, a web-based framework for developing and presenting code-based projects (take a look at https://youtu.be/HW29067qVWk og https://youtu.be/2eCHD6f_phE for introductions to Jupyter Notebooks).
+[Instructions for teachers](#instructions-for-teachers)
 
-Throughout the course you will work with notebooks that contain various material and programming tasks. We recommend that you *make a copy of our notebooks before you are editing them*. In this respect you might adopt the naming convention `my_[name_of_notebook].ipynb`.
-
-
-## Get started - test your environment
-* [Python, Numpy, Pandas, Matplotlib, Nibabel, Biopython and more](notebooks/0.0-test.ipynb): run through this notebook to check that your environment is OK.
-
-
-## *The big picture of CBM101*
+## Introduction
+### *The big picture of CBM101*
 
 CBM101 is part of the "Open Educational Resources in Computational Biomedicine"* (OERCompBiomed) project conducted by the NordBioMed.org and funded by [Erasmus+](http://ec.europa.eu/programmes/erasmus-plus/projects/eplus-project-details/#project/bc4e0bdb-aa64-4d5c-a7f2-26d68ec36647).
 
@@ -34,7 +28,7 @@ Links that redirects to the study programme pages of each NordBioMed partner uni
 (*) Biomedicine covers those areas of human biology, chemistry and medicine that seek to explain the factors behind health and disease at the molecular and cellular level. This information is applied in the development of better diagnostics and treatments.
 
 
-### What’s OERCompBiomed ?
+## What’s OERCompBiomed ?
 
 > The Nordic network of Biomedicine educators NordBioMedNet has received a grant of 350 000 euros from Erasmus+ to develop biomedicine education. With the received money the network can start providing Open Educational Resource (OER) courses that are open for everybody. They will start by providing courses of Biomedical Ethics, Digital Pathology, Computational Biomedicine and machine learning.
 
@@ -66,3 +60,26 @@ You can read more about OER in this [Foundations for OER Strategy Development](h
 - **Deep learning**  
 
    -- “Hello World” (UiB) + DeepCLIP (SDU) + DeepBind (UEF)
+   
+   # Setting up your system
+
+**Follow the instructions at [Setting up your system](setup.md) to get ready**
+
+Note: To access the course notebooks interactively without downloading any software we are planning to use Binder
+
+# Exercises
+## Jupyter notebooks
+The course is based on Jupyter Notebooks, a web-based framework for developing and presenting code-based projects (take a look at https://youtu.be/HW29067qVWk og https://youtu.be/2eCHD6f_phE for introductions to Jupyter Notebooks).
+
+Throughout the course you will work with notebooks that contain various material and programming tasks. We recommend that you *make a copy of our notebooks before you are editing them*. In this respect you might adopt the naming convention `my_[name_of_notebook].ipynb`.
+
+
+## Get started - test your environment
+* [Python, Numpy, Pandas, Matplotlib, Nibabel, Biopython and more](notebooks/0.0-test.ipynb): run through this notebook to check that your environment is OK.
+
+# Instructions for users
+
+# Instructions for teachers
+
+
+   
