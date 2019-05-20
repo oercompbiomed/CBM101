@@ -10,11 +10,8 @@ https://nordbiomed.org/news/summer-school-2019-computational-biomedicine (e-lear
 ## Content
 
 [Introduction](#introduction)
-
 [Exercises](#exercises)
-
 [Instructions for users](#instructions-for-users)
-
 [Instructions for teachers](#instructions-for-teachers)
 
 ## Introduction
@@ -28,7 +25,7 @@ Links that redirects to the study programme pages of each NordBioMed partner uni
 (*) Biomedicine covers those areas of human biology, chemistry and medicine that seek to explain the factors behind health and disease at the molecular and cellular level. This information is applied in the development of better diagnostics and treatments.
 
 
-## What’s OERCompBiomed ?
+### What’s OERCompBiomed ?
 
 > The Nordic network of Biomedicine educators NordBioMedNet has received a grant of 350 000 euros from Erasmus+ to develop biomedicine education. With the received money the network can start providing Open Educational Resource (OER) courses that are open for everybody. They will start by providing courses of Biomedical Ethics, Digital Pathology, Computational Biomedicine and machine learning.
 
@@ -47,15 +44,11 @@ You can read more about OER in this [Foundations for OER Strategy Development](h
 
 - **Tools** (Python, R & friends) & **Data retrieval**  (see also https://computingskillsforbiologists.com)
 
-
 - **Complex network analysis**  
-
 
 - **Unsupervised learning**
 
-
 - **Supervised learning**
-
 
 - **Deep learning**  
 
@@ -63,23 +56,47 @@ You can read more about OER in this [Foundations for OER Strategy Development](h
    
    # Setting up your system
 
-**Follow the instructions at [Setting up your system](setup.md) to get ready**
 
-Note: To access the course notebooks interactively without downloading any software we are planning to use Binder
-
-# Exercises
-## Jupyter notebooks
+## Instructions for users
+### Jupyter notebooks
 The course is based on Jupyter Notebooks, a web-based framework for developing and presenting code-based projects (take a look at https://youtu.be/HW29067qVWk og https://youtu.be/2eCHD6f_phE for introductions to Jupyter Notebooks).
 
 Throughout the course you will work with notebooks that contain various material and programming tasks. We recommend that you *make a copy of our notebooks before you are editing them*. In this respect you might adopt the naming convention `my_[name_of_notebook].ipynb`.
 
+### Installation
 
-## Get started - test your environment
+You need to set up the Jupyter enrivonment on your computer or use one of the cloud options (e.g. [Binder](mybinder.org)) to run the exercise material. 
+
+**Follow the instructions at [Setting up your system](setup.md) to get ready**
+
+You will have to install different packages (mostly python) in your system along the course. 
+
+_Note_: To access the course notebooks interactively without downloading any software we are planning to use [Binder](mybinder.org).
+
+_Note_: For the more advanced modules of this program, you will need to have the jupyter notebook environment working on your commputer
+
+
+### Folder structure
+_Topics:_ The main topics of this course are preceded by a capital letter. For instance, the content of the topic 'Tools and Data Resources' is available via [B_Tools-Data-Resources](B_Tools-Data-Resources).
+
+_Subtopics:_ Each topic has several subtopics as subfolders of the main topic folder. These contain the jupyter notebooks with the corresponding exercises, e.g. [CBM101/D_Basic-Concepts-in-Statistics/Probabilities-and-Distributions/ProbsAndDistr.ipynb](CBM101/D_Basic-Concepts-in-Statistics/Probabilities-and-Distributions/ProbsAndDistr.ipynb)
+
+### Software requirements and installation instructions
+
+
+
+### Get started - test your environment
 * [Python, Numpy, Pandas, Matplotlib, Nibabel, Biopython and more](notebooks/0.0-test.ipynb): run through this notebook to check that your environment is OK.
 
-# Instructions for users
 
-# Instructions for teachers
+## Instructions for teachers
 
+### General layout
+
+### Folder structure
+
+### Templates
+
+### How to add a new exercise
 
    
