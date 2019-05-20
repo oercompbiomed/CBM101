@@ -53,9 +53,6 @@ You can read more about OER in this [Foundations for OER Strategy Development](h
 - **Deep learning**  
 
    -- “Hello World” (UiB) + DeepCLIP (SDU) + DeepBind (UEF)
-   
-   # Setting up your system
-
 
 ## Instructions for users
 ### Jupyter notebooks
@@ -92,11 +89,18 @@ Each topic has several subtopics as subfolders of the main topic folder. These c
 This course is created and maintained as an international effort. The following guidelines define the organzation of the teaching material.
 
 ### General layout
+The topics and subtopics should mirror the structure on [Bibsys](http://www.bibsys.no/en/). Each exercise notebook should have a specific entry with a link to it in Bibsys. 
+
+A typical notebook should follow the structure of the given [template](CBM101/Template-Topic/template_subtopic1/template.ipynb) and therefore contains a title with a short description, installation instructions, a cell for loading data and packages, and then exercises accompanied by code (if necessary) and questions.
 
 ### Folder structure
-
-### Templates
+Topics start with a capital letter and have the subtopics organized as subfolders where teaching material such as the Jupyter notebooks is places.
 
 ### How to add a new exercise
+- Create folder within the correct topic if necessary
+- Separate notebook into small tasks 
+- Follow the structure of the notebook template and include questions
+- Upload to folder 
+_Note:_ For comments, bug reports and suggestions use the __Issues__
 
    
