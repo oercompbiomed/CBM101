@@ -86,10 +86,10 @@ Each topic has several subtopics as subfolders of the main topic folder. These c
 
 
 ## Instructions for teachers
-This course is created and maintained as an international effort. The following guidelines define the organzation of the teaching material.
+This course is created and maintained as an international effort. The following guidelines describe the organization of the teaching material.
 
 ### General layout
-The topics and subtopics should mirror the structure on [Bibsys](http://www.bibsys.no/en/). Each exercise notebook should have a specific entry with a link to it in Bibsys. 
+The topics and subtopics mirrors the structure on [Bibsys](http://www.bibsys.no/en/). Each exercise notebook should have a specific entry with a link to it in Bibsys. 
 
 A typical notebook should follow the structure of the given **[template](https://github.com/oercompbiomed/CBM101/blob/master/Template-Topic/template_subtopic1/template.ipynb)** and therefore contains a title with a short description, installation instructions, a cell for loading data and packages, and then exercises accompanied by code (if necessary) and questions.
 
