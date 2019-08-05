@@ -1,2 +1,8 @@
 install.packages("MASS", repos='http://cran.us.r-project.org')
 install.packages("cluster", repos='http://cran.us.r-project.org')
+install.packages("exactRankTests", repos='http://cran.us.r-project.org')
+if (!requireNamespace("BiocManager", quietly = TRUE))
+    install.packages("BiocManager")
+BiocManager::install("qvalue")
+install.packages("perm", repos='http://cran.us.r-project.org')
+install.packages("coin", repos='http://cran.us.r-project.org')
