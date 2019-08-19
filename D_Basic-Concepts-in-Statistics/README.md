@@ -5,6 +5,8 @@
 
 These notebooks requires an R kernel to run the R scripts. We recommend to install the latest R version (https://www.r-project.org/), open an R console and then follow the instructions in https://irkernel.github.io/installation.
 
+Using Anaconda for the R programming language in Jupyter Notebookhttps see: https://docs.anaconda.com/anaconda/navigator/tutorials/r-lang
+
 More features and a user-friendly environment to run R scripts outside jupyter are available through [RStudio](https://www.rstudio.com)
 
 Install the necessary libraries (only needed once) by executing (shift-enter), e.g.`
