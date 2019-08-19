@@ -10,7 +10,7 @@ If you are on Windows, at the local CBM101 root directory, type:
 CBM101>`conda deactivate` <br>
 CBM101>`"C:\Program Files\R\R-3.5.1\bin\R.exe"` <br>
 
-Now you got the R command prompt `>`. Then type
+Now you got the R command prompt `>`. Then type <br>
   \> `IRkernel::installspec()` <br>
   \> `quit()`
   
