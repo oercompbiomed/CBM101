@@ -5,7 +5,7 @@
 
 These notebooks requires an R kernel to run the R scripts. We recommend to install the latest R version (https://www.r-project.org/), open an R console and then follow the instructions in https://irkernel.github.io/installation.
 
-If you are on **Windows**, at the local CBM101 root directory, and have installed R version 3.5.1, type:
+If you are on **Windows**, at the local CBM101 root directory, and have installed R version 3.5.1 (say), type:
 
 CBM101>`conda deactivate` <br>
 CBM101>`"C:\Program Files\R\R-3.5.1\bin\R.exe"` <br>
