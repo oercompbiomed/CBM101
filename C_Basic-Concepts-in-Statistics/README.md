@@ -19,7 +19,8 @@ Go to the `C_Basic-Concepts-in-Statistics` folder, and start the Jupyter noteboo
 
 CBM101/C_Basic-Concepts-in-Statistics>`jupyter notebook`
 
-and you will load the `R kernel` when opening a .ipynb notebook
+and you will load the `R kernel` when opening an  `.ipynb`  notebook, say `ProbsAndDistr.ipynb` in the `Probabilities-and-Distributions` folder.
+
 
 
 Using Anaconda for the R programming language in Jupyter Notebookhttps see: https://docs.anaconda.com/anaconda/navigator/tutorials/r-lang
