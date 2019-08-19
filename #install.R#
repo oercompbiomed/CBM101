@@ -1,2 +1,0 @@
-install.packages("MASS", repos='http://cran.us.r-project.org')
-ninstall.packages("cluster", repos='http://cran.us.r-project.org')
