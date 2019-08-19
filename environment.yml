@@ -15,10 +15,13 @@ dependencies:
 - conda-forge::jupyterlab
 - conda-forge::statsmodels
 - conda-forge::biopython
+- conda-forge::graphviz
+- conda-forge::dcm2niix
+- conda-forge::nxviz
 - scipy
 - seaborn
 - imageio
-- rpy2
+# - rpy2
 - simplegeneric
 - tzlocal
 - pytables
@@ -27,18 +30,27 @@ dependencies:
   - pip
   - opencv-python
   - scikit-image
+  - Pillow
+  - SimpleITK
   - kaggle
-  - graphviz
+#  - graphviz
   - networkx
   - pandas-profiling
   - xlrd
   - nibabel
   - nilearn
+  - joblib
+  - dipy
   - eli5
   - pdpbox
   - wand
   - python-louvain
-  - pandas_ml
+  - pyradiomics
+  - fury
+  - plotly
+  - tensorflow==2.0.0-beta1
+  - pydot
+#  - pandas_ml  (not compatible with pandas 0.25.0)
 # - python-igraph (needs a workaround for Windows)
 # pip install .\python_igraph-0.7.1.post6-cp37-cp37m-win_amd64.whl
 # pip install py2cytoscape
