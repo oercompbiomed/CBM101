@@ -13,9 +13,19 @@ CBM101>`"C:\Program Files\R\R-3.5.1\bin\R.exe"` <br>
 Now you got the R command prompt `>`. Then type <br>
 
   \> `IRkernel::installspec()` <br>
-  \> `quit()`
+  \> `quit()`<br>
   
-Go to the `C_Basic-Concepts-in-Statistics` folder, and start the Jupyter notebook, i.e.
+If you are on **Mac**, at the local CBM101 root directory, and have installed R version 3.6.0 (say), type:
+
+CBM101>`conda deactivate` <br>
+CBM101>`/usr/local/bin/R` <br>
+
+Now you got the R command prompt `>`. Then type <br>
+  \> `install.packages('IRkernel')` <br>
+  \> `IRkernel::installspec()` <br>
+  \> `quit()`<br>
+  
+**Then**: Go to the `C_Basic-Concepts-in-Statistics` folder, and start the Jupyter notebook, i.e.
 
 CBM101/C_Basic-Concepts-in-Statistics>`jupyter notebook`
 
