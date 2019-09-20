@@ -31,7 +31,7 @@ Learning objectives of the three notebooks
         Array
         
    
-    Notebook 3:
+    Notebook 3 (not finished!)
         1) 
         Download Cytoscape and STRING app
         SIF file
