@@ -48,7 +48,8 @@ dependencies:
   - pyradiomics
   - fury
   - plotly
-  - tensorflow==2.0.0-beta1
+#  - tensorflow==2.0.0-beta1
+  - tensorflow
   - pydot
 #  - pandas_ml  (not compatible with pandas 0.25.0)
 # - python-igraph (needs a workaround for Windows)

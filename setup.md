@@ -43,7 +43,7 @@ python -m ipykernel install --user --name cbm101 --display-name "CBM101"
 ```
 
 ### Test you installation:
-Go through the notebook `0.0-test.ipynb` in the `notebooks`-directory:
+Go through the notebook `1.0-python-basics.ipynb` in the `B_Python_and_friends` directory:
 ```bash
 cd notebooks
 jupyter notebook
@@ -65,17 +65,22 @@ conda env update
 
 These notebooks requires an R kernel to run the R scripts. We recommend to install the latest R version (https://www.r-project.org/), open an R console and then follow the instructions in https://irkernel.github.io/installation.
 
-If you are on **Windows**, at the local CBM101 root directory, and have installed R version 3.5.1 (say), type:
+### If you are on **Windows**,
+
+at the local CBM101 root directory, and have installed R version 3.5.1 (say), type:
 
 CBM101>`conda deactivate` <br>
 CBM101>`"C:\Program Files\R\R-3.5.1\bin\R.exe"` <br>
 
 Now you got the R command prompt `>`. Then type <br>
 
+  \> `install.packages('IRkernel')` <br>
   \> `IRkernel::installspec()` <br>
   \> `quit()`<br>
-  
-If you are on **Mac**, at the local CBM101 root directory, and have installed R version 3.6.0 (say), type:
+
+### If you are on **Mac**,
+
+at the local CBM101 root directory, and have installed R version 3.6.0 (say), type:
 
 CBM101>`conda deactivate` <br>
 CBM101>`/usr/local/bin/R` <br>
@@ -84,10 +89,23 @@ Now you got the R command prompt `>`. Then type <br>
   \> `install.packages('IRkernel')` <br>
   \> `IRkernel::installspec()` <br>
   \> `quit()`<br>
-  
-**Then**: Go to the `C_Basic-Concepts-in-Statistics` folder, and start the Jupyter notebook, i.e.
 
-CBM101/C_Basic-Concepts-in-Statistics>`jupyter notebook`
+### If you are on **Linux**,
+
+at the local CBM101 root directory, and have installed R version 3.6.1 (say), type:
+
+  CBM101>`conda deactivate` <br>
+  CBM101>`/usr/bin/R` <br>
+
+Now you got the R command prompt `>`. Then type <br>
+    \> `install.packages('IRkernel')` <br>
+    \> `IRkernel::installspec()` <br>
+    \> `quit()`<br>
+
+
+**Then**: Go to the `E_Biostatistics` folder, and start the Jupyter notebook, i.e.
+
+CBM101/E_Biostatistics>`jupyter notebook`
 
 and you will load the `R kernel` when opening an  `.ipynb`  notebook, say `ProbsAndDistr.ipynb` in the `Probabilities-and-Distributions` folder.
 
@@ -101,3 +119,6 @@ Install the necessary libraries (only needed once) by executing (shift-enter), e
 
 `install.packages("MASS", repos='http://cran.us.r-project.org')`
 
+## Edit and live-preview markdown files, e.g. `README.md`
+
+The [Atom text editor](https://atom.io)  has a [live-preview mode](https://github.com/atom/markdown-preview) for markdown files. The keyboard shortcut is CTRL+SHIFT+M.
