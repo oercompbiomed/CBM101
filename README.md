@@ -1,3 +1,5 @@
+Copyright (c) 2019 OERCompBiomed - Open Educational Resources in Computational Biomedicine
+
 # Introduction to Computational Biomedicine <br> and Machine Learning
 
 ![CBM101 image](./assets/course_image_merja.jpg)
