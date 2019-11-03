@@ -45,9 +45,11 @@ python -m ipykernel install --user --name cbm101 --display-name "CBM101"
 ### Test you installation:
 Go through the notebook `1.0-python-basics.ipynb` in the `B_Python_and_friends` directory:
 ```bash
-cd notebooks
+cd B_Python_and_friends
 jupyter notebook
 ```
+(Tip: you can auto complete the name of a file/directory by pressing Tab, so you won't have to write out the 
+full name.)
 You can also use [JupyterLab](https://github.com/jupyterlab/jupyterlab): `jupyter lab`.
 
 ## Update:
