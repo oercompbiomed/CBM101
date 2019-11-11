@@ -61,6 +61,19 @@ conda activate cbm101
 conda env update
 ```
 
+## Overwriting local changes
+Sometimes `git pull` will throw an error message as it would overwrite any local changes you have made. This 
+problem can be solved by:
+i) Make a copy of the notebook (.ipynb) files before working through them.
+OR 
+ii) 
+```bash
+git fetch --all
+git reset --hard origin/master
+```
+WARNING: option ii) *will* permanently delete any personal changes you have made to any of the original files 
+(but not the copied ones).
+
 # Jupyter notebooks using R
 
 ## Installation of libraries and necessary software
