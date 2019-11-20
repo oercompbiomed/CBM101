@@ -49,7 +49,8 @@ cd B_Python_and_friends
 jupyter notebook
 ```
 (Tip: you can auto complete the name of a file/directory by pressing Tab, so you won't have to write out the 
-full name.)
+full name.) Jupyter notebook only supports Firefox, Safari and Chrome. Unless you have set one of these as your default browser, 
+you should do so, or alternatively you can run `jupyter notebook --no-browser` and paste the link into a supported browser.
 You can also use [JupyterLab](https://github.com/jupyterlab/jupyterlab): `jupyter lab`.
 
 ## Update:
