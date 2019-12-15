@@ -1,0 +1,1048 @@
+[2019-12-15 15:10:35,588 - Worker CPU 8 - MainThread] INFO - hyperopt.mongoexp
+PROTOCOL mongo
+[2019-12-15 15:10:35,589 - Worker CPU 8 - MainThread] INFO - hyperopt.mongoexp
+USERNAME None
+[2019-12-15 15:10:35,589 - Worker CPU 8 - MainThread] INFO - hyperopt.mongoexp
+HOSTNAME localhost
+[2019-12-15 15:10:35,589 - Worker CPU 8 - MainThread] INFO - hyperopt.mongoexp
+PORT 1234
+[2019-12-15 15:10:35,589 - Worker CPU 8 - MainThread] INFO - hyperopt.mongoexp
+PATH /scvi_db/jobs
+[2019-12-15 15:10:35,589 - Worker CPU 8 - MainThread] INFO - hyperopt.mongoexp
+AUTH DB None
+[2019-12-15 15:10:35,589 - Worker CPU 8 - MainThread] INFO - hyperopt.mongoexp
+DB scvi_db
+[2019-12-15 15:10:35,589 - Worker CPU 8 - MainThread] INFO - hyperopt.mongoexp
+COLLECTION jobs
+[2019-12-15 15:10:35,580 - Worker CPU 12 - MainThread] INFO - hyperopt.mongoexp
+PROTOCOL mongo
+[2019-12-15 15:10:35,592 - Worker CPU 12 - MainThread] INFO - hyperopt.mongoexp
+USERNAME None
+[2019-12-15 15:10:35,592 - Worker CPU 12 - MainThread] INFO - hyperopt.mongoexp
+HOSTNAME localhost
+[2019-12-15 15:10:35,593 - Worker CPU 12 - MainThread] INFO - hyperopt.mongoexp
+PORT 1234
+[2019-12-15 15:10:35,593 - Worker CPU 12 - MainThread] INFO - hyperopt.mongoexp
+PATH /scvi_db/jobs
+[2019-12-15 15:10:35,593 - Worker CPU 12 - MainThread] INFO - hyperopt.mongoexp
+AUTH DB None
+[2019-12-15 15:10:35,593 - Worker CPU 12 - MainThread] INFO - hyperopt.mongoexp
+DB scvi_db
+[2019-12-15 15:10:35,593 - Worker CPU 12 - MainThread] INFO - hyperopt.mongoexp
+COLLECTION jobs
+[2019-12-15 15:10:35,605 - Worker CPU 2 - MainThread] INFO - hyperopt.mongoexp
+PROTOCOL mongo
+[2019-12-15 15:10:35,605 - Worker CPU 2 - MainThread] INFO - hyperopt.mongoexp
+USERNAME None
+[2019-12-15 15:10:35,605 - Worker CPU 2 - MainThread] INFO - hyperopt.mongoexp
+HOSTNAME localhost
+[2019-12-15 15:10:35,595 - Worker CPU 4 - MainThread] INFO - hyperopt.mongoexp
+PROTOCOL mongo
+[2019-12-15 15:10:35,606 - Worker CPU 2 - MainThread] INFO - hyperopt.mongoexp
+PORT 1234
+[2019-12-15 15:10:35,605 - Worker CPU 4 - MainThread] INFO - hyperopt.mongoexp
+USERNAME None
+[2019-12-15 15:10:35,605 - Worker CPU 4 - MainThread] INFO - hyperopt.mongoexp
+HOSTNAME localhost
+[2019-12-15 15:10:35,607 - Worker CPU 2 - MainThread] INFO - hyperopt.mongoexp
+PATH /scvi_db/jobs
+[2019-12-15 15:10:35,608 - Worker CPU 2 - MainThread] INFO - hyperopt.mongoexp
+AUTH DB None
+[2019-12-15 15:10:35,605 - Worker CPU 4 - MainThread] INFO - hyperopt.mongoexp
+PORT 1234
+[2019-12-15 15:10:35,605 - Worker CPU 4 - MainThread] INFO - hyperopt.mongoexp
+PATH /scvi_db/jobs
+[2019-12-15 15:10:35,608 - Worker CPU 2 - MainThread] INFO - hyperopt.mongoexp
+DB scvi_db
+[2019-12-15 15:10:35,605 - Worker CPU 4 - MainThread] INFO - hyperopt.mongoexp
+AUTH DB None
+[2019-12-15 15:10:35,605 - Worker CPU 4 - MainThread] INFO - hyperopt.mongoexp
+DB scvi_db
+[2019-12-15 15:10:35,605 - Worker CPU 4 - MainThread] INFO - hyperopt.mongoexp
+COLLECTION jobs
+[2019-12-15 15:10:35,607 - Worker CPU 6 - MainThread] INFO - hyperopt.mongoexp
+PROTOCOL mongo
+[2019-12-15 15:10:35,608 - Worker CPU 6 - MainThread] INFO - hyperopt.mongoexp
+USERNAME None
+[2019-12-15 15:10:35,608 - Worker CPU 2 - MainThread] INFO - hyperopt.mongoexp
+COLLECTION jobs
+[2019-12-15 15:10:35,592 - Worker CPU 3 - MainThread] INFO - hyperopt.mongoexp
+PROTOCOL mongo
+[2019-12-15 15:10:35,609 - Worker CPU 8 - MainThread] INFO - hyperopt.mongoexp
+no job found, sleeping for 1.0s
+[2019-12-15 15:10:35,608 - Worker CPU 6 - MainThread] INFO - hyperopt.mongoexp
+HOSTNAME localhost
+[2019-12-15 15:10:35,608 - Worker CPU 6 - MainThread] INFO - hyperopt.mongoexp
+PORT 1234
+[2019-12-15 15:10:35,608 - Worker CPU 6 - MainThread] INFO - hyperopt.mongoexp
+PATH /scvi_db/jobs
+[2019-12-15 15:10:35,608 - Worker CPU 6 - MainThread] INFO - hyperopt.mongoexp
+AUTH DB None
+[2019-12-15 15:10:35,608 - Worker CPU 6 - MainThread] INFO - hyperopt.mongoexp
+DB scvi_db
+[2019-12-15 15:10:35,608 - Worker CPU 6 - MainThread] INFO - hyperopt.mongoexp
+COLLECTION jobs
+[2019-12-15 15:10:35,606 - Worker CPU 3 - MainThread] INFO - hyperopt.mongoexp
+USERNAME None
+[2019-12-15 15:10:35,606 - Worker CPU 3 - MainThread] INFO - hyperopt.mongoexp
+HOSTNAME localhost
+[2019-12-15 15:10:35,606 - Worker CPU 3 - MainThread] INFO - hyperopt.mongoexp
+PORT 1234
+[2019-12-15 15:10:35,606 - Worker CPU 3 - MainThread] INFO - hyperopt.mongoexp
+PATH /scvi_db/jobs
+[2019-12-15 15:10:35,606 - Worker CPU 3 - MainThread] INFO - hyperopt.mongoexp
+AUTH DB None
+[2019-12-15 15:10:35,606 - Worker CPU 3 - MainThread] INFO - hyperopt.mongoexp
+DB scvi_db
+[2019-12-15 15:10:35,606 - Worker CPU 3 - MainThread] INFO - hyperopt.mongoexp
+COLLECTION jobs
+[2019-12-15 15:10:35,613 - Worker CPU 12 - MainThread] INFO - hyperopt.mongoexp
+no job found, sleeping for 1.0s
+[2019-12-15 15:10:35,611 - Worker CPU 11 - MainThread] INFO - hyperopt.mongoexp
+PROTOCOL mongo
+[2019-12-15 15:10:35,614 - Worker CPU 11 - MainThread] INFO - hyperopt.mongoexp
+USERNAME None
+[2019-12-15 15:10:35,615 - Worker CPU 11 - MainThread] INFO - hyperopt.mongoexp
+HOSTNAME localhost
+[2019-12-15 15:10:35,615 - Worker CPU 11 - MainThread] INFO - hyperopt.mongoexp
+PORT 1234
+[2019-12-15 15:10:35,615 - Worker CPU 11 - MainThread] INFO - hyperopt.mongoexp
+PATH /scvi_db/jobs
+[2019-12-15 15:10:35,615 - Worker CPU 11 - MainThread] INFO - hyperopt.mongoexp
+AUTH DB None
+[2019-12-15 15:10:35,615 - Worker CPU 11 - MainThread] INFO - hyperopt.mongoexp
+DB scvi_db
+[2019-12-15 15:10:35,615 - Worker CPU 11 - MainThread] INFO - hyperopt.mongoexp
+COLLECTION jobs
+[2019-12-15 15:10:35,618 - Worker CPU 3 - MainThread] INFO - hyperopt.mongoexp
+no job found, sleeping for 1.0s
+[2019-12-15 15:10:35,619 - Worker CPU 14 - MainThread] INFO - hyperopt.mongoexp
+PROTOCOL mongo
+[2019-12-15 15:10:35,620 - Worker CPU 14 - MainThread] INFO - hyperopt.mongoexp
+USERNAME None
+[2019-12-15 15:10:35,620 - Worker CPU 14 - MainThread] INFO - hyperopt.mongoexp
+HOSTNAME localhost
+[2019-12-15 15:10:35,620 - Worker CPU 14 - MainThread] INFO - hyperopt.mongoexp
+PORT 1234
+[2019-12-15 15:10:35,620 - Worker CPU 14 - MainThread] INFO - hyperopt.mongoexp
+PATH /scvi_db/jobs
+[2019-12-15 15:10:35,621 - Worker CPU 14 - MainThread] INFO - hyperopt.mongoexp
+AUTH DB None
+[2019-12-15 15:10:35,621 - Worker CPU 14 - MainThread] INFO - hyperopt.mongoexp
+DB scvi_db
+[2019-12-15 15:10:35,621 - Worker CPU 14 - MainThread] INFO - hyperopt.mongoexp
+COLLECTION jobs
+[2019-12-15 15:10:35,623 - Worker CPU 6 - MainThread] INFO - hyperopt.mongoexp
+no job found, sleeping for 1.0s
+[2019-12-15 15:10:35,623 - Worker CPU 2 - MainThread] INFO - hyperopt.mongoexp
+no job found, sleeping for 1.0s
+[2019-12-15 15:10:35,621 - Fmin - MainThread] INFO - hyperopt.mongoexp
+PROTOCOL mongo
+[2019-12-15 15:10:35,622 - Fmin - MainThread] INFO - hyperopt.mongoexp
+USERNAME None
+[2019-12-15 15:10:35,624 - Fmin - MainThread] INFO - hyperopt.mongoexp
+HOSTNAME localhost
+[2019-12-15 15:10:35,624 - Fmin - MainThread] INFO - hyperopt.mongoexp
+PORT 1234
+[2019-12-15 15:10:35,624 - Fmin - MainThread] INFO - hyperopt.mongoexp
+PATH /scvi_db/jobs
+[2019-12-15 15:10:35,625 - Fmin - MainThread] INFO - hyperopt.mongoexp
+AUTH DB None
+[2019-12-15 15:10:35,625 - Fmin - MainThread] INFO - hyperopt.mongoexp
+DB scvi_db
+[2019-12-15 15:10:35,625 - Fmin - MainThread] INFO - hyperopt.mongoexp
+COLLECTION jobs
+[2019-12-15 15:10:35,627 - Worker CPU 11 - MainThread] INFO - hyperopt.mongoexp
+no job found, sleeping for 1.0s
+[2019-12-15 15:10:35,629 - Worker CPU 4 - MainThread] INFO - hyperopt.mongoexp
+no job found, sleeping for 1.0s
+[2019-12-15 15:10:35,628 - Worker CPU 5 - MainThread] INFO - hyperopt.mongoexp
+PROTOCOL mongo
+[2019-12-15 15:10:35,630 - Worker CPU 5 - MainThread] INFO - hyperopt.mongoexp
+USERNAME None
+[2019-12-15 15:10:35,630 - Worker CPU 5 - MainThread] INFO - hyperopt.mongoexp
+HOSTNAME localhost
+[2019-12-15 15:10:35,630 - Worker CPU 5 - MainThread] INFO - hyperopt.mongoexp
+PORT 1234
+[2019-12-15 15:10:35,630 - Worker CPU 5 - MainThread] INFO - hyperopt.mongoexp
+PATH /scvi_db/jobs
+[2019-12-15 15:10:35,630 - Worker CPU 5 - MainThread] INFO - hyperopt.mongoexp
+AUTH DB None
+[2019-12-15 15:10:35,630 - Worker CPU 5 - MainThread] INFO - hyperopt.mongoexp
+DB scvi_db
+[2019-12-15 15:10:35,630 - Worker CPU 5 - MainThread] INFO - hyperopt.mongoexp
+COLLECTION jobs
+[2019-12-15 15:10:35,641 - Worker CPU 5 - MainThread] INFO - hyperopt.mongoexp
+no job found, sleeping for 1.0s
+[2019-12-15 15:10:35,651 - Worker CPU 1 - MainThread] INFO - hyperopt.mongoexp
+PROTOCOL mongo
+[2019-12-15 15:10:35,651 - Worker CPU 1 - MainThread] INFO - hyperopt.mongoexp
+USERNAME None
+[2019-12-15 15:10:35,652 - Worker CPU 1 - MainThread] INFO - hyperopt.mongoexp
+HOSTNAME localhost
+[2019-12-15 15:10:35,651 - Worker CPU 9 - MainThread] INFO - hyperopt.mongoexp
+PROTOCOL mongo
+[2019-12-15 15:10:35,652 - Worker CPU 9 - MainThread] INFO - hyperopt.mongoexp
+USERNAME None
+[2019-12-15 15:10:35,652 - Worker CPU 9 - MainThread] INFO - hyperopt.mongoexp
+HOSTNAME localhost
+[2019-12-15 15:10:35,652 - Worker CPU 9 - MainThread] INFO - hyperopt.mongoexp
+PORT 1234
+[2019-12-15 15:10:35,652 - Worker CPU 10 - MainThread] INFO - hyperopt.mongoexp
+PROTOCOL mongo
+[2019-12-15 15:10:35,652 - Worker CPU 9 - MainThread] INFO - hyperopt.mongoexp
+PATH /scvi_db/jobs
+[2019-12-15 15:10:35,652 - Worker CPU 10 - MainThread] INFO - hyperopt.mongoexp
+USERNAME None
+[2019-12-15 15:10:35,653 - Worker CPU 10 - MainThread] INFO - hyperopt.mongoexp
+HOSTNAME localhost
+[2019-12-15 15:10:35,652 - Worker CPU 1 - MainThread] INFO - hyperopt.mongoexp
+PORT 1234
+[2019-12-15 15:10:35,653 - Worker CPU 9 - MainThread] INFO - hyperopt.mongoexp
+AUTH DB None
+[2019-12-15 15:10:35,653 - Worker CPU 10 - MainThread] INFO - hyperopt.mongoexp
+PORT 1234
+[2019-12-15 15:10:35,652 - Worker CPU 1 - MainThread] INFO - hyperopt.mongoexp
+PATH /scvi_db/jobs
+[2019-12-15 15:10:35,653 - Worker CPU 9 - MainThread] INFO - hyperopt.mongoexp
+DB scvi_db
+[2019-12-15 15:10:35,653 - Worker CPU 10 - MainThread] INFO - hyperopt.mongoexp
+PATH /scvi_db/jobs
+[2019-12-15 15:10:35,653 - Worker CPU 1 - MainThread] INFO - hyperopt.mongoexp
+AUTH DB None
+[2019-12-15 15:10:35,653 - Worker CPU 9 - MainThread] INFO - hyperopt.mongoexp
+COLLECTION jobs
+[2019-12-15 15:10:35,653 - Worker CPU 10 - MainThread] INFO - hyperopt.mongoexp
+AUTH DB None
+[2019-12-15 15:10:35,653 - Worker CPU 1 - MainThread] INFO - hyperopt.mongoexp
+DB scvi_db
+[2019-12-15 15:10:35,653 - Worker CPU 10 - MainThread] INFO - hyperopt.mongoexp
+DB scvi_db
+[2019-12-15 15:10:35,653 - Worker CPU 10 - MainThread] INFO - hyperopt.mongoexp
+COLLECTION jobs
+[2019-12-15 15:10:35,653 - Worker CPU 1 - MainThread] INFO - hyperopt.mongoexp
+COLLECTION jobs
+[2019-12-15 15:10:35,665 - Worker CPU 7 - MainThread] INFO - hyperopt.mongoexp
+PROTOCOL mongo
+[2019-12-15 15:10:35,666 - Worker CPU 7 - MainThread] INFO - hyperopt.mongoexp
+USERNAME None
+[2019-12-15 15:10:35,666 - Worker CPU 7 - MainThread] INFO - hyperopt.mongoexp
+HOSTNAME localhost
+[2019-12-15 15:10:35,666 - Worker CPU 7 - MainThread] INFO - hyperopt.mongoexp
+PORT 1234
+[2019-12-15 15:10:35,666 - Worker CPU 7 - MainThread] INFO - hyperopt.mongoexp
+PATH /scvi_db/jobs
+[2019-12-15 15:10:35,667 - Worker CPU 7 - MainThread] INFO - hyperopt.mongoexp
+AUTH DB None
+[2019-12-15 15:10:35,667 - Worker CPU 7 - MainThread] INFO - hyperopt.mongoexp
+DB scvi_db
+[2019-12-15 15:10:35,667 - Worker CPU 7 - MainThread] INFO - hyperopt.mongoexp
+COLLECTION jobs
+[2019-12-15 15:10:35,715 - Worker CPU 13 - MainThread] INFO - hyperopt.mongoexp
+PROTOCOL mongo
+[2019-12-15 15:10:35,715 - Worker CPU 13 - MainThread] INFO - hyperopt.mongoexp
+USERNAME None
+[2019-12-15 15:10:35,716 - Worker CPU 13 - MainThread] INFO - hyperopt.mongoexp
+HOSTNAME localhost
+[2019-12-15 15:10:35,716 - Worker CPU 13 - MainThread] INFO - hyperopt.mongoexp
+PORT 1234
+[2019-12-15 15:10:35,716 - Worker CPU 13 - MainThread] INFO - hyperopt.mongoexp
+PATH /scvi_db/jobs
+[2019-12-15 15:10:35,716 - Worker CPU 13 - MainThread] INFO - hyperopt.mongoexp
+AUTH DB None
+[2019-12-15 15:10:35,716 - Worker CPU 13 - MainThread] INFO - hyperopt.mongoexp
+DB scvi_db
+[2019-12-15 15:10:35,716 - Worker CPU 13 - MainThread] INFO - hyperopt.mongoexp
+COLLECTION jobs
+[2019-12-15 15:10:35,722 - Worker CPU 14 - MainThread] INFO - hyperopt.mongoexp
+no job found, sleeping for 1.0s
+[2019-12-15 15:10:35,722 - Worker CPU 9 - MainThread] INFO - hyperopt.mongoexp
+no job found, sleeping for 1.0s
+[2019-12-15 15:10:35,723 - Worker CPU 10 - MainThread] INFO - hyperopt.mongoexp
+no job found, sleeping for 1.0s
+[2019-12-15 15:10:35,723 - Worker CPU 1 - MainThread] INFO - hyperopt.mongoexp
+no job found, sleeping for 1.0s
+[2019-12-15 15:10:35,723 - Worker CPU 7 - MainThread] INFO - hyperopt.mongoexp
+no job found, sleeping for 1.0s
+[2019-12-15 15:10:35,750 - Worker CPU 13 - MainThread] INFO - hyperopt.mongoexp
+no job found, sleeping for 1.0s
+[2019-12-15 15:10:35,778 - Worker CPU 0 - MainThread] INFO - hyperopt.mongoexp
+PROTOCOL mongo
+[2019-12-15 15:10:35,778 - Worker CPU 0 - MainThread] INFO - hyperopt.mongoexp
+USERNAME None
+[2019-12-15 15:10:35,778 - Worker CPU 0 - MainThread] INFO - hyperopt.mongoexp
+HOSTNAME localhost
+[2019-12-15 15:10:35,778 - Worker CPU 0 - MainThread] INFO - hyperopt.mongoexp
+PORT 1234
+[2019-12-15 15:10:35,779 - Worker CPU 0 - MainThread] INFO - hyperopt.mongoexp
+PATH /scvi_db/jobs
+[2019-12-15 15:10:35,779 - Worker CPU 0 - MainThread] INFO - hyperopt.mongoexp
+AUTH DB None
+[2019-12-15 15:10:35,779 - Worker CPU 0 - MainThread] INFO - hyperopt.mongoexp
+DB scvi_db
+[2019-12-15 15:10:35,779 - Worker CPU 0 - MainThread] INFO - hyperopt.mongoexp
+COLLECTION jobs
+[2019-12-15 15:10:35,836 - Worker CPU 0 - MainThread] INFO - hyperopt.mongoexp
+no job found, sleeping for 1.0s
+[2019-12-15 15:10:35,837 - Fmin - MainThread] DEBUG - hyperopt.mongoexp
+Refresh data download took 0.000889 seconds for 0 ids
+[2019-12-15 15:10:36,305 - Fmin - MainThread] WARNING - hyperopt.mongoexp
+no last_id found, re-trying
+[2019-12-15 15:10:36,612 - Worker CPU 8 - MainThread] INFO - hyperopt.mongoexp
+no job found, sleeping for 1.0s
+[2019-12-15 15:10:36,615 - Worker CPU 12 - MainThread] INFO - hyperopt.mongoexp
+no job found, sleeping for 1.0s
+[2019-12-15 15:10:36,620 - Worker CPU 3 - MainThread] INFO - hyperopt.mongoexp
+no job found, sleeping for 1.0s
+[2019-12-15 15:10:36,625 - Worker CPU 6 - MainThread] INFO - hyperopt.mongoexp
+no job found, sleeping for 1.0s
+[2019-12-15 15:10:36,626 - Worker CPU 2 - MainThread] INFO - hyperopt.mongoexp
+no job found, sleeping for 1.0s
+[2019-12-15 15:10:36,629 - Worker CPU 11 - MainThread] INFO - hyperopt.mongoexp
+no job found, sleeping for 1.0s
+[2019-12-15 15:10:36,631 - Worker CPU 4 - MainThread] INFO - hyperopt.mongoexp
+no job found, sleeping for 1.0s
+[2019-12-15 15:10:36,642 - Worker CPU 5 - MainThread] INFO - hyperopt.mongoexp
+no job found, sleeping for 1.0s
+[2019-12-15 15:10:36,725 - Worker CPU 14 - MainThread] INFO - hyperopt.mongoexp
+no job found, sleeping for 1.0s
+[2019-12-15 15:10:36,725 - Worker CPU 9 - MainThread] INFO - hyperopt.mongoexp
+no job found, sleeping for 1.0s
+[2019-12-15 15:10:36,725 - Worker CPU 1 - MainThread] INFO - hyperopt.mongoexp
+no job found, sleeping for 1.0s
+[2019-12-15 15:10:36,725 - Worker CPU 10 - MainThread] INFO - hyperopt.mongoexp
+no job found, sleeping for 1.0s
+[2019-12-15 15:10:36,725 - Worker CPU 7 - MainThread] INFO - hyperopt.mongoexp
+no job found, sleeping for 1.0s
+[2019-12-15 15:10:36,753 - Worker CPU 13 - MainThread] INFO - hyperopt.mongoexp
+no job found, sleeping for 1.0s
+[2019-12-15 15:10:36,839 - Worker CPU 0 - MainThread] INFO - hyperopt.mongoexp
+no job found, sleeping for 1.0s
+[2019-12-15 15:10:37,312 - Fmin - MainThread] DEBUG - hyperopt.mongoexp
+Refresh data download took 0.000843 seconds for 0 ids
+[2019-12-15 15:10:37,314 - Fmin - MainThread] INFO - hyperopt.tpe
+tpe_transform took 0.001585 seconds
+[2019-12-15 15:10:37,314 - Fmin - MainThread] INFO - hyperopt.tpe
+TPE using 0 trials
+[2019-12-15 15:10:37,332 - Fmin - MainThread] DEBUG - hyperopt.mongoexp
+Refresh data download took 0.001401 seconds for 1 ids
+[2019-12-15 15:10:37,616 - Worker CPU 12 - MainThread] INFO - hyperopt.mongoexp
+no job found, sleeping for 1.0s
+[2019-12-15 15:10:37,616 - Worker CPU 8 - MainThread] DEBUG - hyperopt.mongoexp
+job found: SON([('_id', ObjectId('5df630cdcf1a0a158681f2ea')), ('state', 1), ('tid', 1), ('spec', None), ('result', SON([('status', 'new')])), ('misc', SON([('tid', 1), ('cmd', ['domain_attachment', 'FMinIter_Domain']), ('workdir', None), ('idxs', SON([('dropout_rate', [1]), ('lr', [1])])), ('vals', SON([('dropout_rate', [0.24474822246579106]), ('lr', [0.020847224650440536])]))])), ('exp_key', 'cortex_dataset_custom_space'), ('owner', ['alaridl-MS-7A38:10148']), ('version', 0), ('book_time', datetime.datetime(2019, 12, 15, 13, 10, 37, 613000)), ('refresh_time', datetime.datetime(2019, 12, 15, 13, 10, 37, 613000))])
+[2019-12-15 15:10:37,623 - Worker CPU 3 - MainThread] INFO - hyperopt.mongoexp
+no job found, sleeping for 1.0s
+[2019-12-15 15:10:37,628 - Worker CPU 6 - MainThread] INFO - hyperopt.mongoexp
+no job found, sleeping for 1.0s
+[2019-12-15 15:10:37,628 - Worker CPU 2 - MainThread] INFO - hyperopt.mongoexp
+no job found, sleeping for 1.0s
+[2019-12-15 15:10:37,632 - Worker CPU 11 - MainThread] INFO - hyperopt.mongoexp
+no job found, sleeping for 1.0s
+[2019-12-15 15:10:37,634 - Worker CPU 4 - MainThread] INFO - hyperopt.mongoexp
+no job found, sleeping for 1.0s
+[2019-12-15 15:10:37,645 - Worker CPU 5 - MainThread] INFO - hyperopt.mongoexp
+no job found, sleeping for 1.0s
+[2019-12-15 15:10:37,726 - Worker CPU 9 - MainThread] INFO - hyperopt.mongoexp
+no job found, sleeping for 1.0s
+[2019-12-15 15:10:37,727 - Worker CPU 14 - MainThread] INFO - hyperopt.mongoexp
+no job found, sleeping for 1.0s
+[2019-12-15 15:10:37,728 - Worker CPU 1 - MainThread] INFO - hyperopt.mongoexp
+no job found, sleeping for 1.0s
+[2019-12-15 15:10:37,728 - Worker CPU 7 - MainThread] INFO - hyperopt.mongoexp
+no job found, sleeping for 1.0s
+[2019-12-15 15:10:37,728 - Worker CPU 10 - MainThread] INFO - hyperopt.mongoexp
+no job found, sleeping for 1.0s
+[2019-12-15 15:10:37,755 - Worker CPU 13 - MainThread] INFO - hyperopt.mongoexp
+no job found, sleeping for 1.0s
+[2019-12-15 15:10:37,841 - Worker CPU 0 - MainThread] INFO - hyperopt.mongoexp
+no job found, sleeping for 1.0s
+[2019-12-15 15:10:38,341 - Fmin - MainThread] DEBUG - hyperopt.mongoexp
+Refresh data download took 0.002348 seconds for 0 ids
+[2019-12-15 15:10:38,344 - Fmin - MainThread] INFO - hyperopt.tpe
+tpe_transform took 0.002352 seconds
+[2019-12-15 15:10:38,344 - Fmin - MainThread] INFO - hyperopt.tpe
+TPE using 1/1 trials with best loss inf
+[2019-12-15 15:10:38,349 - Fmin - MainThread] DEBUG - hyperopt.mongoexp
+Refresh data download took 0.001886 seconds for 1 ids
+[2019-12-15 15:10:38,622 - Worker CPU 12 - MainThread] DEBUG - hyperopt.mongoexp
+job found: SON([('_id', ObjectId('5df630cecf1a0a158681f2eb')), ('state', 1), ('tid', 2), ('spec', None), ('result', SON([('status', 'new')])), ('misc', SON([('tid', 2), ('cmd', ['domain_attachment', 'FMinIter_Domain']), ('workdir', None), ('idxs', SON([('dropout_rate', [2]), ('lr', [2])])), ('vals', SON([('dropout_rate', [0.22780703454726806]), ('lr', [0.032785075644236765])]))])), ('exp_key', 'cortex_dataset_custom_space'), ('owner', ['alaridl-MS-7A38:10152']), ('version', 0), ('book_time', datetime.datetime(2019, 12, 15, 13, 10, 38, 617000)), ('refresh_time', datetime.datetime(2019, 12, 15, 13, 10, 38, 617000))])
+[2019-12-15 15:10:38,624 - Worker CPU 3 - MainThread] INFO - hyperopt.mongoexp
+no job found, sleeping for 1.0s
+[2019-12-15 15:10:38,630 - Worker CPU 2 - MainThread] INFO - hyperopt.mongoexp
+no job found, sleeping for 1.0s
+[2019-12-15 15:10:38,630 - Worker CPU 6 - MainThread] INFO - hyperopt.mongoexp
+no job found, sleeping for 1.0s
+[2019-12-15 15:10:38,634 - Worker CPU 11 - MainThread] INFO - hyperopt.mongoexp
+no job found, sleeping for 1.0s
+[2019-12-15 15:10:38,635 - Worker CPU 4 - MainThread] INFO - hyperopt.mongoexp
+no job found, sleeping for 1.0s
+[2019-12-15 15:10:38,647 - Worker CPU 5 - MainThread] INFO - hyperopt.mongoexp
+no job found, sleeping for 1.0s
+[2019-12-15 15:10:38,728 - Worker CPU 9 - MainThread] INFO - hyperopt.mongoexp
+no job found, sleeping for 1.0s
+[2019-12-15 15:10:38,728 - Worker CPU 14 - MainThread] INFO - hyperopt.mongoexp
+no job found, sleeping for 1.0s
+[2019-12-15 15:10:38,729 - Worker CPU 10 - MainThread] INFO - hyperopt.mongoexp
+no job found, sleeping for 1.0s
+[2019-12-15 15:10:38,729 - Worker CPU 7 - MainThread] INFO - hyperopt.mongoexp
+no job found, sleeping for 1.0s
+[2019-12-15 15:10:38,730 - Worker CPU 1 - MainThread] INFO - hyperopt.mongoexp
+no job found, sleeping for 1.0s
+[2019-12-15 15:10:38,757 - Worker CPU 13 - MainThread] INFO - hyperopt.mongoexp
+no job found, sleeping for 1.0s
+[2019-12-15 15:10:38,843 - Worker CPU 0 - MainThread] INFO - hyperopt.mongoexp
+no job found, sleeping for 1.0s
+[2019-12-15 15:10:39,358 - Fmin - MainThread] DEBUG - hyperopt.mongoexp
+Refresh data download took 0.001835 seconds for 0 ids
+[2019-12-15 15:10:39,359 - Fmin - MainThread] INFO - hyperopt.tpe
+tpe_transform took 0.001017 seconds
+[2019-12-15 15:10:39,359 - Fmin - MainThread] INFO - hyperopt.tpe
+TPE using 2/2 trials with best loss inf
+[2019-12-15 15:10:39,365 - Fmin - MainThread] DEBUG - hyperopt.mongoexp
+Refresh data download took 0.002585 seconds for 1 ids
+[2019-12-15 15:10:39,630 - Worker CPU 3 - MainThread] DEBUG - hyperopt.mongoexp
+job found: SON([('_id', ObjectId('5df630cfcf1a0a158681f2ec')), ('state', 1), ('tid', 3), ('spec', None), ('result', SON([('status', 'new')])), ('misc', SON([('tid', 3), ('cmd', ['domain_attachment', 'FMinIter_Domain']), ('workdir', None), ('idxs', SON([('dropout_rate', [3]), ('lr', [3])])), ('vals', SON([('dropout_rate', [0.29883164701019854]), ('lr', [0.04049552714777298])]))])), ('exp_key', 'cortex_dataset_custom_space'), ('owner', ['alaridl-MS-7A38:10143']), ('version', 0), ('book_time', datetime.datetime(2019, 12, 15, 13, 10, 39, 625000)), ('refresh_time', datetime.datetime(2019, 12, 15, 13, 10, 39, 625000))])
+[2019-12-15 15:10:39,631 - Worker CPU 2 - MainThread] INFO - hyperopt.mongoexp
+no job found, sleeping for 1.0s
+[2019-12-15 15:10:39,632 - Worker CPU 6 - MainThread] INFO - hyperopt.mongoexp
+no job found, sleeping for 1.0s
+[2019-12-15 15:10:39,636 - Worker CPU 4 - MainThread] INFO - hyperopt.mongoexp
+no job found, sleeping for 1.0s
+[2019-12-15 15:10:39,637 - Worker CPU 11 - MainThread] INFO - hyperopt.mongoexp
+no job found, sleeping for 1.0s
+[2019-12-15 15:10:39,649 - Worker CPU 5 - MainThread] INFO - hyperopt.mongoexp
+no job found, sleeping for 1.0s
+[2019-12-15 15:10:39,730 - Worker CPU 14 - MainThread] INFO - hyperopt.mongoexp
+no job found, sleeping for 1.0s
+[2019-12-15 15:10:39,731 - Worker CPU 9 - MainThread] INFO - hyperopt.mongoexp
+no job found, sleeping for 1.0s
+[2019-12-15 15:10:39,731 - Worker CPU 7 - MainThread] INFO - hyperopt.mongoexp
+no job found, sleeping for 1.0s
+[2019-12-15 15:10:39,731 - Worker CPU 10 - MainThread] INFO - hyperopt.mongoexp
+no job found, sleeping for 1.0s
+[2019-12-15 15:10:39,732 - Worker CPU 1 - MainThread] INFO - hyperopt.mongoexp
+no job found, sleeping for 1.0s
+[2019-12-15 15:10:39,759 - Worker CPU 13 - MainThread] INFO - hyperopt.mongoexp
+no job found, sleeping for 1.0s
+[2019-12-15 15:10:39,844 - Worker CPU 0 - MainThread] INFO - hyperopt.mongoexp
+no job found, sleeping for 1.0s
+[2019-12-15 15:10:40,373 - Fmin - MainThread] DEBUG - hyperopt.mongoexp
+Refresh data download took 0.001864 seconds for 0 ids
+[2019-12-15 15:10:40,375 - Fmin - MainThread] INFO - hyperopt.tpe
+tpe_transform took 0.001041 seconds
+[2019-12-15 15:10:40,375 - Fmin - MainThread] INFO - hyperopt.tpe
+TPE using 3/3 trials with best loss inf
+[2019-12-15 15:10:40,379 - Fmin - MainThread] DEBUG - hyperopt.mongoexp
+Refresh data download took 0.001927 seconds for 1 ids
+[2019-12-15 15:10:40,634 - Worker CPU 6 - MainThread] INFO - hyperopt.mongoexp
+no job found, sleeping for 1.0s
+[2019-12-15 15:10:40,635 - Worker CPU 2 - MainThread] DEBUG - hyperopt.mongoexp
+job found: SON([('_id', ObjectId('5df630d0cf1a0a158681f2ed')), ('state', 1), ('tid', 4), ('spec', None), ('result', SON([('status', 'new')])), ('misc', SON([('tid', 4), ('cmd', ['domain_attachment', 'FMinIter_Domain']), ('workdir', None), ('idxs', SON([('dropout_rate', [4]), ('lr', [4])])), ('vals', SON([('dropout_rate', [0.1664386706208187]), ('lr', [0.025441189106615667])]))])), ('exp_key', 'cortex_dataset_custom_space'), ('owner', ['alaridl-MS-7A38:10142']), ('version', 0), ('book_time', datetime.datetime(2019, 12, 15, 13, 10, 40, 632000)), ('refresh_time', datetime.datetime(2019, 12, 15, 13, 10, 40, 632000))])
+[2019-12-15 15:10:40,638 - Worker CPU 4 - MainThread] INFO - hyperopt.mongoexp
+no job found, sleeping for 1.0s
+[2019-12-15 15:10:40,638 - Worker CPU 11 - MainThread] INFO - hyperopt.mongoexp
+no job found, sleeping for 1.0s
+[2019-12-15 15:10:40,650 - Worker CPU 5 - MainThread] INFO - hyperopt.mongoexp
+no job found, sleeping for 1.0s
+[2019-12-15 15:10:40,732 - Worker CPU 14 - MainThread] INFO - hyperopt.mongoexp
+no job found, sleeping for 1.0s
+[2019-12-15 15:10:40,732 - Worker CPU 9 - MainThread] INFO - hyperopt.mongoexp
+no job found, sleeping for 1.0s
+[2019-12-15 15:10:40,734 - Worker CPU 7 - MainThread] INFO - hyperopt.mongoexp
+no job found, sleeping for 1.0s
+[2019-12-15 15:10:40,735 - Worker CPU 10 - MainThread] INFO - hyperopt.mongoexp
+no job found, sleeping for 1.0s
+[2019-12-15 15:10:40,734 - Worker CPU 1 - MainThread] INFO - hyperopt.mongoexp
+no job found, sleeping for 1.0s
+[2019-12-15 15:10:40,761 - Worker CPU 13 - MainThread] INFO - hyperopt.mongoexp
+no job found, sleeping for 1.0s
+[2019-12-15 15:10:40,846 - Worker CPU 0 - MainThread] INFO - hyperopt.mongoexp
+no job found, sleeping for 1.0s
+[2019-12-15 15:10:41,389 - Fmin - MainThread] DEBUG - hyperopt.mongoexp
+Refresh data download took 0.002421 seconds for 0 ids
+[2019-12-15 15:10:41,391 - Fmin - MainThread] INFO - hyperopt.tpe
+tpe_transform took 0.001311 seconds
+[2019-12-15 15:10:41,391 - Fmin - MainThread] INFO - hyperopt.tpe
+TPE using 4/4 trials with best loss inf
+[2019-12-15 15:10:41,398 - Fmin - MainThread] DEBUG - hyperopt.mongoexp
+Refresh data download took 0.003663 seconds for 1 ids
+[2019-12-15 15:10:41,641 - Worker CPU 11 - MainThread] INFO - hyperopt.mongoexp
+no job found, sleeping for 1.0s
+[2019-12-15 15:10:41,640 - Worker CPU 6 - MainThread] DEBUG - hyperopt.mongoexp
+job found: SON([('_id', ObjectId('5df630d1cf1a0a158681f2ee')), ('state', 1), ('tid', 5), ('spec', None), ('result', SON([('status', 'new')])), ('misc', SON([('tid', 5), ('cmd', ['domain_attachment', 'FMinIter_Domain']), ('workdir', None), ('idxs', SON([('dropout_rate', [5]), ('lr', [5])])), ('vals', SON([('dropout_rate', [0.12474923764246962]), ('lr', [0.019611644236301757])]))])), ('exp_key', 'cortex_dataset_custom_space'), ('owner', ['alaridl-MS-7A38:10146']), ('version', 0), ('book_time', datetime.datetime(2019, 12, 15, 13, 10, 41, 635000)), ('refresh_time', datetime.datetime(2019, 12, 15, 13, 10, 41, 635000))])
+[2019-12-15 15:10:41,641 - Worker CPU 4 - MainThread] INFO - hyperopt.mongoexp
+no job found, sleeping for 1.0s
+[2019-12-15 15:10:41,653 - Worker CPU 5 - MainThread] INFO - hyperopt.mongoexp
+no job found, sleeping for 1.0s
+[2019-12-15 15:10:41,734 - Worker CPU 14 - MainThread] INFO - hyperopt.mongoexp
+no job found, sleeping for 1.0s
+[2019-12-15 15:10:41,734 - Worker CPU 9 - MainThread] INFO - hyperopt.mongoexp
+no job found, sleeping for 1.0s
+[2019-12-15 15:10:41,736 - Worker CPU 7 - MainThread] INFO - hyperopt.mongoexp
+no job found, sleeping for 1.0s
+[2019-12-15 15:10:41,738 - Worker CPU 1 - MainThread] INFO - hyperopt.mongoexp
+no job found, sleeping for 1.0s
+[2019-12-15 15:10:41,737 - Worker CPU 10 - MainThread] INFO - hyperopt.mongoexp
+no job found, sleeping for 1.0s
+[2019-12-15 15:10:41,763 - Worker CPU 13 - MainThread] INFO - hyperopt.mongoexp
+no job found, sleeping for 1.0s
+[2019-12-15 15:10:41,848 - Worker CPU 0 - MainThread] INFO - hyperopt.mongoexp
+no job found, sleeping for 1.0s
+[2019-12-15 15:10:42,405 - Fmin - MainThread] DEBUG - hyperopt.mongoexp
+Refresh data download took 0.002657 seconds for 0 ids
+[2019-12-15 15:10:42,407 - Fmin - MainThread] INFO - hyperopt.tpe
+tpe_transform took 0.001312 seconds
+[2019-12-15 15:10:42,407 - Fmin - MainThread] INFO - hyperopt.tpe
+TPE using 5/5 trials with best loss inf
+[2019-12-15 15:10:42,413 - Fmin - MainThread] DEBUG - hyperopt.mongoexp
+Refresh data download took 0.003010 seconds for 1 ids
+[2019-12-15 15:10:42,644 - Worker CPU 11 - MainThread] DEBUG - hyperopt.mongoexp
+job found: SON([('_id', ObjectId('5df630d2cf1a0a158681f2ef')), ('state', 1), ('tid', 6), ('spec', None), ('result', SON([('status', 'new')])), ('misc', SON([('tid', 6), ('cmd', ['domain_attachment', 'FMinIter_Domain']), ('workdir', None), ('idxs', SON([('dropout_rate', [6]), ('lr', [6])])), ('vals', SON([('dropout_rate', [0.25642772613531273]), ('lr', [0.0424641633918982])]))])), ('exp_key', 'cortex_dataset_custom_space'), ('owner', ['alaridl-MS-7A38:10151']), ('version', 0), ('book_time', datetime.datetime(2019, 12, 15, 13, 10, 42, 641000)), ('refresh_time', datetime.datetime(2019, 12, 15, 13, 10, 42, 641000))])
+[2019-12-15 15:10:42,643 - Worker CPU 4 - MainThread] INFO - hyperopt.mongoexp
+no job found, sleeping for 1.0s
+[2019-12-15 15:10:42,654 - Worker CPU 5 - MainThread] INFO - hyperopt.mongoexp
+no job found, sleeping for 1.0s
+[2019-12-15 15:10:42,736 - Worker CPU 14 - MainThread] INFO - hyperopt.mongoexp
+no job found, sleeping for 1.0s
+[2019-12-15 15:10:42,736 - Worker CPU 9 - MainThread] INFO - hyperopt.mongoexp
+no job found, sleeping for 1.0s
+[2019-12-15 15:10:42,738 - Worker CPU 7 - MainThread] INFO - hyperopt.mongoexp
+no job found, sleeping for 1.0s
+[2019-12-15 15:10:42,740 - Worker CPU 10 - MainThread] INFO - hyperopt.mongoexp
+no job found, sleeping for 1.0s
+[2019-12-15 15:10:42,740 - Worker CPU 1 - MainThread] INFO - hyperopt.mongoexp
+no job found, sleeping for 1.0s
+[2019-12-15 15:10:42,765 - Worker CPU 13 - MainThread] INFO - hyperopt.mongoexp
+no job found, sleeping for 1.0s
+[2019-12-15 15:10:42,850 - Worker CPU 0 - MainThread] INFO - hyperopt.mongoexp
+no job found, sleeping for 1.0s
+[2019-12-15 15:10:43,426 - Fmin - MainThread] DEBUG - hyperopt.mongoexp
+Refresh data download took 0.006993 seconds for 0 ids
+[2019-12-15 15:10:43,428 - Fmin - MainThread] INFO - hyperopt.tpe
+tpe_transform took 0.001001 seconds
+[2019-12-15 15:10:43,428 - Fmin - MainThread] INFO - hyperopt.tpe
+TPE using 6/6 trials with best loss inf
+[2019-12-15 15:10:43,433 - Fmin - MainThread] DEBUG - hyperopt.mongoexp
+Refresh data download took 0.002198 seconds for 1 ids
+[2019-12-15 15:10:43,647 - Worker CPU 4 - MainThread] DEBUG - hyperopt.mongoexp
+job found: SON([('_id', ObjectId('5df630d3cf1a0a158681f2f0')), ('state', 1), ('tid', 7), ('spec', None), ('result', SON([('status', 'new')])), ('misc', SON([('tid', 7), ('cmd', ['domain_attachment', 'FMinIter_Domain']), ('workdir', None), ('idxs', SON([('dropout_rate', [7]), ('lr', [7])])), ('vals', SON([('dropout_rate', [0.26589436608222056]), ('lr', [0.0423971783795154])]))])), ('exp_key', 'cortex_dataset_custom_space'), ('owner', ['alaridl-MS-7A38:10144']), ('version', 0), ('book_time', datetime.datetime(2019, 12, 15, 13, 10, 43, 645000)), ('refresh_time', datetime.datetime(2019, 12, 15, 13, 10, 43, 645000))])
+[2019-12-15 15:10:43,657 - Worker CPU 5 - MainThread] INFO - hyperopt.mongoexp
+no job found, sleeping for 1.0s
+[2019-12-15 15:10:43,738 - Worker CPU 14 - MainThread] INFO - hyperopt.mongoexp
+no job found, sleeping for 1.0s
+[2019-12-15 15:10:43,738 - Worker CPU 9 - MainThread] INFO - hyperopt.mongoexp
+no job found, sleeping for 1.0s
+[2019-12-15 15:10:43,740 - Worker CPU 7 - MainThread] INFO - hyperopt.mongoexp
+no job found, sleeping for 1.0s
+[2019-12-15 15:10:43,741 - Worker CPU 10 - MainThread] INFO - hyperopt.mongoexp
+no job found, sleeping for 1.0s
+[2019-12-15 15:10:43,742 - Worker CPU 1 - MainThread] INFO - hyperopt.mongoexp
+no job found, sleeping for 1.0s
+[2019-12-15 15:10:43,767 - Worker CPU 13 - MainThread] INFO - hyperopt.mongoexp
+no job found, sleeping for 1.0s
+[2019-12-15 15:10:43,852 - Worker CPU 0 - MainThread] INFO - hyperopt.mongoexp
+no job found, sleeping for 1.0s
+[2019-12-15 15:10:44,439 - Fmin - MainThread] DEBUG - hyperopt.mongoexp
+Refresh data download took 0.002321 seconds for 0 ids
+[2019-12-15 15:10:44,440 - Fmin - MainThread] INFO - hyperopt.tpe
+tpe_transform took 0.001023 seconds
+[2019-12-15 15:10:44,440 - Fmin - MainThread] INFO - hyperopt.tpe
+TPE using 7/7 trials with best loss inf
+[2019-12-15 15:10:44,445 - Fmin - MainThread] DEBUG - hyperopt.mongoexp
+Refresh data download took 0.002101 seconds for 1 ids
+[2019-12-15 15:10:44,660 - Worker CPU 5 - MainThread] DEBUG - hyperopt.mongoexp
+job found: SON([('_id', ObjectId('5df630d4cf1a0a158681f2f1')), ('state', 1), ('tid', 8), ('spec', None), ('result', SON([('status', 'new')])), ('misc', SON([('tid', 8), ('cmd', ['domain_attachment', 'FMinIter_Domain']), ('workdir', None), ('idxs', SON([('dropout_rate', [8]), ('lr', [8])])), ('vals', SON([('dropout_rate', [0.26857596172394477]), ('lr', [0.020016392667789644])]))])), ('exp_key', 'cortex_dataset_custom_space'), ('owner', ['alaridl-MS-7A38:10145']), ('version', 0), ('book_time', datetime.datetime(2019, 12, 15, 13, 10, 44, 657000)), ('refresh_time', datetime.datetime(2019, 12, 15, 13, 10, 44, 657000))])
+[2019-12-15 15:10:44,740 - Worker CPU 14 - MainThread] INFO - hyperopt.mongoexp
+no job found, sleeping for 1.0s
+[2019-12-15 15:10:44,740 - Worker CPU 9 - MainThread] INFO - hyperopt.mongoexp
+no job found, sleeping for 1.0s
+[2019-12-15 15:10:44,741 - Worker CPU 7 - MainThread] INFO - hyperopt.mongoexp
+no job found, sleeping for 1.0s
+[2019-12-15 15:10:44,743 - Worker CPU 10 - MainThread] INFO - hyperopt.mongoexp
+no job found, sleeping for 1.0s
+[2019-12-15 15:10:44,744 - Worker CPU 1 - MainThread] INFO - hyperopt.mongoexp
+no job found, sleeping for 1.0s
+[2019-12-15 15:10:44,770 - Worker CPU 13 - MainThread] INFO - hyperopt.mongoexp
+no job found, sleeping for 1.0s
+[2019-12-15 15:10:44,854 - Worker CPU 0 - MainThread] INFO - hyperopt.mongoexp
+no job found, sleeping for 1.0s
+[2019-12-15 15:10:45,451 - Fmin - MainThread] DEBUG - hyperopt.mongoexp
+Refresh data download took 0.002180 seconds for 0 ids
+[2019-12-15 15:10:45,452 - Fmin - MainThread] INFO - hyperopt.tpe
+tpe_transform took 0.001266 seconds
+[2019-12-15 15:10:45,452 - Fmin - MainThread] INFO - hyperopt.tpe
+TPE using 8/8 trials with best loss inf
+[2019-12-15 15:10:45,462 - Fmin - MainThread] DEBUG - hyperopt.mongoexp
+Refresh data download took 0.006291 seconds for 1 ids
+[2019-12-15 15:10:45,744 - Worker CPU 7 - MainThread] INFO - hyperopt.mongoexp
+no job found, sleeping for 1.0s
+[2019-12-15 15:10:45,744 - Worker CPU 14 - MainThread] INFO - hyperopt.mongoexp
+no job found, sleeping for 1.0s
+[2019-12-15 15:10:45,744 - Worker CPU 9 - MainThread] DEBUG - hyperopt.mongoexp
+job found: SON([('_id', ObjectId('5df630d5cf1a0a158681f2f2')), ('state', 1), ('tid', 9), ('spec', None), ('result', SON([('status', 'new')])), ('misc', SON([('tid', 9), ('cmd', ['domain_attachment', 'FMinIter_Domain']), ('workdir', None), ('idxs', SON([('dropout_rate', [9]), ('lr', [9])])), ('vals', SON([('dropout_rate', [0.12794768392282532]), ('lr', [0.04457838058864841])]))])), ('exp_key', 'cortex_dataset_custom_space'), ('owner', ['alaridl-MS-7A38:10149']), ('version', 0), ('book_time', datetime.datetime(2019, 12, 15, 13, 10, 45, 741000)), ('refresh_time', datetime.datetime(2019, 12, 15, 13, 10, 45, 741000))])
+[2019-12-15 15:10:45,745 - Worker CPU 10 - MainThread] INFO - hyperopt.mongoexp
+no job found, sleeping for 1.0s
+[2019-12-15 15:10:45,746 - Worker CPU 1 - MainThread] INFO - hyperopt.mongoexp
+no job found, sleeping for 1.0s
+[2019-12-15 15:10:45,771 - Worker CPU 13 - MainThread] INFO - hyperopt.mongoexp
+no job found, sleeping for 1.0s
+[2019-12-15 15:10:45,856 - Worker CPU 0 - MainThread] INFO - hyperopt.mongoexp
+no job found, sleeping for 1.0s
+[2019-12-15 15:10:46,470 - Fmin - MainThread] DEBUG - hyperopt.mongoexp
+Refresh data download took 0.002199 seconds for 0 ids
+[2019-12-15 15:10:46,471 - Fmin - MainThread] INFO - hyperopt.tpe
+tpe_transform took 0.001057 seconds
+[2019-12-15 15:10:46,471 - Fmin - MainThread] INFO - hyperopt.tpe
+TPE using 9/9 trials with best loss inf
+[2019-12-15 15:10:46,477 - Fmin - MainThread] DEBUG - hyperopt.mongoexp
+Refresh data download took 0.002339 seconds for 1 ids
+[2019-12-15 15:10:46,746 - Worker CPU 14 - MainThread] INFO - hyperopt.mongoexp
+no job found, sleeping for 1.0s
+[2019-12-15 15:10:46,746 - Worker CPU 7 - MainThread] DEBUG - hyperopt.mongoexp
+job found: SON([('_id', ObjectId('5df630d6cf1a0a158681f2f3')), ('state', 1), ('tid', 10), ('spec', None), ('result', SON([('status', 'new')])), ('misc', SON([('tid', 10), ('cmd', ['domain_attachment', 'FMinIter_Domain']), ('workdir', None), ('idxs', SON([('dropout_rate', [10]), ('lr', [10])])), ('vals', SON([('dropout_rate', [0.21365925583480788]), ('lr', [0.029154714411830655])]))])), ('exp_key', 'cortex_dataset_custom_space'), ('owner', ['alaridl-MS-7A38:10147']), ('version', 0), ('book_time', datetime.datetime(2019, 12, 15, 13, 10, 46, 744000)), ('refresh_time', datetime.datetime(2019, 12, 15, 13, 10, 46, 744000))])
+[2019-12-15 15:10:46,747 - Worker CPU 10 - MainThread] INFO - hyperopt.mongoexp
+no job found, sleeping for 1.0s
+[2019-12-15 15:10:46,748 - Worker CPU 1 - MainThread] INFO - hyperopt.mongoexp
+no job found, sleeping for 1.0s
+[2019-12-15 15:10:46,773 - Worker CPU 13 - MainThread] INFO - hyperopt.mongoexp
+no job found, sleeping for 1.0s
+[2019-12-15 15:10:46,858 - Worker CPU 0 - MainThread] INFO - hyperopt.mongoexp
+no job found, sleeping for 1.0s
+[2019-12-15 15:10:47,485 - Fmin - MainThread] DEBUG - hyperopt.mongoexp
+Refresh data download took 0.002274 seconds for 0 ids
+[2019-12-15 15:10:47,487 - Fmin - MainThread] INFO - hyperopt.tpe
+tpe_transform took 0.001006 seconds
+[2019-12-15 15:10:47,487 - Fmin - MainThread] INFO - hyperopt.tpe
+TPE using 10/10 trials with best loss inf
+[2019-12-15 15:10:47,493 - Fmin - MainThread] DEBUG - hyperopt.mongoexp
+Refresh data download took 0.002853 seconds for 1 ids
+[2019-12-15 15:10:47,749 - Worker CPU 1 - MainThread] INFO - hyperopt.mongoexp
+no job found, sleeping for 1.0s
+[2019-12-15 15:10:47,749 - Worker CPU 14 - MainThread] DEBUG - hyperopt.mongoexp
+job found: SON([('_id', ObjectId('5df630d7cf1a0a158681f2f4')), ('state', 1), ('tid', 11), ('spec', None), ('result', SON([('status', 'new')])), ('misc', SON([('tid', 11), ('cmd', ['domain_attachment', 'FMinIter_Domain']), ('workdir', None), ('idxs', SON([('dropout_rate', [11]), ('lr', [11])])), ('vals', SON([('dropout_rate', [0.1637152463380131]), ('lr', [0.03854915551574773])]))])), ('exp_key', 'cortex_dataset_custom_space'), ('owner', ['alaridl-MS-7A38:10154']), ('version', 0), ('book_time', datetime.datetime(2019, 12, 15, 13, 10, 47, 747000)), ('refresh_time', datetime.datetime(2019, 12, 15, 13, 10, 47, 747000))])
+[2019-12-15 15:10:47,751 - Worker CPU 10 - MainThread] INFO - hyperopt.mongoexp
+no job found, sleeping for 1.0s
+[2019-12-15 15:10:47,775 - Worker CPU 13 - MainThread] INFO - hyperopt.mongoexp
+no job found, sleeping for 1.0s
+[2019-12-15 15:10:47,860 - Worker CPU 0 - MainThread] INFO - hyperopt.mongoexp
+no job found, sleeping for 1.0s
+[2019-12-15 15:10:48,502 - Fmin - MainThread] DEBUG - hyperopt.mongoexp
+Refresh data download took 0.002440 seconds for 0 ids
+[2019-12-15 15:10:48,503 - Fmin - MainThread] INFO - hyperopt.tpe
+tpe_transform took 0.001019 seconds
+[2019-12-15 15:10:48,503 - Fmin - MainThread] INFO - hyperopt.tpe
+TPE using 11/11 trials with best loss inf
+[2019-12-15 15:10:48,509 - Fmin - MainThread] DEBUG - hyperopt.mongoexp
+Refresh data download took 0.002668 seconds for 1 ids
+[2019-12-15 15:10:48,754 - Worker CPU 10 - MainThread] INFO - hyperopt.mongoexp
+no job found, sleeping for 1.0s
+[2019-12-15 15:10:48,755 - Worker CPU 1 - MainThread] DEBUG - hyperopt.mongoexp
+job found: SON([('_id', ObjectId('5df630d8cf1a0a158681f2f5')), ('state', 1), ('tid', 12), ('spec', None), ('result', SON([('status', 'new')])), ('misc', SON([('tid', 12), ('cmd', ['domain_attachment', 'FMinIter_Domain']), ('workdir', None), ('idxs', SON([('dropout_rate', [12]), ('lr', [12])])), ('vals', SON([('dropout_rate', [0.27052660551525454]), ('lr', [0.0353297988306655])]))])), ('exp_key', 'cortex_dataset_custom_space'), ('owner', ['alaridl-MS-7A38:10141']), ('version', 0), ('book_time', datetime.datetime(2019, 12, 15, 13, 10, 48, 750000)), ('refresh_time', datetime.datetime(2019, 12, 15, 13, 10, 48, 750000))])
+[2019-12-15 15:10:48,777 - Worker CPU 13 - MainThread] INFO - hyperopt.mongoexp
+no job found, sleeping for 1.0s
+[2019-12-15 15:10:48,864 - Worker CPU 0 - MainThread] INFO - hyperopt.mongoexp
+no job found, sleeping for 1.0s
+[2019-12-15 15:10:49,516 - Fmin - MainThread] DEBUG - hyperopt.mongoexp
+Refresh data download took 0.002200 seconds for 0 ids
+[2019-12-15 15:10:49,517 - Fmin - MainThread] INFO - hyperopt.tpe
+tpe_transform took 0.001015 seconds
+[2019-12-15 15:10:49,517 - Fmin - MainThread] INFO - hyperopt.tpe
+TPE using 12/12 trials with best loss inf
+[2019-12-15 15:10:49,522 - Fmin - MainThread] DEBUG - hyperopt.mongoexp
+Refresh data download took 0.002669 seconds for 1 ids
+[2019-12-15 15:10:49,757 - Worker CPU 10 - MainThread] DEBUG - hyperopt.mongoexp
+job found: SON([('_id', ObjectId('5df630d9cf1a0a158681f2f6')), ('state', 1), ('tid', 13), ('spec', None), ('result', SON([('status', 'new')])), ('misc', SON([('tid', 13), ('cmd', ['domain_attachment', 'FMinIter_Domain']), ('workdir', None), ('idxs', SON([('dropout_rate', [13]), ('lr', [13])])), ('vals', SON([('dropout_rate', [0.21092637008956966]), ('lr', [0.03436484261444376])]))])), ('exp_key', 'cortex_dataset_custom_space'), ('owner', ['alaridl-MS-7A38:10150']), ('version', 0), ('book_time', datetime.datetime(2019, 12, 15, 13, 10, 49, 754000)), ('refresh_time', datetime.datetime(2019, 12, 15, 13, 10, 49, 754000))])
+[2019-12-15 15:10:49,780 - Worker CPU 13 - MainThread] INFO - hyperopt.mongoexp
+no job found, sleeping for 1.0s
+[2019-12-15 15:10:49,866 - Worker CPU 0 - MainThread] INFO - hyperopt.mongoexp
+no job found, sleeping for 1.0s
+[2019-12-15 15:10:50,529 - Fmin - MainThread] DEBUG - hyperopt.mongoexp
+Refresh data download took 0.002251 seconds for 0 ids
+[2019-12-15 15:10:50,530 - Fmin - MainThread] INFO - hyperopt.tpe
+tpe_transform took 0.001022 seconds
+[2019-12-15 15:10:50,531 - Fmin - MainThread] INFO - hyperopt.tpe
+TPE using 13/13 trials with best loss inf
+[2019-12-15 15:10:50,536 - Fmin - MainThread] DEBUG - hyperopt.mongoexp
+Refresh data download took 0.002451 seconds for 1 ids
+[2019-12-15 15:10:50,783 - Worker CPU 13 - MainThread] DEBUG - hyperopt.mongoexp
+job found: SON([('_id', ObjectId('5df630dacf1a0a158681f2f7')), ('state', 1), ('tid', 14), ('spec', None), ('result', SON([('status', 'new')])), ('misc', SON([('tid', 14), ('cmd', ['domain_attachment', 'FMinIter_Domain']), ('workdir', None), ('idxs', SON([('dropout_rate', [14]), ('lr', [14])])), ('vals', SON([('dropout_rate', [0.299319106347839]), ('lr', [0.04266351999732707])]))])), ('exp_key', 'cortex_dataset_custom_space'), ('owner', ['alaridl-MS-7A38:10153']), ('version', 0), ('book_time', datetime.datetime(2019, 12, 15, 13, 10, 50, 780000)), ('refresh_time', datetime.datetime(2019, 12, 15, 13, 10, 50, 780000))])
+[2019-12-15 15:10:50,868 - Worker CPU 0 - MainThread] INFO - hyperopt.mongoexp
+no job found, sleeping for 1.0s
+[2019-12-15 15:10:51,543 - Fmin - MainThread] DEBUG - hyperopt.mongoexp
+Refresh data download took 0.002236 seconds for 0 ids
+[2019-12-15 15:10:51,544 - Fmin - MainThread] INFO - hyperopt.tpe
+tpe_transform took 0.000986 seconds
+[2019-12-15 15:10:51,544 - Fmin - MainThread] INFO - hyperopt.tpe
+TPE using 14/14 trials with best loss inf
+[2019-12-15 15:10:51,549 - Fmin - MainThread] DEBUG - hyperopt.mongoexp
+Refresh data download took 0.002445 seconds for 1 ids
+[2019-12-15 15:10:51,871 - Worker CPU 0 - MainThread] DEBUG - hyperopt.mongoexp
+job found: SON([('_id', ObjectId('5df630dbcf1a0a158681f2f8')), ('state', 1), ('tid', 15), ('spec', None), ('result', SON([('status', 'new')])), ('misc', SON([('tid', 15), ('cmd', ['domain_attachment', 'FMinIter_Domain']), ('workdir', None), ('idxs', SON([('dropout_rate', [15]), ('lr', [15])])), ('vals', SON([('dropout_rate', [0.2982556035068054]), ('lr', [0.03275166048455775])]))])), ('exp_key', 'cortex_dataset_custom_space'), ('owner', ['alaridl-MS-7A38:10140']), ('version', 0), ('book_time', datetime.datetime(2019, 12, 15, 13, 10, 51, 869000)), ('refresh_time', datetime.datetime(2019, 12, 15, 13, 10, 51, 869000))])
+[2019-12-15 15:10:52,556 - Fmin - MainThread] DEBUG - hyperopt.mongoexp
+Refresh data download took 0.002809 seconds for 0 ids
+[2019-12-15 15:10:52,557 - Fmin - MainThread] INFO - hyperopt.tpe
+tpe_transform took 0.001025 seconds
+[2019-12-15 15:10:52,557 - Fmin - MainThread] INFO - hyperopt.tpe
+TPE using 15/15 trials with best loss inf
+[2019-12-15 15:10:52,563 - Fmin - MainThread] DEBUG - hyperopt.mongoexp
+Refresh data download took 0.002683 seconds for 1 ids
+[2019-12-15 15:11:30,564 - Worker CPU 9 - MainThread] INFO - hyperopt.mongoexp
+job exception: 
+[2019-12-15 15:11:30,567 - Worker CPU 2 - MainThread] INFO - hyperopt.mongoexp
+job exception: 
+[2019-12-15 15:11:30,568 - Worker CPU 14 - MainThread] INFO - hyperopt.mongoexp
+job exception: 
+[2019-12-15 15:11:30,566 - Worker CPU 1 - MainThread] INFO - hyperopt.mongoexp
+job exception: 
+[2019-12-15 15:11:30,568 - Worker CPU 7 - MainThread] INFO - hyperopt.mongoexp
+job exception: 
+[2019-12-15 15:11:30,570 - Worker CPU 6 - MainThread] INFO - hyperopt.mongoexp
+job exception: 
+[2019-12-15 15:11:30,571 - Worker CPU 4 - MainThread] INFO - hyperopt.mongoexp
+job exception: 
+[2019-12-15 15:11:30,571 - Worker CPU 3 - MainThread] INFO - hyperopt.mongoexp
+job exception: 
+[2019-12-15 15:11:30,573 - Worker CPU 5 - MainThread] INFO - hyperopt.mongoexp
+job exception: 
+[2019-12-15 15:11:30,575 - Worker CPU 8 - MainThread] INFO - hyperopt.mongoexp
+job exception: 
+[2019-12-15 15:11:30,577 - Worker CPU 11 - MainThread] INFO - hyperopt.mongoexp
+job exception: 
+[2019-12-15 15:11:30,594 - Worker CPU 0 - MainThread] INFO - hyperopt.mongoexp
+job exception: 
+[2019-12-15 15:11:30,620 - Worker CPU 13 - MainThread] INFO - hyperopt.mongoexp
+job exception: 
+[2019-12-15 15:11:30,625 - Worker CPU 10 - MainThread] INFO - hyperopt.mongoexp
+job exception: 
+[2019-12-15 15:11:30,629 - Worker CPU 12 - MainThread] INFO - hyperopt.mongoexp
+job exception: 
+[2019-12-15 15:26:34,063 - Fmin - MainThread] INFO - hyperopt.mongoexp
+PROTOCOL mongo
+[2019-12-15 15:26:34,063 - Fmin - MainThread] INFO - hyperopt.mongoexp
+USERNAME None
+[2019-12-15 15:26:34,064 - Fmin - MainThread] INFO - hyperopt.mongoexp
+HOSTNAME localhost
+[2019-12-15 15:26:34,064 - Fmin - MainThread] INFO - hyperopt.mongoexp
+PORT 1234
+[2019-12-15 15:26:34,064 - Fmin - MainThread] INFO - hyperopt.mongoexp
+PATH /scvi_db/jobs
+[2019-12-15 15:26:34,064 - Fmin - MainThread] INFO - hyperopt.mongoexp
+AUTH DB None
+[2019-12-15 15:26:34,064 - Fmin - MainThread] INFO - hyperopt.mongoexp
+DB scvi_db
+[2019-12-15 15:26:34,064 - Fmin - MainThread] INFO - hyperopt.mongoexp
+COLLECTION jobs
+[2019-12-15 15:26:34,072 - Worker GPU 0:0 - MainThread] INFO - hyperopt.mongoexp
+PROTOCOL mongo
+[2019-12-15 15:26:34,073 - Worker GPU 0:0 - MainThread] INFO - hyperopt.mongoexp
+USERNAME None
+[2019-12-15 15:26:34,073 - Worker GPU 0:0 - MainThread] INFO - hyperopt.mongoexp
+HOSTNAME localhost
+[2019-12-15 15:26:34,073 - Worker GPU 0:0 - MainThread] INFO - hyperopt.mongoexp
+PORT 1234
+[2019-12-15 15:26:34,073 - Worker GPU 0:0 - MainThread] INFO - hyperopt.mongoexp
+PATH /scvi_db/jobs
+[2019-12-15 15:26:34,073 - Worker GPU 0:0 - MainThread] INFO - hyperopt.mongoexp
+AUTH DB None
+[2019-12-15 15:26:34,073 - Worker GPU 0:0 - MainThread] INFO - hyperopt.mongoexp
+DB scvi_db
+[2019-12-15 15:26:34,073 - Worker GPU 0:0 - MainThread] INFO - hyperopt.mongoexp
+COLLECTION jobs
+[2019-12-15 15:26:34,078 - Fmin - MainThread] DEBUG - hyperopt.mongoexp
+Refresh data download took 0.006778 seconds for 16 ids
+[2019-12-15 15:26:34,090 - Worker GPU 0:0 - MainThread] DEBUG - hyperopt.mongoexp
+job found: SON([('_id', ObjectId('5df630dccf1a0a158681f2f9')), ('state', 1), ('tid', 16), ('spec', None), ('result', SON([('status', 'new')])), ('misc', SON([('tid', 16), ('cmd', ['domain_attachment', 'FMinIter_Domain']), ('workdir', None), ('idxs', SON([('dropout_rate', [16]), ('lr', [16])])), ('vals', SON([('dropout_rate', [0.10395971058417562]), ('lr', [0.028647196096740192])]))])), ('exp_key', 'cortex_dataset_custom_space'), ('owner', ['alaridl-MS-7A38:5991']), ('version', 0), ('book_time', datetime.datetime(2019, 12, 15, 13, 26, 34, 74000)), ('refresh_time', datetime.datetime(2019, 12, 15, 13, 26, 34, 74000))])
+[2019-12-15 15:26:34,090 - Fmin - MainThread] WARNING - hyperopt.fmin
+over-writing old domain trials attachment
+[2019-12-15 15:26:34,289 - Fmin - MainThread] DEBUG - hyperopt.mongoexp
+Refresh data download took 0.008807 seconds for 0 ids
+[2019-12-15 15:26:34,291 - Fmin - MainThread] INFO - hyperopt.tpe
+tpe_transform took 0.000960 seconds
+[2019-12-15 15:26:34,291 - Fmin - MainThread] INFO - hyperopt.tpe
+TPE using 16/16 trials with best loss inf
+[2019-12-15 15:26:34,301 - Fmin - MainThread] DEBUG - hyperopt.mongoexp
+Refresh data download took 0.004174 seconds for 1 ids
+[2019-12-15 15:28:52,478 - Worker GPU 0:0 - MainThread] INFO - hyperopt.mongoexp
+job finished: 5df630dccf1a0a158681f2f9
+[2019-12-15 15:28:52,500 - Worker GPU 0:0 - MainThread] DEBUG - hyperopt.mongoexp
+job found: SON([('_id', ObjectId('5df6348a4f43f2ee8371d035')), ('state', 1), ('tid', 17), ('spec', None), ('result', SON([('status', 'new')])), ('misc', SON([('tid', 17), ('cmd', ['domain_attachment', 'FMinIter_Domain']), ('workdir', None), ('idxs', SON([('dropout_rate', [17]), ('lr', [17])])), ('vals', SON([('dropout_rate', [0.18556157969625559]), ('lr', [0.04441589388221705])]))])), ('exp_key', 'cortex_dataset_custom_space'), ('owner', ['alaridl-MS-7A38:5991']), ('version', 0), ('book_time', datetime.datetime(2019, 12, 15, 13, 28, 52, 498000)), ('refresh_time', datetime.datetime(2019, 12, 15, 13, 28, 52, 498000))])
+[2019-12-15 15:28:52,583 - Fmin - MainThread] DEBUG - hyperopt.mongoexp
+Refresh data download took 0.004163 seconds for 1 ids
+[2019-12-15 15:28:52,585 - Fmin - MainThread] INFO - hyperopt.tpe
+tpe_transform took 0.001274 seconds
+[2019-12-15 15:28:52,585 - Fmin - MainThread] INFO - hyperopt.tpe
+TPE using 17/17 trials with best loss 1221.010360
+[2019-12-15 15:28:52,593 - Fmin - MainThread] DEBUG - hyperopt.mongoexp
+Refresh data download took 0.003689 seconds for 1 ids
+[2019-12-15 15:31:34,003 - Worker GPU 0:0 - MainThread] INFO - hyperopt.mongoexp
+job finished: 5df6348a4f43f2ee8371d035
+[2019-12-15 15:31:34,026 - Worker GPU 0:0 - MainThread] DEBUG - hyperopt.mongoexp
+job found: SON([('_id', ObjectId('5df635144f43f2ee8371d036')), ('state', 1), ('tid', 18), ('spec', None), ('result', SON([('status', 'new')])), ('misc', SON([('tid', 18), ('cmd', ['domain_attachment', 'FMinIter_Domain']), ('workdir', None), ('idxs', SON([('dropout_rate', [18]), ('lr', [18])])), ('vals', SON([('dropout_rate', [0.21526418132520428]), ('lr', [0.03671249734475301])]))])), ('exp_key', 'cortex_dataset_custom_space'), ('owner', ['alaridl-MS-7A38:5991']), ('version', 0), ('book_time', datetime.datetime(2019, 12, 15, 13, 31, 34, 24000)), ('refresh_time', datetime.datetime(2019, 12, 15, 13, 31, 34, 24000))])
+[2019-12-15 15:31:34,931 - Fmin - MainThread] DEBUG - hyperopt.mongoexp
+Refresh data download took 0.002940 seconds for 1 ids
+[2019-12-15 15:31:34,933 - Fmin - MainThread] INFO - hyperopt.tpe
+tpe_transform took 0.002050 seconds
+[2019-12-15 15:31:34,933 - Fmin - MainThread] INFO - hyperopt.tpe
+TPE using 18/18 trials with best loss 1216.319884
+[2019-12-15 15:31:34,940 - Fmin - MainThread] DEBUG - hyperopt.mongoexp
+Refresh data download took 0.003075 seconds for 1 ids
+[2019-12-15 15:34:08,098 - Worker GPU 0:0 - MainThread] INFO - hyperopt.mongoexp
+job finished: 5df635144f43f2ee8371d036
+[2019-12-15 15:34:08,120 - Worker GPU 0:0 - MainThread] DEBUG - hyperopt.mongoexp
+job found: SON([('_id', ObjectId('5df635b64f43f2ee8371d037')), ('state', 1), ('tid', 19), ('spec', None), ('result', SON([('status', 'new')])), ('misc', SON([('tid', 19), ('cmd', ['domain_attachment', 'FMinIter_Domain']), ('workdir', None), ('idxs', SON([('dropout_rate', [19]), ('lr', [19])])), ('vals', SON([('dropout_rate', [0.18266291493017006]), ('lr', [0.026421431572652143])]))])), ('exp_key', 'cortex_dataset_custom_space'), ('owner', ['alaridl-MS-7A38:5991']), ('version', 0), ('book_time', datetime.datetime(2019, 12, 15, 13, 34, 8, 117000)), ('refresh_time', datetime.datetime(2019, 12, 15, 13, 34, 8, 117000))])
+[2019-12-15 15:34:08,260 - Fmin - MainThread] DEBUG - hyperopt.mongoexp
+Refresh data download took 0.004082 seconds for 1 ids
+[2019-12-15 15:34:08,262 - Fmin - MainThread] INFO - hyperopt.tpe
+tpe_transform took 0.001294 seconds
+[2019-12-15 15:34:08,262 - Fmin - MainThread] INFO - hyperopt.tpe
+TPE using 19/19 trials with best loss 1215.421797
+[2019-12-15 15:34:08,271 - Fmin - MainThread] DEBUG - hyperopt.mongoexp
+Refresh data download took 0.005567 seconds for 1 ids
+[2019-12-15 15:35:50,392 - Worker GPU 0:0 - MainThread] INFO - hyperopt.mongoexp
+job finished: 5df635b64f43f2ee8371d037
+[2019-12-15 15:35:50,412 - Worker GPU 0:0 - MainThread] DEBUG - hyperopt.mongoexp
+job found: SON([('_id', ObjectId('5df636504f43f2ee8371d038')), ('state', 1), ('tid', 20), ('spec', None), ('result', SON([('status', 'new')])), ('misc', SON([('tid', 20), ('cmd', ['domain_attachment', 'FMinIter_Domain']), ('workdir', None), ('idxs', SON([('dropout_rate', [20]), ('lr', [20])])), ('vals', SON([('dropout_rate', [0.23842807915971068]), ('lr', [0.022166756180789414])]))])), ('exp_key', 'cortex_dataset_custom_space'), ('owner', ['alaridl-MS-7A38:5991']), ('version', 0), ('book_time', datetime.datetime(2019, 12, 15, 13, 35, 50, 410000)), ('refresh_time', datetime.datetime(2019, 12, 15, 13, 35, 50, 410000))])
+[2019-12-15 15:35:50,481 - Fmin - MainThread] DEBUG - hyperopt.mongoexp
+Refresh data download took 0.004031 seconds for 1 ids
+[2019-12-15 15:35:50,483 - Fmin - MainThread] INFO - hyperopt.tpe
+tpe_transform took 0.001254 seconds
+[2019-12-15 15:35:50,483 - Fmin - MainThread] INFO - hyperopt.tpe
+TPE using 20/20 trials with best loss 1215.421797
+[2019-12-15 15:35:50,494 - Fmin - MainThread] DEBUG - hyperopt.mongoexp
+Refresh data download took 0.002824 seconds for 1 ids
+[2019-12-15 15:37:47,551 - Worker GPU 0:0 - MainThread] INFO - hyperopt.mongoexp
+job finished: 5df636504f43f2ee8371d038
+[2019-12-15 15:37:47,693 - Worker GPU 0:0 - MainThread] DEBUG - hyperopt.mongoexp
+job found: SON([('_id', ObjectId('5df636b64f43f2ee8371d039')), ('state', 1), ('tid', 21), ('spec', None), ('result', SON([('status', 'new')])), ('misc', SON([('tid', 21), ('cmd', ['domain_attachment', 'FMinIter_Domain']), ('workdir', None), ('idxs', SON([('dropout_rate', [21]), ('lr', [21])])), ('vals', SON([('dropout_rate', [0.188406953050734]), ('lr', [0.04859206190987091])]))])), ('exp_key', 'cortex_dataset_custom_space'), ('owner', ['alaridl-MS-7A38:5991']), ('version', 0), ('book_time', datetime.datetime(2019, 12, 15, 13, 37, 47, 673000)), ('refresh_time', datetime.datetime(2019, 12, 15, 13, 37, 47, 673000))])
+[2019-12-15 15:37:47,762 - Fmin - MainThread] DEBUG - hyperopt.mongoexp
+Refresh data download took 0.004703 seconds for 1 ids
+[2019-12-15 15:37:47,763 - Fmin - MainThread] INFO - hyperopt.tpe
+tpe_transform took 0.001085 seconds
+[2019-12-15 15:37:47,764 - Fmin - MainThread] INFO - hyperopt.tpe
+TPE using 21/21 trials with best loss 1215.421797
+[2019-12-15 15:37:47,808 - Fmin - MainThread] DEBUG - hyperopt.mongoexp
+Refresh data download took 0.002543 seconds for 1 ids
+[2019-12-15 15:40:00,694 - Worker GPU 0:0 - MainThread] INFO - hyperopt.mongoexp
+job finished: 5df636b64f43f2ee8371d039
+[2019-12-15 15:40:00,713 - Worker GPU 0:0 - MainThread] DEBUG - hyperopt.mongoexp
+job found: SON([('_id', ObjectId('5df6372b4f43f2ee8371d03a')), ('state', 1), ('tid', 22), ('spec', None), ('result', SON([('status', 'new')])), ('misc', SON([('tid', 22), ('cmd', ['domain_attachment', 'FMinIter_Domain']), ('workdir', None), ('idxs', SON([('dropout_rate', [22]), ('lr', [22])])), ('vals', SON([('dropout_rate', [0.1529974687705501]), ('lr', [0.04875920989577091])]))])), ('exp_key', 'cortex_dataset_custom_space'), ('owner', ['alaridl-MS-7A38:5991']), ('version', 0), ('book_time', datetime.datetime(2019, 12, 15, 13, 40, 0, 711000)), ('refresh_time', datetime.datetime(2019, 12, 15, 13, 40, 0, 711000))])
+[2019-12-15 15:40:01,073 - Fmin - MainThread] DEBUG - hyperopt.mongoexp
+Refresh data download took 0.003834 seconds for 1 ids
+[2019-12-15 15:40:01,075 - Fmin - MainThread] INFO - hyperopt.tpe
+tpe_transform took 0.001117 seconds
+[2019-12-15 15:40:01,075 - Fmin - MainThread] INFO - hyperopt.tpe
+TPE using 22/22 trials with best loss 1215.421797
+[2019-12-15 15:40:01,087 - Fmin - MainThread] DEBUG - hyperopt.mongoexp
+Refresh data download took 0.003530 seconds for 1 ids
+[2019-12-15 15:42:34,696 - Worker GPU 0:0 - MainThread] INFO - hyperopt.mongoexp
+job finished: 5df6372b4f43f2ee8371d03a
+[2019-12-15 15:42:34,716 - Worker GPU 0:0 - MainThread] DEBUG - hyperopt.mongoexp
+job found: SON([('_id', ObjectId('5df637b14f43f2ee8371d03b')), ('state', 1), ('tid', 23), ('spec', None), ('result', SON([('status', 'new')])), ('misc', SON([('tid', 23), ('cmd', ['domain_attachment', 'FMinIter_Domain']), ('workdir', None), ('idxs', SON([('dropout_rate', [23]), ('lr', [23])])), ('vals', SON([('dropout_rate', [0.19395180372526072]), ('lr', [0.03752406565221741])]))])), ('exp_key', 'cortex_dataset_custom_space'), ('owner', ['alaridl-MS-7A38:5991']), ('version', 0), ('book_time', datetime.datetime(2019, 12, 15, 13, 42, 34, 714000)), ('refresh_time', datetime.datetime(2019, 12, 15, 13, 42, 34, 714000))])
+[2019-12-15 15:42:35,428 - Fmin - MainThread] DEBUG - hyperopt.mongoexp
+Refresh data download took 0.003428 seconds for 1 ids
+[2019-12-15 15:42:35,429 - Fmin - MainThread] INFO - hyperopt.tpe
+tpe_transform took 0.001016 seconds
+[2019-12-15 15:42:35,430 - Fmin - MainThread] INFO - hyperopt.tpe
+TPE using 23/23 trials with best loss 1215.421797
+[2019-12-15 15:42:35,442 - Fmin - MainThread] DEBUG - hyperopt.mongoexp
+Refresh data download took 0.002811 seconds for 1 ids
+[2019-12-15 15:51:50,843 - Fmin - MainThread] INFO - hyperopt.mongoexp
+PROTOCOL mongo
+[2019-12-15 15:51:50,843 - Fmin - MainThread] INFO - hyperopt.mongoexp
+USERNAME None
+[2019-12-15 15:51:50,843 - Fmin - MainThread] INFO - hyperopt.mongoexp
+HOSTNAME localhost
+[2019-12-15 15:51:50,843 - Fmin - MainThread] INFO - hyperopt.mongoexp
+PORT 1234
+[2019-12-15 15:51:50,843 - Fmin - MainThread] INFO - hyperopt.mongoexp
+PATH /scvi_db/jobs
+[2019-12-15 15:51:50,843 - Fmin - MainThread] INFO - hyperopt.mongoexp
+AUTH DB None
+[2019-12-15 15:51:50,844 - Fmin - MainThread] INFO - hyperopt.mongoexp
+DB scvi_db
+[2019-12-15 15:51:50,844 - Fmin - MainThread] INFO - hyperopt.mongoexp
+COLLECTION jobs
+[2019-12-15 15:51:50,859 - Fmin - MainThread] DEBUG - hyperopt.mongoexp
+Refresh data download took 0.007737 seconds for 24 ids
+[2019-12-15 15:51:50,868 - Fmin - MainThread] WARNING - hyperopt.fmin
+over-writing old domain trials attachment
+[2019-12-15 15:51:50,953 - Worker GPU 0:0 - MainThread] INFO - hyperopt.mongoexp
+PROTOCOL mongo
+[2019-12-15 15:51:50,953 - Worker GPU 0:0 - MainThread] INFO - hyperopt.mongoexp
+USERNAME None
+[2019-12-15 15:51:50,953 - Worker GPU 0:0 - MainThread] INFO - hyperopt.mongoexp
+HOSTNAME localhost
+[2019-12-15 15:51:50,953 - Worker GPU 0:0 - MainThread] INFO - hyperopt.mongoexp
+PORT 1234
+[2019-12-15 15:51:50,953 - Worker GPU 0:0 - MainThread] INFO - hyperopt.mongoexp
+PATH /scvi_db/jobs
+[2019-12-15 15:51:50,953 - Worker GPU 0:0 - MainThread] INFO - hyperopt.mongoexp
+AUTH DB None
+[2019-12-15 15:51:50,953 - Worker GPU 0:0 - MainThread] INFO - hyperopt.mongoexp
+DB scvi_db
+[2019-12-15 15:51:50,953 - Worker GPU 0:0 - MainThread] INFO - hyperopt.mongoexp
+COLLECTION jobs
+[2019-12-15 15:51:50,963 - Worker GPU 0:0 - MainThread] DEBUG - hyperopt.mongoexp
+job found: SON([('_id', ObjectId('5df6384b4f43f2ee8371d03c')), ('state', 1), ('tid', 24), ('spec', None), ('result', SON([('status', 'new')])), ('misc', SON([('tid', 24), ('cmd', ['domain_attachment', 'FMinIter_Domain']), ('workdir', None), ('idxs', SON([('dropout_rate', [24]), ('lr', [24])])), ('vals', SON([('dropout_rate', [0.21377555517897373]), ('lr', [0.04663773478308486])]))])), ('exp_key', 'cortex_dataset_custom_space'), ('owner', ['alaridl-MS-7A38:9531']), ('version', 0), ('book_time', datetime.datetime(2019, 12, 15, 13, 51, 50, 955000)), ('refresh_time', datetime.datetime(2019, 12, 15, 13, 51, 50, 955000))])
+[2019-12-15 15:51:50,968 - Worker GPU 0:0 - MainThread] INFO - hyperopt.mongoexp
+job exception: 'FMinIter_Domain'
+[2019-12-15 15:51:51,042 - Fmin - MainThread] INFO - hyperopt.fmin
+Waiting for 16 jobs to finish ...
+[2019-12-15 16:17:06,570 - Fmin - MainThread] INFO - hyperopt.mongoexp
+PROTOCOL mongo
+[2019-12-15 16:17:06,571 - Fmin - MainThread] INFO - hyperopt.mongoexp
+USERNAME None
+[2019-12-15 16:17:06,571 - Fmin - MainThread] INFO - hyperopt.mongoexp
+HOSTNAME localhost
+[2019-12-15 16:17:06,571 - Fmin - MainThread] INFO - hyperopt.mongoexp
+PORT 1234
+[2019-12-15 16:17:06,571 - Fmin - MainThread] INFO - hyperopt.mongoexp
+PATH /scvi_db/jobs
+[2019-12-15 16:17:06,571 - Fmin - MainThread] INFO - hyperopt.mongoexp
+AUTH DB None
+[2019-12-15 16:17:06,571 - Fmin - MainThread] INFO - hyperopt.mongoexp
+DB scvi_db
+[2019-12-15 16:17:06,571 - Fmin - MainThread] INFO - hyperopt.mongoexp
+COLLECTION jobs
+[2019-12-15 16:17:06,580 - Fmin - MainThread] DEBUG - hyperopt.mongoexp
+Refresh data download took 0.002823 seconds for 23 ids
+[2019-12-15 16:17:06,584 - Fmin - MainThread] WARNING - hyperopt.fmin
+over-writing old domain trials attachment
+[2019-12-15 16:17:06,604 - Worker GPU 0:0 - MainThread] INFO - hyperopt.mongoexp
+PROTOCOL mongo
+[2019-12-15 16:17:06,604 - Worker GPU 0:0 - MainThread] INFO - hyperopt.mongoexp
+USERNAME None
+[2019-12-15 16:17:06,605 - Worker GPU 0:0 - MainThread] INFO - hyperopt.mongoexp
+HOSTNAME localhost
+[2019-12-15 16:17:06,605 - Worker GPU 0:0 - MainThread] INFO - hyperopt.mongoexp
+PORT 1234
+[2019-12-15 16:17:06,605 - Worker GPU 0:0 - MainThread] INFO - hyperopt.mongoexp
+PATH /scvi_db/jobs
+[2019-12-15 16:17:06,605 - Worker GPU 0:0 - MainThread] INFO - hyperopt.mongoexp
+AUTH DB None
+[2019-12-15 16:17:06,605 - Worker GPU 0:0 - MainThread] INFO - hyperopt.mongoexp
+DB scvi_db
+[2019-12-15 16:17:06,605 - Worker GPU 0:0 - MainThread] INFO - hyperopt.mongoexp
+COLLECTION jobs
+[2019-12-15 16:17:06,611 - Worker GPU 0:0 - MainThread] INFO - hyperopt.mongoexp
+no job found, sleeping for 1.0s
+[2019-12-15 16:17:06,723 - Fmin - MainThread] INFO - hyperopt.fmin
+Waiting for 16 jobs to finish ...
+[2019-12-15 16:17:07,613 - Worker GPU 0:0 - MainThread] INFO - hyperopt.mongoexp
+no job found, sleeping for 1.0s
+[2019-12-15 16:17:08,615 - Worker GPU 0:0 - MainThread] INFO - hyperopt.mongoexp
+no job found, sleeping for 1.0s
+[2019-12-15 16:17:09,617 - Worker GPU 0:0 - MainThread] INFO - hyperopt.mongoexp
+no job found, sleeping for 1.0s
+[2019-12-15 16:17:10,620 - Worker GPU 0:0 - MainThread] INFO - hyperopt.mongoexp
+no job found, sleeping for 1.0s
+[2019-12-15 16:17:11,623 - Worker GPU 0:0 - MainThread] INFO - hyperopt.mongoexp
+no job found, sleeping for 1.0s
+[2019-12-15 16:17:12,625 - Worker GPU 0:0 - MainThread] INFO - hyperopt.mongoexp
+no job found, sleeping for 1.0s
+[2019-12-15 16:17:13,626 - Worker GPU 0:0 - MainThread] INFO - hyperopt.mongoexp
+no job found, sleeping for 1.0s
+[2019-12-15 16:17:14,628 - Worker GPU 0:0 - MainThread] INFO - hyperopt.mongoexp
+no job found, sleeping for 1.0s
+[2019-12-15 16:17:15,631 - Worker GPU 0:0 - MainThread] INFO - hyperopt.mongoexp
+no job found, sleeping for 1.0s
+[2019-12-15 16:17:16,634 - Worker GPU 0:0 - MainThread] INFO - hyperopt.mongoexp
+no job found, sleeping for 1.0s
+[2019-12-15 16:17:17,636 - Worker GPU 0:0 - MainThread] INFO - hyperopt.mongoexp
+no job found, sleeping for 1.0s
+[2019-12-15 16:17:18,639 - Worker GPU 0:0 - MainThread] INFO - hyperopt.mongoexp
+no job found, sleeping for 1.0s
+[2019-12-15 16:17:19,641 - Worker GPU 0:0 - MainThread] INFO - hyperopt.mongoexp
+no job found, sleeping for 1.0s
+[2019-12-15 16:17:20,643 - Worker GPU 0:0 - MainThread] INFO - hyperopt.mongoexp
+no job found, sleeping for 1.0s
+[2019-12-15 16:17:21,645 - Worker GPU 0:0 - MainThread] INFO - hyperopt.mongoexp
+no job found, sleeping for 1.0s
+[2019-12-15 16:17:22,647 - Worker GPU 0:0 - MainThread] INFO - hyperopt.mongoexp
+no job found, sleeping for 1.0s
+[2019-12-15 16:17:23,650 - Worker GPU 0:0 - MainThread] INFO - hyperopt.mongoexp
+no job found, sleeping for 1.0s
+[2019-12-15 16:17:24,652 - Worker GPU 0:0 - MainThread] INFO - hyperopt.mongoexp
+no job found, sleeping for 1.0s
+[2019-12-15 16:17:25,654 - Worker GPU 0:0 - MainThread] INFO - hyperopt.mongoexp
+no job found, sleeping for 1.0s
+[2019-12-15 16:17:26,657 - Worker GPU 0:0 - MainThread] INFO - hyperopt.mongoexp
+no job found, sleeping for 1.0s
+[2019-12-15 16:17:27,659 - Worker GPU 0:0 - MainThread] INFO - hyperopt.mongoexp
+no job found, sleeping for 1.0s
+[2019-12-15 16:17:28,662 - Worker GPU 0:0 - MainThread] INFO - hyperopt.mongoexp
+no job found, sleeping for 1.0s
+[2019-12-15 16:17:29,664 - Worker GPU 0:0 - MainThread] INFO - hyperopt.mongoexp
+no job found, sleeping for 1.0s
+[2019-12-15 16:17:30,666 - Worker GPU 0:0 - MainThread] INFO - hyperopt.mongoexp
+no job found, sleeping for 1.0s
+[2019-12-15 16:17:31,669 - Worker GPU 0:0 - MainThread] INFO - hyperopt.mongoexp
+no job found, sleeping for 1.0s
+[2019-12-15 16:17:32,671 - Worker GPU 0:0 - MainThread] INFO - hyperopt.mongoexp
+no job found, sleeping for 1.0s
+[2019-12-15 16:17:33,673 - Worker GPU 0:0 - MainThread] INFO - hyperopt.mongoexp
+no job found, sleeping for 1.0s
+[2019-12-15 16:17:34,675 - Worker GPU 0:0 - MainThread] INFO - hyperopt.mongoexp
+no job found, sleeping for 1.0s
+[2019-12-15 16:17:35,678 - Worker GPU 0:0 - MainThread] INFO - hyperopt.mongoexp
+no job found, sleeping for 1.0s
+[2019-12-15 16:17:36,680 - Worker GPU 0:0 - MainThread] INFO - hyperopt.mongoexp
+no job found, sleeping for 1.0s
+[2019-12-15 16:17:37,683 - Worker GPU 0:0 - MainThread] INFO - hyperopt.mongoexp
+no job found, sleeping for 1.0s
+[2019-12-15 16:17:38,686 - Worker GPU 0:0 - MainThread] INFO - hyperopt.mongoexp
+no job found, sleeping for 1.0s
+[2019-12-15 16:17:39,688 - Worker GPU 0:0 - MainThread] INFO - hyperopt.mongoexp
+no job found, sleeping for 1.0s
+[2019-12-15 16:17:40,691 - Worker GPU 0:0 - MainThread] INFO - hyperopt.mongoexp
+no job found, sleeping for 1.0s
+[2019-12-15 16:17:41,694 - Worker GPU 0:0 - MainThread] INFO - hyperopt.mongoexp
+no job found, sleeping for 1.0s
+[2019-12-15 16:17:42,696 - Worker GPU 0:0 - MainThread] INFO - hyperopt.mongoexp
+no job found, sleeping for 1.0s
+[2019-12-15 16:17:43,699 - Worker GPU 0:0 - MainThread] INFO - hyperopt.mongoexp
+no job found, sleeping for 1.0s
+[2019-12-15 16:17:44,701 - Worker GPU 0:0 - MainThread] INFO - hyperopt.mongoexp
+no job found, sleeping for 1.0s
+[2019-12-15 16:17:45,704 - Worker GPU 0:0 - MainThread] INFO - hyperopt.mongoexp
+no job found, sleeping for 1.0s
+[2019-12-15 16:17:46,705 - Worker GPU 0:0 - MainThread] INFO - hyperopt.mongoexp
+no job found, sleeping for 1.0s
+[2019-12-15 16:17:47,706 - Worker GPU 0:0 - MainThread] INFO - hyperopt.mongoexp
+no job found, sleeping for 1.0s
+[2019-12-15 16:17:48,708 - Worker GPU 0:0 - MainThread] INFO - hyperopt.mongoexp
+no job found, sleeping for 1.0s
+[2019-12-15 16:17:49,711 - Worker GPU 0:0 - MainThread] INFO - hyperopt.mongoexp
+no job found, sleeping for 1.0s
+[2019-12-15 16:17:50,714 - Worker GPU 0:0 - MainThread] INFO - hyperopt.mongoexp
+no job found, sleeping for 1.0s
+[2019-12-15 16:17:51,716 - Worker GPU 0:0 - MainThread] INFO - hyperopt.mongoexp
+no job found, sleeping for 1.0s
+[2019-12-15 16:17:52,718 - Worker GPU 0:0 - MainThread] INFO - hyperopt.mongoexp
+no job found, sleeping for 1.0s
+[2019-12-15 16:17:53,721 - Worker GPU 0:0 - MainThread] INFO - hyperopt.mongoexp
+no job found, sleeping for 1.0s
+[2019-12-15 16:17:54,723 - Worker GPU 0:0 - MainThread] INFO - hyperopt.mongoexp
+no job found, sleeping for 1.0s
+[2019-12-15 16:17:55,726 - Worker GPU 0:0 - MainThread] INFO - hyperopt.mongoexp
+no job found, sleeping for 1.0s
+[2019-12-15 16:17:56,729 - Worker GPU 0:0 - MainThread] INFO - hyperopt.mongoexp
+no job found, sleeping for 1.0s
+[2019-12-15 16:17:57,731 - Worker GPU 0:0 - MainThread] INFO - hyperopt.mongoexp
+no job found, sleeping for 1.0s
+[2019-12-15 16:17:58,734 - Worker GPU 0:0 - MainThread] INFO - hyperopt.mongoexp
+no job found, sleeping for 1.0s
+[2019-12-15 16:17:59,736 - Worker GPU 0:0 - MainThread] INFO - hyperopt.mongoexp
+no job found, sleeping for 1.0s
+[2019-12-15 16:18:00,739 - Worker GPU 0:0 - MainThread] INFO - hyperopt.mongoexp
+no job found, sleeping for 1.0s
+[2019-12-15 16:18:01,741 - Worker GPU 0:0 - MainThread] INFO - hyperopt.mongoexp
+no job found, sleeping for 1.0s
+[2019-12-15 16:18:02,744 - Worker GPU 0:0 - MainThread] INFO - hyperopt.mongoexp
+no job found, sleeping for 1.0s
+[2019-12-15 16:18:03,746 - Worker GPU 0:0 - MainThread] INFO - hyperopt.mongoexp
+no job found, sleeping for 1.0s
+[2019-12-15 16:18:04,748 - Worker GPU 0:0 - MainThread] INFO - hyperopt.mongoexp
+no job found, sleeping for 1.0s
+[2019-12-15 16:18:05,750 - Worker GPU 0:0 - MainThread] INFO - hyperopt.mongoexp
+no job found, sleeping for 1.0s

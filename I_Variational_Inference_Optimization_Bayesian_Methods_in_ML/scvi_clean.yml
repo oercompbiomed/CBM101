@@ -1,0 +1,15 @@
+name: scvi_clean
+channels:
+    - conda-forge
+    - bioconda
+    - pytorch
+    - anaconda
+    - auto
+dependencies:   
+- pytorch-gpu
+- scvi
+- jupyter_client 
+- jupyter_core 
+- notebook 
+- jupyter_contrib_nbextensions
+- jupyter_nbextensions_configurator
