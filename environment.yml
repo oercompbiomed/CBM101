@@ -1,6 +1,6 @@
 name: cbm101
 dependencies:
-- r>=3.6
+- r=3.6.1
 - python>=3.6.0
 - pip
 - ipython
