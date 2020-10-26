@@ -1,0 +1,1 @@
+nx.draw(G, with_labels=True)
