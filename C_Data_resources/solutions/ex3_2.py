@@ -1,0 +1,1 @@
+pmids = [pmid[6:14] for pmid in pmids]
