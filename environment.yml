@@ -51,8 +51,8 @@ dependencies:
 #  - tensorflow==2.0.0-beta1
   - tensorflow
   - pydot
+  - pypdb
+  - GEOparse
 #  - pandas_ml  (not compatible with pandas 0.25.0)
 # - python-igraph (needs a workaround for Windows)
 # pip install .\python_igraph-0.7.1.post6-cp37-cp37m-win_amd64.whl
-# pip install py2cytoscape
-#  - py2cytoscape
