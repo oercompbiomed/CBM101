@@ -1,0 +1,1 @@
+iris.loc[:, iris.dtypes == 'float64']
