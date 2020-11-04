@@ -26,6 +26,7 @@ dependencies:
 - tzlocal
 - pytables
 - openpyxl
+- anaconda::basemap
 - pip:
   - pip
   - opencv-python
