@@ -1,0 +1,1 @@
+plt.imshow(arr[::5, ::5])
