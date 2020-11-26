@@ -1,0 +1,1 @@
+G = nx.from_pandas_edgelist(data, create_using=nx.DiGraph)

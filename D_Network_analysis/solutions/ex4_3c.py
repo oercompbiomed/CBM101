@@ -1,0 +1,1 @@
+muscles = muscles[bodywall] #boolean indexing
