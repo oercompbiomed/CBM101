@@ -1,0 +1,1 @@
+merged = pd.merge(ids, behav, on='Subject')

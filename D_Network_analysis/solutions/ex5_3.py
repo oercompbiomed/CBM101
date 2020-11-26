@@ -1,0 +1,1 @@
+merged = merged.loc[:,['Subject','Gender']]
