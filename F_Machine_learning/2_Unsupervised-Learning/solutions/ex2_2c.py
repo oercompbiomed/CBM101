@@ -1,0 +1,6 @@
+plt.figure(figsize=(8, 3))
+plt.plot(range(2, 10), silhouette_scores, "bo-")
+plt.xlabel("$k$", fontsize=14)
+plt.ylabel("Silhouette score", fontsize=14)
+plt.axis([1.8, 8.5, 0.55, 0.7])
+plt.show()

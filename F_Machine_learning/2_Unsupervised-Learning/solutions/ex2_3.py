@@ -1,11 +1,12 @@
-a = 'ARRYR'
-b = 'ARSYS'
 
-levenshtein(a,b)
+## scale and fit on the scaled data
+scaler = StandardScaler()
+X_scaled = scaler.fit_transform(X)
+pred = KMeans(4).fit_predict(X_scaled)
 
-# ANSWER a)
-# It quantifies the number of single-letter changes to morph one into the other
-#
-# ANSWER b)
-# We could encode the 'price' of changing between particular amino acids
-# thereby acknowledging that some substitutions are more or less costly/likely
+# plotting
+xmin,ymin,xmax,ymax = *X_scaled.min(0), *X_scaled.max(0) # the "*" just unpacks the values, not multiplication
+plt.scatter(X_scaled[:,0],X_scaled[:,1], c=pred)
+plt.xlim(xmin,xmax)
+plt.ylim(ymin,ymax)
+plt.title('KMeans with scaling')

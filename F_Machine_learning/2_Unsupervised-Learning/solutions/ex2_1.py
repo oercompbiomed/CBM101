@@ -1,9 +1,10 @@
-print(distance_matrix.shape)
 
-# ANSWER:
-#Instead of the expected 2D array (matrix), the distances are stored in a condensed
-# 1D array because distances are redundant (we get 2 for each pair).
-#How indexing works is dealt with behind the scenes.
+#example of a solution
+fig, ax = plt.subplots(figsize=(8, 6))
+ax.scatter(X[:, 0], X[:, 1], s=50, c=y, cmap='viridis')
+ax.scatter(centroids[:, 0], centroids[:, 1], marker='*', s=400, c=range(4), cmap='viridis', edgecolors = 'red')
 
-# the full matrix would have shape (100, 100). 
-#(100**2 - 100)/2
+# format the plot
+format_plot(ax, 'Unsupervised learning of cluster labels with the star-shaped cluster centroids')
+
+plt.show()
