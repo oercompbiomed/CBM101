@@ -18,6 +18,7 @@ dependencies:
 - conda-forge::graphviz
 - conda-forge::dcm2niix
 - conda-forge::nxviz
+- conda-forge::umap-learn
 - scipy
 - seaborn
 - imageio
