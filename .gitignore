@@ -18,3 +18,7 @@ unsynceddata/
 # .md files
 *.md.save
 
+# nilearn cache
+**/nilearn_cache
+
+
