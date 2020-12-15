@@ -1,0 +1,1 @@
+wrong_pred_idx = np.where(pred != y_test)
