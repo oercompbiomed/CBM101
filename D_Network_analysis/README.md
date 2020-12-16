@@ -19,6 +19,6 @@ https://www.nature.com/articles/nrg1272
 
 
 <p align="center">
-  <a href="p1.md">   Mathematical models    </a> •
-  <a href="p2.md">   Model parameters    </a> •
+  <a href="./assets/p1.md">   Mathematical models    </a> •
+  <a href="./assets/p2.md">   Model parameters    </a> •
 </p>
