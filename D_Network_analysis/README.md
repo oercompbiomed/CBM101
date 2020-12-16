@@ -9,13 +9,6 @@ So we have to describe cells with numbers and connect these numbers with relatio
 But which numbers shall we measure? Biomedical systems are made of cells, cells of organelles, organelles of molecules, molecules of atoms …etc. So, cell biology integrates a broad range of length-scales. 1) let’s measure lengths. Several other parameters are related to (cellular) geometry, like protein size and shape, organelles volume or surface, surface to volume ratio, shapes, bending curvature…  Biomedical processes are regulated by almost instantaneous chemical reactions (nano- to micro-seconds), fast signals (seconds to minutes), but sometimes spread over the entire lifespan of an organism (decades). So, cell biology integrates a broad range of time-scales. 2) let’s measure times. Several other parameters are related to time-scales, such as the biochemical reaction rates, synthesis/degradation rates, biological molecule stability. Other cellular parameters connect the space and time components, such that protein diffusion, vesicular transport, or even cytoskeleton dynamics and scaffolds remodeling that modify geometrical constraints through time. Finally, remembering that limiting factors can be important in cellular responses, it seems obvious that we need to figure out which factors are limiting. Hence, we need to count cellular objects, proteins, RNA molecules, energy reserves, metabolites, lipid vesicles, cytokines, chemokines, cell-cell communication molecules … , and measure how these counts vary in space and time. Other key parameters are related to objects “counts” (and/or concentrations), like dissociation constants for molecular interactions (Kds), biochemical reaction rates (again!)…  In addition, are all these cellular numbers constants? Are they modulated? If yes, how?  This list is certainly not exhaustive. Why should it be? As we’ll see next, which numbers to measure and study depends on the particular predictions we want to make. 
 
 
-Additional reading :
-
-https://barabasi.com/f/320.pdf
-
-https://www.nature.com/articles/nrg.2016.87
-
-https://www.nature.com/articles/nrg1272
 
 
 <p align="center">
