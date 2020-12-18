@@ -9,6 +9,10 @@ This is the repository for the course CBM101: Introduction to Computational Biom
 Here you find exercises, code and documentation for the course. You will find more information about the Summer school testing this course at
 https://nordbiomed.org/news/summer-school-2019-computational-biomedicine (e-learning modules will later be avaialble on the [Open edX](https://open.edx.org) platform at [Bibsys](http://www.bibsys.no/en/)).
 
+
+## Quick Start
+If you want to start right away, watch [this video](https://youtu.be/BF9OTam4nwk) (and optionally [this one](https://youtu.be/4KpD-L8-uZQ) first if you are new to computer science). 
+
 ## Content
 
 [Introduction](#introduction)
@@ -18,9 +22,6 @@ https://nordbiomed.org/news/summer-school-2019-computational-biomedicine (e-lear
 [Instructions for teachers](#instructions-for-teachers)
 
 ## Introduction
-
-### Quick Start
-If you want to start right away, watch [this video](https://youtu.be/BF9OTam4nwk) (and optionally [this one](https://youtu.be/4KpD-L8-uZQ) first if you are new to computer science).
 
 ### *The big picture of CBM101*
 
