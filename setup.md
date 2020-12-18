@@ -1,5 +1,9 @@
 # Setting up your system
 
+## Video walkthrough: 
+We provide a [step-by-step instruction video](https://www.youtube.com/watch?v=BF9OTam4nwk) which covers everything you need to do get started with CBM101. Also, if you are new to computer science, we *strongly* recommend you start by watching [this video](https://www.youtube.com/watch?v=4KpD-L8-uZQ) on how to navigate the command terminal.
+
+
 ## Anaconda:
 We recommend installing Python via the [Anaconda Distribution](https://www.anaconda.com/download). Be sure to use the "Python 3.6.x" version or later. We will use the Conda Package Management System within the Anaconda Distribution. From the [documentation](https://conda.io/docs):
 > Conda is an open source package management system and environment management system that runs on Windows, macOS and Linux. Conda quickly installs, runs and updates packages and their dependencies. Conda easily creates, saves, loads and switches between environments on your local computer.

@@ -18,6 +18,10 @@ https://nordbiomed.org/news/summer-school-2019-computational-biomedicine (e-lear
 [Instructions for teachers](#instructions-for-teachers)
 
 ## Introduction
+
+### Quick Start
+If you want to start right away, watch [this video](https://youtu.be/BF9OTam4nwk) (and optionally [this one](https://youtu.be/4KpD-L8-uZQ) first if you are new to computer science).
+
 ### *The big picture of CBM101*
 
 CBM101 is part of the "Open Educational Resources in Computational Biomedicine"* (OERCompBiomed) project conducted by the NordBioMed.org and funded by [Erasmus+](http://ec.europa.eu/programmes/erasmus-plus/projects/eplus-project-details/#project/bc4e0bdb-aa64-4d5c-a7f2-26d68ec36647).
