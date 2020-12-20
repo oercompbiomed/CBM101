@@ -57,6 +57,7 @@ dependencies:
   - GEOparse
   - bctpy
   - xgboost
+  - albumentations
 #  - pandas_ml  (not compatible with pandas 0.25.0)
 # - python-igraph (needs a workaround for Windows)
 # pip install .\python_igraph-0.7.1.post6-cp37-cp37m-win_amd64.whl
