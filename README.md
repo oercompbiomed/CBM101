@@ -95,6 +95,8 @@ This course is created and maintained as an international effort. The following 
 ### General layout
 The topics and subtopics mirrors the structure on [Bibsys](https://computational-biomedicine.mooc.no:18010). Each exercise notebook should have a specific entry with a link to it in Bibsys. 
 
+### Teaching 
+Exercises inside of notebooks are provided with solutions, with an option to load these solutions using the `%load` magic command. At this early stage, the solutions are already loaded for most notebooks, so make sure you remove these (leaving the `%load` line) prior to distributing material to students. You can fork the repo and make your edits there. <img src="assets/fork.png"> 
 
 ### How to add a new exercise
 When adding a new notebook, try to ensure both naming convention and content is in a style coherent to the remaining repository. A typical notebook should follow the structure of the given **[template](https://github.com/oercompbiomed/CBM101/blob/master/Template-Topic/template_subtopic1/template.ipynb)**.
