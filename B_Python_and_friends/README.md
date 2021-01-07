@@ -34,7 +34,7 @@ If everything above is new to you, we have included some basic background theory
 To get fluent, we recommend that you enroll to a more extensive programming basic course! In case you would be interested to test building code using the same basic elements in R, here are some suggestions: For those who are familiar with command line (yes, nerds) this <a href="https://cran.r-project.org/doc/contrib/Lemon-kickstart/"> kickstart </a> is a good place to get started with R. However, there is also an R package called <a href="https://swirlstats.com/students.html"> swirl </a> that will teach you R using R (go over at least the R programming course, it is short, concise and you learn the basic commands and logic of R).
 
 <p align="center">
-  <a href="./assets/p1.md">   Python    </a> •
+  <a href="./assets/p1.md">   Key code repositories for Python and R    </a> •
   <a href="./assets/p2.md">   Functions    </a> •
   <a href="./assets/p3.md">   Using functions   </a> •
   <a href="./assets/p4.md">   Github code repository    </a> •
