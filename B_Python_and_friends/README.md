@@ -36,8 +36,8 @@ To get fluent, we recommend that you enroll to a more extensive programming basi
 <p align="center">
   <a href="./assets/p1.md">   Code repositories    </a> •
   <a href="./assets/p2.md">   Functions    </a> •
-  <a href="./assets/p3.md">   Using functions   </a> •
-  <a href="./assets/p4.md">   Github    </a> •
+  <a href="./assets/p3.md">   Code development   </a> •
+  <a href="./assets/p4.md">   Command line    </a> •
   <a href="./assets/p5.md">   Reproducible research    </a> •
 </p>
 
