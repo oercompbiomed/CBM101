@@ -25,7 +25,7 @@ Notebooks are interactive documents that allow you to write using programming la
 
 ### Open science
 
-One topic that we will also cover in this module is a short overview of code repositories. You probably already used one to retrieve all the course materials. In the bigger picture, sharing analysis code and software is a key element in reproducible research.
+One topic that we will also cover in this module is a short overview of code development and sharing code via repositories. You probably already used Github to retrieve all the course materials. In the bigger picture, sharing analysis code and software is a key element in reproducible research.
 
 ### Module materials
 
