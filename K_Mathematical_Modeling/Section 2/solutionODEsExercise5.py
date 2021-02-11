@@ -1,0 +1,18 @@
+from IPython.display import display, Latex
+display(Latex('$ d[G_i]/dt = k_{import}*[G_{ext}]*[Hxt] = k_{import}*[G_{0}]*[Hxt]$'))
+print("because in this model, the external glucose concentration Gext is assumed invariable since the external glucose pool is unlimited. So there is no equatrion for the external glucose. In addition, we have")
+display(Latex('$ d[Snf3]/dt = ks_{Snf3}/[G_i] - k_{deg}*[Snf3]$'))
+print("and")
+display(Latex('$ d[Rgt2]/dt = ks_{Rgt2} - k_{deg}*[Rgt2]$'))
+print("and")
+display(Latex('$ d[Hxt]/dt = ks_{Hxt}*([Snf3]+[Rgt2])*[G_{ext}] - k_{deg}*[Hxt]$'))
+print("If the external glucose pool is limited, then we have to translate the gain in internal glucose concentration due to Hxt-dependent import into a loss of external glucose concentration. The requires defining the volume of the cell Vcell, and of the external compartment Vcomp. The gain in concentration per unit time")
+display(Latex('$ k_{import}*[G_{ext}]*[Hxt]$'))
+print("corresponds to a gain in number of molecules (in Mol) of")
+display(Latex('$ k_{import}*[G_{ext}]*[Hxt]*V_{cell}$'))
+print("and thus to a loss in concentration in the external compartment")
+display(Latex('$ - k_{import}*[G_{ext}]*[Hxt]*V_{cell}/V_{comp}$'))
+print("from which we get the equation for the external glucose concentration:")
+display(Latex('$ d[G_{ext}]/dt = - k_{import}*[G_{ext}]*[Hxt]*V_{cell}/V_{comp}$'))
+print("It is interesting to note that the first model, with unlimited external glucose, is ill-defined. Indeed d[G_i]/dt is always strictly finite, hence the internal glucose concentration goes to infinity. In the case of a limited pool, at asymptotically large times, the external glucose pool goes to 0 hence the concentration of Hxt proteins as well, and the internal glucose saturates.")
+ 

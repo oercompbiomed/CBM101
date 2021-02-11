@@ -1,0 +1,1 @@
+print("No, we still have two steady states, one with neither predators nor preys at (0,0) that is dynamically unstable and another one with finite populations of predators and preys that is stable. The latter gets closer to the former though if the nreproductive rate of the preys diminishes.")

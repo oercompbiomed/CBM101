@@ -1,0 +1,4 @@
+print("Here, we have the following variables: time, the distribution of cell volumes initially, and the growth rate of each individual cells. We want to study how the volume of cells change over time, which is pretty vague! ")
+print("Because all cells have a different volume, we should write N0 equations and we would get, for each cell, Vcell(t)=Vcell(t=0)+g*t because cells all grow at the same rate g.")
+print("But this is not convenient: rather, let us regroup together the cells for which the balance equation will be very similar. Those are all the cells which have approximately the same volume. ")
+print("So we denote C(t,V)=dN/dV the number of cells which, have time t, have a volume between V and V+dV. Our mini-cube-like element is, here, a bin located at the volume V and of width dV. And we bin cells as a function of their volume.")

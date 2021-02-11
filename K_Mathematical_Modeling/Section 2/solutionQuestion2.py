@@ -1,0 +1,1 @@
+print("No. The enzyme a cannot activate proteins be that are already activated. Hence, the enzyme requires the presence of inactive proteins b that can be further activated: the changing rate of the concentration of active b B_act is proportional to both the concentration in enzyme A and the concentration in inactive substrate B_inact.")
