@@ -1,6 +1,15 @@
+## Welcome to CBM101 !
+
+This code repository includes a testing phase GitHub Pages website to share theory materials related to the exercises.
+
+The current material is still beta version and we welcome feedback to improve it!
+
+
+For those contributing to content, here is a short overview of how this material is organized and shared:
+
 ## Welcome to GitHub Pages
 
-You can use the [editor on GitHub](https://github.com/oercompbiomed/CBM101/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+You can use the [editor on GitHub](https://github.com/oercompbiomed/CBM101/edit/gh-pages/index.md) to maintain and preview the content for this website in Markdown files.
 
 Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
@@ -28,9 +37,6 @@ Syntax highlighted code block
 
 For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
 
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/oercompbiomed/CBM101/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
 
 ### Support or Contact
 
