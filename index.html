@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="" xml:lang="">
+<head>
+
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <title>Introduction to Computational Biomedicine</title>
+  <meta name="description" content="This is a beta version of supporting theory materials that accompanies the Jupyter Notebook exercises that have been collected to introduce applications of computational methods in biomedicine." />
+  <meta name="generator" content="bookdown 0.21 and GitBook 2.6.7" />
+
+  <meta property="og:title" content="Introduction to Computational Biomedicine" />
+  <meta property="og:type" content="book" />
+  
+  
+  <meta property="og:description" content="This is a beta version of supporting theory materials that accompanies the Jupyter Notebook exercises that have been collected to introduce applications of computational methods in biomedicine." />
+  
+
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:title" content="Introduction to Computational Biomedicine" />
+  
+  <meta name="twitter:description" content="This is a beta version of supporting theory materials that accompanies the Jupyter Notebook exercises that have been collected to introduce applications of computational methods in biomedicine." />
+  
+
+<meta name="author" content="ERASMUS+ OERCompBioMed network" />
+
+
+<meta name="date" content="2021-02-14" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+  
+  
+
+<link rel="next" href="introduction-to-computational-biomedicine-and-machine-learning.html"/>
+<script src="libs/header-attrs-2.6/header-attrs.js"></script>
+<script src="libs/jquery-2.2.3/jquery.min.js"></script>
+<link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-table.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-bookdown.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-highlight.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-search.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-fontsettings.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-clipboard.css" rel="stylesheet" />
+
+
+
+
+
+
+
+
+
+
+
+<style type="text/css">
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+    color: #aaaaaa;
+  }
+pre.numberSource { margin-left: 3em; border-left: 1px solid #aaaaaa;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+}
+code span.al { color: #ff0000; font-weight: bold; } /* Alert */
+code span.an { color: #60a0b0; font-weight: bold; font-style: italic; } /* Annotation */
+code span.at { color: #7d9029; } /* Attribute */
+code span.bn { color: #40a070; } /* BaseN */
+code span.bu { } /* BuiltIn */
+code span.cf { color: #007020; font-weight: bold; } /* ControlFlow */
+code span.ch { color: #4070a0; } /* Char */
+code span.cn { color: #880000; } /* Constant */
+code span.co { color: #60a0b0; font-style: italic; } /* Comment */
+code span.cv { color: #60a0b0; font-weight: bold; font-style: italic; } /* CommentVar */
+code span.do { color: #ba2121; font-style: italic; } /* Documentation */
+code span.dt { color: #902000; } /* DataType */
+code span.dv { color: #40a070; } /* DecVal */
+code span.er { color: #ff0000; font-weight: bold; } /* Error */
+code span.ex { } /* Extension */
+code span.fl { color: #40a070; } /* Float */
+code span.fu { color: #06287e; } /* Function */
+code span.im { } /* Import */
+code span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Information */
+code span.kw { color: #007020; font-weight: bold; } /* Keyword */
+code span.op { color: #666666; } /* Operator */
+code span.ot { color: #007020; } /* Other */
+code span.pp { color: #bc7a00; } /* Preprocessor */
+code span.sc { color: #4070a0; } /* SpecialChar */
+code span.ss { color: #bb6688; } /* SpecialString */
+code span.st { color: #4070a0; } /* String */
+code span.va { color: #19177c; } /* Variable */
+code span.vs { color: #4070a0; } /* VerbatimString */
+code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warning */
+</style>
+
+<link rel="stylesheet" href="style.css" type="text/css" />
+</head>
+
+<body>
+
+
+
+  <div class="book without-animation with-summary font-size-2 font-family-1" data-basepath=".">
+
+    <div class="book-summary">
+      <nav role="navigation">
+
+<ul class="summary">
+<li><a href="./">Computational Biomedicine booklet</a></li>
+
+<li class="divider"></li>
+<li class="chapter" data-level="1" data-path="index.html"><a href="index.html"><i class="fa fa-check"></i><b>1</b> Prerequisites</a>
+<ul>
+<li class="chapter" data-level="1.1" data-path="index.html"><a href="index.html#learning-objectives"><i class="fa fa-check"></i><b>1.1</b> Learning objectives</a></li>
+<li class="chapter" data-level="1.2" data-path="index.html"><a href="index.html#future"><i class="fa fa-check"></i><b>1.2</b> Future</a></li>
+</ul></li>
+<li class="chapter" data-level="2" data-path="introduction-to-computational-biomedicine-and-machine-learning.html"><a href="introduction-to-computational-biomedicine-and-machine-learning.html"><i class="fa fa-check"></i><b>2</b> Introduction to Computational Biomedicine and Machine Learning</a>
+<ul>
+<li class="chapter" data-level="2.1" data-path="introduction-to-computational-biomedicine-and-machine-learning.html"><a href="introduction-to-computational-biomedicine-and-machine-learning.html#what-is-this-course-about"><i class="fa fa-check"></i><b>2.1</b> What is this course about?</a></li>
+<li class="chapter" data-level="2.2" data-path="introduction-to-computational-biomedicine-and-machine-learning.html"><a href="introduction-to-computational-biomedicine-and-machine-learning.html#systems-biomedicine"><i class="fa fa-check"></i><b>2.2</b> Systems biomedicine</a></li>
+<li class="chapter" data-level="2.3" data-path="introduction-to-computational-biomedicine-and-machine-learning.html"><a href="introduction-to-computational-biomedicine-and-machine-learning.html#new-frontiers---explorers-survival-toolkit"><i class="fa fa-check"></i><b>2.3</b> New frontiers - explorer’s survival toolkit</a></li>
+<li class="chapter" data-level="2.4" data-path="introduction-to-computational-biomedicine-and-machine-learning.html"><a href="introduction-to-computational-biomedicine-and-machine-learning.html#systems-level-thinking"><i class="fa fa-check"></i><b>2.4</b> Systems-level thinking</a></li>
+</ul></li>
+<li class="chapter" data-level="3" data-path="networks.html"><a href="networks.html"><i class="fa fa-check"></i><b>3</b> Networks</a>
+<ul>
+<li class="chapter" data-level="3.1" data-path="networks.html"><a href="networks.html#biological-networks"><i class="fa fa-check"></i><b>3.1</b> Biological networks</a></li>
+<li class="chapter" data-level="3.2" data-path="networks.html"><a href="networks.html#disease-from-a-network-perspective"><i class="fa fa-check"></i><b>3.2</b> Disease from a network-perspective</a></li>
+<li class="chapter" data-level="3.3" data-path="networks.html"><a href="networks.html#identifying-the-functional-modules"><i class="fa fa-check"></i><b>3.3</b> Identifying the functional modules</a></li>
+<li class="chapter" data-level="3.4" data-path="networks.html"><a href="networks.html#identifying-interactions"><i class="fa fa-check"></i><b>3.4</b> Identifying interactions</a></li>
+<li class="chapter" data-level="3.5" data-path="networks.html"><a href="networks.html#network-structure-vs-dynamics"><i class="fa fa-check"></i><b>3.5</b> Network structure vs dynamics</a></li>
+</ul></li>
+<li class="chapter" data-level="4" data-path="quantitative-biomedicine.html"><a href="quantitative-biomedicine.html"><i class="fa fa-check"></i><b>4</b> Quantitative biomedicine</a>
+<ul>
+<li class="chapter" data-level="4.1" data-path="quantitative-biomedicine.html"><a href="quantitative-biomedicine.html#network-components-vs-parameters"><i class="fa fa-check"></i><b>4.1</b> Network components vs parameters</a></li>
+</ul></li>
+<li class="chapter" data-level="5" data-path="language-barriers.html"><a href="language-barriers.html"><i class="fa fa-check"></i><b>5</b> Language barriers</a>
+<ul>
+<li class="chapter" data-level="5.1" data-path="language-barriers.html"><a href="language-barriers.html#descriptive-language---qualitative"><i class="fa fa-check"></i><b>5.1</b> Descriptive language - qualitative</a></li>
+<li class="chapter" data-level="5.2" data-path="language-barriers.html"><a href="language-barriers.html#quantitative-language"><i class="fa fa-check"></i><b>5.2</b> Quantitative language</a></li>
+<li class="chapter" data-level="5.3" data-path="language-barriers.html"><a href="language-barriers.html#programming-languages"><i class="fa fa-check"></i><b>5.3</b> Programming languages</a></li>
+<li class="chapter" data-level="5.4" data-path="language-barriers.html"><a href="language-barriers.html#interdisciplinary-science"><i class="fa fa-check"></i><b>5.4</b> Interdisciplinary science</a></li>
+</ul></li>
+<li class="chapter" data-level="6" data-path="intro.html"><a href="intro.html"><i class="fa fa-check"></i><b>6</b> How to contribute to the book</a>
+<ul>
+<li class="chapter" data-level="6.1" data-path="intro.html"><a href="intro.html#r-markdown-instructions-from-bookdown-example"><i class="fa fa-check"></i><b>6.1</b> R markdown instructions from bookdown example:</a></li>
+</ul></li>
+<li class="chapter" data-level="" data-path="references.html"><a href="references.html"><i class="fa fa-check"></i>References</a></li>
+<li class="divider"></li>
+<li><a href="https://github.com/rstudio/bookdown" target="blank">Published with bookdown</a></li>
+
+</ul>
+
+      </nav>
+    </div>
+
+    <div class="book-body">
+      <div class="body-inner">
+        <div class="book-header" role="navigation">
+          <h1>
+            <i class="fa fa-circle-o-notch fa-spin"></i><a href="./">Introduction to Computational Biomedicine</a>
+          </h1>
+        </div>
+
+        <div class="page-wrapper" tabindex="-1" role="main">
+          <div class="page-inner">
+
+            <section class="normal" id="section-">
+<div id="header">
+<h1 class="title">Introduction to Computational Biomedicine</h1>
+<p class="author"><em>ERASMUS+ OERCompBioMed network</em></p>
+<p class="date"><em>2021-02-14</em></p>
+</div>
+<div id="prerequisites" class="section level1" number="1">
+<h1><span class="header-section-number">Chapter 1</span> Prerequisites</h1>
+<p>This material has been developed for an interdisciplinary audience with a shared interest to contribute in understanding mechanisms of disease, discovery of ways to predict and prevent disease and to personalize treatment options based on available data. Many of our examples assume familiarity in molecular biology and imaging technologies and biomedical questions.</p>
+<p>The course exercise materials are available as Jupyter Notebooks that can be accessed and installed from Github: <a href="https://github.com/oercompbiomed/CBM101/" class="uri">https://github.com/oercompbiomed/CBM101/</a></p>
+<p><img src="assets/overview.png" /><!-- --></p>
+<div id="learning-objectives" class="section level2" number="1.1">
+<h2><span class="header-section-number">1.1</span> Learning objectives</h2>
+<p>The aim of the course is to introduce you to important concepts within the field of computational biomedicine as well as to programming. It will provide you with knowledge and ideas that can help you bridge the communication between traditional molecular biologist and computational biologists, and hopefully inspire you to how you can use computational biomedicine in your own research.</p>
+<p>This course does not claim to make you an expert within computational science, or train you to do sophisticated programming on your own. These are skills you would need to develop further in follow-up courses or projects. However, we hope that the relevance and practical challenges &amp; solutions become easier to connect with theory by going over the exercise materials.</p>
+</div>
+<div id="future" class="section level2" number="1.2">
+<h2><span class="header-section-number">1.2</span> Future</h2>
+<p>Computational biomedicine is a rapidly growing and evolving field. This is partly due to the changes - or paradigm shift - going on in the fields of cell and molecular biology: a change from a reductionist approach with focus on the biology of a single or a few components to a much more integrative approach where we look at systems biology. This change is highly driven by the development within computer science and large-scale studies in the fields of genomics, proteomics, imaging etc. producing “big data” that needs to be integrated in order to obtain relevant and important knowledge within biomedicine. Traditional molecular biology researchers therefore needs to team up with experts within the fields of computational sciences and develop advanced computer algorithms, databases, statistical tools and mathematical models. Such interdisciplinary studies are the way forward for development of e.g. personalized and predictive medicine and precision diagnostics tools.</p>
+
+</div>
+</div>
+            </section>
+
+          </div>
+        </div>
+      </div>
+
+<a href="introduction-to-computational-biomedicine-and-machine-learning.html" class="navigation navigation-next navigation-unique" aria-label="Next page"><i class="fa fa-angle-right"></i></a>
+    </div>
+  </div>
+<script src="libs/gitbook-2.6.7/js/app.min.js"></script>
+<script src="libs/gitbook-2.6.7/js/lunr.js"></script>
+<script src="libs/gitbook-2.6.7/js/clipboard.min.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-search.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-sharing.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-fontsettings.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-bookdown.js"></script>
+<script src="libs/gitbook-2.6.7/js/jquery.highlight.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-clipboard.js"></script>
+<script>
+gitbook.require(["gitbook"], function(gitbook) {
+gitbook.start({
+"sharing": {
+"github": false,
+"facebook": true,
+"twitter": true,
+"linkedin": false,
+"weibo": false,
+"instapaper": false,
+"vk": false,
+"all": ["facebook", "twitter", "linkedin", "weibo", "instapaper"]
+},
+"fontsettings": {
+"theme": "white",
+"family": "sans",
+"size": 2
+},
+"edit": {
+"link": null,
+"text": null
+},
+"history": {
+"link": null,
+"text": null
+},
+"view": {
+"link": null,
+"text": null
+},
+"download": ["testBook.pdf", "testBook.epub"],
+"toc": {
+"collapse": "subsection"
+}
+});
+});
+</script>
+
+</body>
+
+</html>
