@@ -1,0 +1,1 @@
+print("yes, and we would need to model how “far” a single actin monomer added to branching polymer would push the cell forward, and the rate of these polymerizations would generate a cell velocity. But we now know it would be a bad estimate, because this model ignores adhesions, which are key to the overall motion, as well as retrograde actin flow… ")

@@ -1,0 +1,1 @@
+print("The Mig1-GFP time-course data in the cytosol can be used to measure the rate of nuclear import. In this case, the nuclear and cytosolic Mig1 species have to be modeled separately, as 2 different objects, 2 different network nodes.")

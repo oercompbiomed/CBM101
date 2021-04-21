@@ -1,0 +1,4 @@
+print("Use the QSSA, in which [E(t)] is replaced by E0-[SE(t)] due to the conservation of total enzymne pool, to express [SE(t)] as a function of [S(t)] and constant parameters.")
+print("Then, use the expression obtained in the conservation equation for the total pool of substrate, to express [S(t)] as a function of [P(t)] and constant parameters.")
+print("Reinject this expression of [S(t)] as a function of [P(t)] in the first equation to obtain [SE(t)] as a function of [P(t)].")
+print("Replace [SE(t)] by the expression you just found in the fourth equation of the ODE system to obtain a single ODE for [P(t)], which you solve using the techniques described above in the notebook.")

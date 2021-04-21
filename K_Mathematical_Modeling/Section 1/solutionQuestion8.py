@@ -1,0 +1,1 @@
+print("Model d, because despite it doesn't explicitly model microscopic details of actin dynamics and regulation, it accounts for these parameters at the phenomenological level and also models retrograde actin flow, adhesion-mediated traction forces, and contractile forces that re-shape the cell, all of which are very relevant to generate cell velocity.")

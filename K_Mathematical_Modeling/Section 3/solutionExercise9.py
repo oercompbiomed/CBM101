@@ -1,0 +1,7 @@
+print("The elementary reactions are:")
+print(" Reaction 1: the birth of susceptible individuals with propensity b")
+print(" Reaction 2: their death with propensity mu_S*S(t)")
+print(" Reaction 3: their infection with propensity beta * S(t)*I(t)")
+print(" Reaction 4: the death of infected individuals with propensity mu_I*I(t) with mu_I>mu_S")
+print(" Reaction 5: the recovery of infected individuals with rate alpha * I(t)")
+print(" Reaction 6: the death of recovered individuals with propensity mu_R*R(t), with mu_R<mu_I.")

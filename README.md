@@ -84,7 +84,7 @@ _Note_: To access the course notebooks interactively without downloading any sof
 _Note_: For the more advanced modules of this program, you will need to have the jupyter notebook environment working on your commputer
 
 ### Jupyter notebooks
-The course is based on Jupyter Notebooks, a web-based framework for developing and presenting code-based projects (take a look at https://youtu.be/HW29067qVWk og https://youtu.be/2eCHD6f_phE for introductions to Jupyter Notebooks).
+The course is based on Jupyter Notebooks, a web-based framework for developing and presenting code-based projects (take a look at https://youtu.be/HW29067qVWk og https://youtu.be/2eCHD6f_phE for introductions to Jupyter Notebooks). You can read more about why scientists chose Jupyter notebooks here: https://www.nature.com/articles/d41586-018-07196-1
 
 Throughout the course you will work with notebooks that contain various material and programming tasks. We recommend that you *make a copy of our notebooks before you are editing them*. In this respect you might adopt the naming convention `my_[name_of_notebook].ipynb`.
 
