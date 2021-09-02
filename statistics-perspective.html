@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="" xml:lang="">
+<head>
+
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <title>Chapter 7 Statistics perspective | Introduction to Computational Biomedicine</title>
+  <meta name="description" content="This is a beta version of supporting theory materials that accompanies the Jupyter Notebook exercises that have been collected to introduce applications of computational methods in biomedicine." />
+  <meta name="generator" content="bookdown 0.21 and GitBook 2.6.7" />
+
+  <meta property="og:title" content="Chapter 7 Statistics perspective | Introduction to Computational Biomedicine" />
+  <meta property="og:type" content="book" />
+  
+  
+  <meta property="og:description" content="This is a beta version of supporting theory materials that accompanies the Jupyter Notebook exercises that have been collected to introduce applications of computational methods in biomedicine." />
+  
+
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:title" content="Chapter 7 Statistics perspective | Introduction to Computational Biomedicine" />
+  
+  <meta name="twitter:description" content="This is a beta version of supporting theory materials that accompanies the Jupyter Notebook exercises that have been collected to introduce applications of computational methods in biomedicine." />
+  
+
+<meta name="author" content="ERASMUS+ OERCompBioMed network" />
+
+
+<meta name="date" content="2021-09-02" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+  
+  
+<link rel="prev" href="data-science.html"/>
+<link rel="next" href="sign-up-for-inter-disciplinary-training.html"/>
+<script src="libs/jquery-2.2.3/jquery.min.js"></script>
+<link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-table.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-bookdown.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-highlight.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-search.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-fontsettings.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-clipboard.css" rel="stylesheet" />
+
+
+
+
+
+
+
+
+
+<script src="libs/accessible-code-block-0.0.1/empty-anchor.js"></script>
+
+
+<style type="text/css">
+code.sourceCode > span { display: inline-block; line-height: 1.25; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode { white-space: pre; position: relative; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+code.sourceCode { white-space: pre-wrap; }
+code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+    color: #aaaaaa;
+  }
+pre.numberSource { margin-left: 3em; border-left: 1px solid #aaaaaa;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+}
+code span.al { color: #ff0000; font-weight: bold; } /* Alert */
+code span.an { color: #60a0b0; font-weight: bold; font-style: italic; } /* Annotation */
+code span.at { color: #7d9029; } /* Attribute */
+code span.bn { color: #40a070; } /* BaseN */
+code span.bu { } /* BuiltIn */
+code span.cf { color: #007020; font-weight: bold; } /* ControlFlow */
+code span.ch { color: #4070a0; } /* Char */
+code span.cn { color: #880000; } /* Constant */
+code span.co { color: #60a0b0; font-style: italic; } /* Comment */
+code span.cv { color: #60a0b0; font-weight: bold; font-style: italic; } /* CommentVar */
+code span.do { color: #ba2121; font-style: italic; } /* Documentation */
+code span.dt { color: #902000; } /* DataType */
+code span.dv { color: #40a070; } /* DecVal */
+code span.er { color: #ff0000; font-weight: bold; } /* Error */
+code span.ex { } /* Extension */
+code span.fl { color: #40a070; } /* Float */
+code span.fu { color: #06287e; } /* Function */
+code span.im { } /* Import */
+code span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Information */
+code span.kw { color: #007020; font-weight: bold; } /* Keyword */
+code span.op { color: #666666; } /* Operator */
+code span.ot { color: #007020; } /* Other */
+code span.pp { color: #bc7a00; } /* Preprocessor */
+code span.sc { color: #4070a0; } /* SpecialChar */
+code span.ss { color: #bb6688; } /* SpecialString */
+code span.st { color: #4070a0; } /* String */
+code span.va { color: #19177c; } /* Variable */
+code span.vs { color: #4070a0; } /* VerbatimString */
+code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warning */
+</style>
+
+<link rel="stylesheet" href="style.css" type="text/css" />
+</head>
+
+<body>
+
+
+
+  <div class="book without-animation with-summary font-size-2 font-family-1" data-basepath=".">
+
+    <div class="book-summary">
+      <nav role="navigation">
+
+<ul class="summary">
+<li><a href="./">Computational Biomedicine booklet</a></li>
+
+<li class="divider"></li>
+<li class="chapter" data-level="1" data-path="index.html"><a href="index.html"><i class="fa fa-check"></i><b>1</b> Prerequisites</a><ul>
+<li class="chapter" data-level="1.1" data-path="index.html"><a href="index.html#learning-objectives"><i class="fa fa-check"></i><b>1.1</b> Learning objectives</a></li>
+<li class="chapter" data-level="1.2" data-path="index.html"><a href="index.html#future"><i class="fa fa-check"></i><b>1.2</b> Future</a></li>
+</ul></li>
+<li class="chapter" data-level="2" data-path="introduction-to-computational-biomedicine-and-machine-learning.html"><a href="introduction-to-computational-biomedicine-and-machine-learning.html"><i class="fa fa-check"></i><b>2</b> Introduction to Computational Biomedicine and Machine Learning</a><ul>
+<li class="chapter" data-level="2.1" data-path="introduction-to-computational-biomedicine-and-machine-learning.html"><a href="introduction-to-computational-biomedicine-and-machine-learning.html#what-is-this-course-about"><i class="fa fa-check"></i><b>2.1</b> What is this course about?</a></li>
+<li class="chapter" data-level="2.2" data-path="introduction-to-computational-biomedicine-and-machine-learning.html"><a href="introduction-to-computational-biomedicine-and-machine-learning.html#systems-biomedicine"><i class="fa fa-check"></i><b>2.2</b> Systems biomedicine</a></li>
+<li class="chapter" data-level="2.3" data-path="introduction-to-computational-biomedicine-and-machine-learning.html"><a href="introduction-to-computational-biomedicine-and-machine-learning.html#new-frontiers---explorers-survival-toolkit"><i class="fa fa-check"></i><b>2.3</b> New frontiers - explorer’s survival toolkit</a></li>
+<li class="chapter" data-level="2.4" data-path="introduction-to-computational-biomedicine-and-machine-learning.html"><a href="introduction-to-computational-biomedicine-and-machine-learning.html#systems-level-thinking"><i class="fa fa-check"></i><b>2.4</b> Systems-level thinking</a></li>
+</ul></li>
+<li class="chapter" data-level="3" data-path="networks.html"><a href="networks.html"><i class="fa fa-check"></i><b>3</b> Networks</a><ul>
+<li class="chapter" data-level="3.1" data-path="networks.html"><a href="networks.html#biological-networks"><i class="fa fa-check"></i><b>3.1</b> Biological networks</a></li>
+<li class="chapter" data-level="3.2" data-path="networks.html"><a href="networks.html#disease-from-a-network-perspective"><i class="fa fa-check"></i><b>3.2</b> Disease from a network-perspective</a></li>
+<li class="chapter" data-level="3.3" data-path="networks.html"><a href="networks.html#identifying-the-functional-modules"><i class="fa fa-check"></i><b>3.3</b> Identifying the functional modules</a></li>
+<li class="chapter" data-level="3.4" data-path="networks.html"><a href="networks.html#identifying-interactions"><i class="fa fa-check"></i><b>3.4</b> Identifying interactions</a></li>
+<li class="chapter" data-level="3.5" data-path="networks.html"><a href="networks.html#network-structure-vs-dynamics"><i class="fa fa-check"></i><b>3.5</b> Network structure vs dynamics</a></li>
+</ul></li>
+<li class="chapter" data-level="4" data-path="quantitative-biomedicine.html"><a href="quantitative-biomedicine.html"><i class="fa fa-check"></i><b>4</b> Quantitative biomedicine</a><ul>
+<li class="chapter" data-level="4.1" data-path="quantitative-biomedicine.html"><a href="quantitative-biomedicine.html#network-components-vs-parameters"><i class="fa fa-check"></i><b>4.1</b> Network components vs parameters</a></li>
+</ul></li>
+<li class="chapter" data-level="5" data-path="language-barriers.html"><a href="language-barriers.html"><i class="fa fa-check"></i><b>5</b> Language barriers</a><ul>
+<li class="chapter" data-level="5.1" data-path="language-barriers.html"><a href="language-barriers.html#descriptive-language---qualitative"><i class="fa fa-check"></i><b>5.1</b> Descriptive language - qualitative</a></li>
+<li class="chapter" data-level="5.2" data-path="language-barriers.html"><a href="language-barriers.html#quantitative-language"><i class="fa fa-check"></i><b>5.2</b> Quantitative language</a></li>
+<li class="chapter" data-level="5.3" data-path="language-barriers.html"><a href="language-barriers.html#programming-languages"><i class="fa fa-check"></i><b>5.3</b> Programming languages</a></li>
+<li class="chapter" data-level="5.4" data-path="language-barriers.html"><a href="language-barriers.html#interdisciplinary-science"><i class="fa fa-check"></i><b>5.4</b> Interdisciplinary science</a></li>
+</ul></li>
+<li class="chapter" data-level="6" data-path="data-science.html"><a href="data-science.html"><i class="fa fa-check"></i><b>6</b> Data science</a><ul>
+<li class="chapter" data-level="6.1" data-path="data-science.html"><a href="data-science.html#learning-from-data"><i class="fa fa-check"></i><b>6.1</b> Learning from data</a></li>
+<li class="chapter" data-level="6.2" data-path="data-science.html"><a href="data-science.html#data-driven-research"><i class="fa fa-check"></i><b>6.2</b> Data-driven research</a></li>
+<li class="chapter" data-level="6.3" data-path="data-science.html"><a href="data-science.html#inspired-by-the-brain"><i class="fa fa-check"></i><b>6.3</b> Inspired by the brain</a></li>
+<li class="chapter" data-level="6.4" data-path="data-science.html"><a href="data-science.html#data-representation"><i class="fa fa-check"></i><b>6.4</b> Data representation</a></li>
+<li class="chapter" data-level="6.5" data-path="data-science.html"><a href="data-science.html#physical-vs-statistical-model"><i class="fa fa-check"></i><b>6.5</b> Physical vs statistical model</a></li>
+</ul></li>
+<li class="chapter" data-level="7" data-path="statistics-perspective.html"><a href="statistics-perspective.html"><i class="fa fa-check"></i><b>7</b> Statistics perspective</a><ul>
+<li class="chapter" data-level="7.1" data-path="statistics-perspective.html"><a href="statistics-perspective.html#statistical-models-and-scientific-hypotheses"><i class="fa fa-check"></i><b>7.1</b> Statistical models and scientific hypotheses</a></li>
+<li class="chapter" data-level="7.2" data-path="statistics-perspective.html"><a href="statistics-perspective.html#probability"><i class="fa fa-check"></i><b>7.2</b> Probability</a></li>
+</ul></li>
+<li class="chapter" data-level="8" data-path="sign-up-for-inter-disciplinary-training.html"><a href="sign-up-for-inter-disciplinary-training.html"><i class="fa fa-check"></i><b>8</b> Sign-up for inter-disciplinary training!</a></li>
+<li class="chapter" data-level="9" data-path="intro.html"><a href="intro.html"><i class="fa fa-check"></i><b>9</b> How to contribute to the book</a><ul>
+<li class="chapter" data-level="9.1" data-path="intro.html"><a href="intro.html#r-markdown-instructions-from-bookdown-example"><i class="fa fa-check"></i><b>9.1</b> R markdown instructions from bookdown example:</a></li>
+</ul></li>
+<li class="chapter" data-level="" data-path="references.html"><a href="references.html"><i class="fa fa-check"></i>References</a></li>
+<li class="divider"></li>
+<li><a href="https://github.com/rstudio/bookdown" target="blank">Published with bookdown</a></li>
+
+</ul>
+
+      </nav>
+    </div>
+
+    <div class="book-body">
+      <div class="body-inner">
+        <div class="book-header" role="navigation">
+          <h1>
+            <i class="fa fa-circle-o-notch fa-spin"></i><a href="./">Introduction to Computational Biomedicine</a>
+          </h1>
+        </div>
+
+        <div class="page-wrapper" tabindex="-1" role="main">
+          <div class="page-inner">
+
+            <section class="normal" id="section-">
+<div id="statistics-perspective" class="section level1">
+<h1><span class="header-section-number">Chapter 7</span> Statistics perspective</h1>
+<p>Compared to data science, using statistics has long history in research. The goals could be summarized as:</p>
+<p><b>Describe</b>: summarize data in a simplified way that we can understand</p>
+<p><b>Decide</b>: make decisions based on data, in the face of uncertainty</p>
+<p><b>Predict</b>: make predictions about new situations based on our knowledge of previous situations</p>
+<p>Let’s consider an example where we have data across 100 000 study participants (which we call the sample) regarding their vitamin D levels. We also have the health records available and would be interested to study association between the vitamin levels and disease prevalence, for example.</p>
+<p>Compared to machine learning, statistics tries to make the data better understandable for a human. Given our study of 100,000 people, one way to describe this data in a simple way is to divide the data into groups, after ordering them in terms of their intake of vitamin D; the first quantile contains the 20% of people with the lowest intake, and the 5th quantile contains the 20% with the highest intake. Now, instead of 100,000 data points, we could plot vitamin D intake level (categories) against cancer-related deaths. In fact, one way to think about statistics is aggregation, i.e. we throw away details of the study participants and make conclusions based on data summaries that consists of a small set of “data metrics”, or statistics (e.g mean and standard deviation, or reporting quantiles).</p>
+<p>If we indeed observed a trend between vitamin levels and cancer based on our summary, we might want to proceed to evaluate this relationship further. There is a lot of uncertainty in the data, in any real-world dataset; for example, it would be normal to have some people with high vitamin intake who died of cancer, and, similarly, some people with very low intake who never had cancer. Given the observed variability, we want to <em>decide</em> whether the trend we see in the data is large enough that we wouldn’t expect it to occur randomly <em>if there was not truly a relationship</em> (null hypothesis) between vitamin intake and cancer incidence. Statistics provide the tools to make these kinds of decisions.</p>
+<div id="statistical-models-and-scientific-hypotheses" class="section level2">
+<h2><span class="header-section-number">7.1</span> Statistical models and scientific hypotheses</h2>
+<p>Below you find a set of steps that we generally go through when we want to use a statistical model to test a scientific hypothesis (<em>decide</em> to accept or reject it):</p>
+<ol style="list-style-type: decimal">
+<li>Specify your question of interest</li>
+<li>Identify or collect the appropriate data</li>
+<li>Prepare the data for analysis</li>
+<li>Determine the appropriate model</li>
+<li>Fit the model to the data</li>
+<li>Criticize the model to make sure it fits properly</li>
+<li>Test hypothesis and quantify effect size</li>
+</ol>
+<p><em>Choice of model</em> Centuries of statistics research have provides guidelines that can help decide what type of models are suitable for which type of data and questions. For example, a normal distribution fit could be a good model to capture key properties (such as expected value) for continuous valued measurements but not appropriate for discrete data such as counts.</p>
+<p>One such example is sequencing data! Before, in the 1990s when microarray technology was used to compare gene expression levels in biological samples, researchers could utilize the powerful statistics tools available for continuous (log)-normal data, including linear models. The whole workflow had to be “re-invented”, i.e. built around a different toolset suitable for discrete data, when sequencing-based count data from RNA-seq became common.</p>
+<p><em>The good and bad p-value</em> The idea of following steps 1-7 is very logical. However, it turns out that it is more difficult to publish results when the study concludes that the hypothesis proposed initially should be rejected (negative results). Similarly, expensive experiments have led to design of “minimalistic” studies where we attempt to make conclusions based on smallest possible sample sizes. This has led to many problems, referred to as p-hacking. So a word of caution is at place here about the pitfalls you should avoid:</p>
+<p>p-hacking is if you:</p>
+<p>-Analyze data after every subject, and stop collecting data once p&lt;0.05</p>
+<p>-Analyze many different variables, but only report those with p&lt;0.05</p>
+<p>-Collect many different experimental conditions, but only report those with p&lt;0.05</p>
+<p>-Exclude participants to get p&lt;0.05</p>
+<p>-Transform the data to get p&lt;0.05</p>
+<p>Any of the above, corrupts the whole scientific process, as no real conclusions can be drawn.</p>
+</div>
+<div id="probability" class="section level2">
+<h2><span class="header-section-number">7.2</span> Probability</h2>
+<p>Probability is the branch of mathematics that deals with chance and uncertainty. Instead of going after some arbitrary p-value threshold, it is much more useful to accept that there is uncertainty in our conclusions, for example by including confidence intervals, and using concepts from probability theory.</p>
+<p>You might associate probabilities with the calculations you learned in school for experiments such as rolling a dice, where a certain number of possible outcomes are possible. Then you apply the calculation on a certain observed sequence of events (sample). Alternatively, you could be observing passing cars at the intersection and recording those that are electric cars.</p>
+<p>Many biomedical experiments involve sampling and can be related to the “classical probability” experiments. For example, a blood sample where we count certain cell types is similar to the “electric car counting” situation, and mathematically a model (probability distribution) has been proposed that allows you to calculate the probability of observing a certain number of events (e.g. T-lymphocytes) per fixed time/volume (1 ml of blood sample), if we know how many to expect on average. A Poisson model can be used to calculate the probability of a given number of events occurring in a fixed interval of time or space, i.e. it would be appropriate for the situation above. The choice of the “model” is based on the type of experiment that was performed.</p>
+<p>From this basic foundation, an interesting path of probability theory emerges - this idea was so revolutionary that it led to two different statistics “schools” - the frequentists and Bayesians. To get an idea what the difference is, it is first important to understand conditional probabilities, from which the Bayes’ rule is derived. We will not go into details here but instead ask - Why is this interesting? In simple words, the Bayes rule gives us <b> a mathematical way to update our beliefs on the basis of data </b>.</p>
+<p>Frequentists interprets probabilities “in long-run” i.e. in situations where we can sample many times (or indefinately), e.g. coin flip. This is less useful if the event can only happen once. For Bayesians probability is as a degree of belief in a particular proposition. This would be better-suited e.g. to answer at the start of the Covid-19 pandemic in 2019 “How likely will we have a vaccine developed during 2020?”. The frequencies to calculate the frequentist probability were not available. Based on our prior beliefs (e.g. how long it took historically to develop vaccines) and knowledge (e.g. how many labs worked on it then, how many succeeded, and how many would be trying to develop the drug now), we could propose a Bayesian probability calculation for this situation.</p>
+<p><em>Predicting</em> is important concept in statistics which is also encountered in machine learning. In both, the idea is to fit a model to the data collected. It is good to keep in mind that when we want to generalize from the data we already have to some other situation, we assume that the particular sample that we have available is representative of a larger population.</p>
+<p>Models (and predictions made based on them) can also be updated when new data is collected (Bayes’ rule). Many of the sophisticated predictive machine learning models have their roots in probability theory.</p>
+<p>Additional reading:</p>
+<p><a href="https://www.nature.com/articles/nmeth.4642"> Statistics versus Machine learning </a></p>
+</div>
+</div>
+            </section>
+
+          </div>
+        </div>
+      </div>
+<a href="data-science.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
+<a href="sign-up-for-inter-disciplinary-training.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
+    </div>
+  </div>
+<script src="libs/gitbook-2.6.7/js/app.min.js"></script>
+<script src="libs/gitbook-2.6.7/js/lunr.js"></script>
+<script src="libs/gitbook-2.6.7/js/clipboard.min.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-search.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-sharing.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-fontsettings.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-bookdown.js"></script>
+<script src="libs/gitbook-2.6.7/js/jquery.highlight.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-clipboard.js"></script>
+<script>
+gitbook.require(["gitbook"], function(gitbook) {
+gitbook.start({
+"sharing": {
+"github": false,
+"facebook": true,
+"twitter": true,
+"linkedin": false,
+"weibo": false,
+"instapaper": false,
+"vk": false,
+"all": ["facebook", "twitter", "linkedin", "weibo", "instapaper"]
+},
+"fontsettings": {
+"theme": "white",
+"family": "sans",
+"size": 2
+},
+"edit": {
+"link": null,
+"text": null
+},
+"history": {
+"link": null,
+"text": null
+},
+"view": {
+"link": null,
+"text": null
+},
+"download": ["testBook.pdf", "testBook.epub"],
+"toc": {
+"collapse": "subsection"
+}
+});
+});
+</script>
+
+</body>
+
+</html>

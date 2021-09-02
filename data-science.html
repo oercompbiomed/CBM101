@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="" xml:lang="">
+<head>
+
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <title>Chapter 6 Data science | Introduction to Computational Biomedicine</title>
+  <meta name="description" content="This is a beta version of supporting theory materials that accompanies the Jupyter Notebook exercises that have been collected to introduce applications of computational methods in biomedicine." />
+  <meta name="generator" content="bookdown 0.21 and GitBook 2.6.7" />
+
+  <meta property="og:title" content="Chapter 6 Data science | Introduction to Computational Biomedicine" />
+  <meta property="og:type" content="book" />
+  
+  
+  <meta property="og:description" content="This is a beta version of supporting theory materials that accompanies the Jupyter Notebook exercises that have been collected to introduce applications of computational methods in biomedicine." />
+  
+
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:title" content="Chapter 6 Data science | Introduction to Computational Biomedicine" />
+  
+  <meta name="twitter:description" content="This is a beta version of supporting theory materials that accompanies the Jupyter Notebook exercises that have been collected to introduce applications of computational methods in biomedicine." />
+  
+
+<meta name="author" content="ERASMUS+ OERCompBioMed network" />
+
+
+<meta name="date" content="2021-09-01" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+  
+  
+<link rel="prev" href="language-barriers.html"/>
+<link rel="next" href="statistics-perspective.html"/>
+<script src="libs/jquery-2.2.3/jquery.min.js"></script>
+<link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-table.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-bookdown.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-highlight.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-search.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-fontsettings.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-clipboard.css" rel="stylesheet" />
+
+
+
+
+
+
+
+
+
+<script src="libs/accessible-code-block-0.0.1/empty-anchor.js"></script>
+
+
+<style type="text/css">
+code.sourceCode > span { display: inline-block; line-height: 1.25; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode { white-space: pre; position: relative; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+code.sourceCode { white-space: pre-wrap; }
+code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+    color: #aaaaaa;
+  }
+pre.numberSource { margin-left: 3em; border-left: 1px solid #aaaaaa;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+}
+code span.al { color: #ff0000; font-weight: bold; } /* Alert */
+code span.an { color: #60a0b0; font-weight: bold; font-style: italic; } /* Annotation */
+code span.at { color: #7d9029; } /* Attribute */
+code span.bn { color: #40a070; } /* BaseN */
+code span.bu { } /* BuiltIn */
+code span.cf { color: #007020; font-weight: bold; } /* ControlFlow */
+code span.ch { color: #4070a0; } /* Char */
+code span.cn { color: #880000; } /* Constant */
+code span.co { color: #60a0b0; font-style: italic; } /* Comment */
+code span.cv { color: #60a0b0; font-weight: bold; font-style: italic; } /* CommentVar */
+code span.do { color: #ba2121; font-style: italic; } /* Documentation */
+code span.dt { color: #902000; } /* DataType */
+code span.dv { color: #40a070; } /* DecVal */
+code span.er { color: #ff0000; font-weight: bold; } /* Error */
+code span.ex { } /* Extension */
+code span.fl { color: #40a070; } /* Float */
+code span.fu { color: #06287e; } /* Function */
+code span.im { } /* Import */
+code span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Information */
+code span.kw { color: #007020; font-weight: bold; } /* Keyword */
+code span.op { color: #666666; } /* Operator */
+code span.ot { color: #007020; } /* Other */
+code span.pp { color: #bc7a00; } /* Preprocessor */
+code span.sc { color: #4070a0; } /* SpecialChar */
+code span.ss { color: #bb6688; } /* SpecialString */
+code span.st { color: #4070a0; } /* String */
+code span.va { color: #19177c; } /* Variable */
+code span.vs { color: #4070a0; } /* VerbatimString */
+code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warning */
+</style>
+
+<link rel="stylesheet" href="style.css" type="text/css" />
+</head>
+
+<body>
+
+
+
+  <div class="book without-animation with-summary font-size-2 font-family-1" data-basepath=".">
+
+    <div class="book-summary">
+      <nav role="navigation">
+
+<ul class="summary">
+<li><a href="./">Computational Biomedicine booklet</a></li>
+
+<li class="divider"></li>
+<li class="chapter" data-level="1" data-path="index.html"><a href="index.html"><i class="fa fa-check"></i><b>1</b> Prerequisites</a><ul>
+<li class="chapter" data-level="1.1" data-path="index.html"><a href="index.html#learning-objectives"><i class="fa fa-check"></i><b>1.1</b> Learning objectives</a></li>
+<li class="chapter" data-level="1.2" data-path="index.html"><a href="index.html#future"><i class="fa fa-check"></i><b>1.2</b> Future</a></li>
+</ul></li>
+<li class="chapter" data-level="2" data-path="introduction-to-computational-biomedicine-and-machine-learning.html"><a href="introduction-to-computational-biomedicine-and-machine-learning.html"><i class="fa fa-check"></i><b>2</b> Introduction to Computational Biomedicine and Machine Learning</a><ul>
+<li class="chapter" data-level="2.1" data-path="introduction-to-computational-biomedicine-and-machine-learning.html"><a href="introduction-to-computational-biomedicine-and-machine-learning.html#what-is-this-course-about"><i class="fa fa-check"></i><b>2.1</b> What is this course about?</a></li>
+<li class="chapter" data-level="2.2" data-path="introduction-to-computational-biomedicine-and-machine-learning.html"><a href="introduction-to-computational-biomedicine-and-machine-learning.html#systems-biomedicine"><i class="fa fa-check"></i><b>2.2</b> Systems biomedicine</a></li>
+<li class="chapter" data-level="2.3" data-path="introduction-to-computational-biomedicine-and-machine-learning.html"><a href="introduction-to-computational-biomedicine-and-machine-learning.html#new-frontiers---explorers-survival-toolkit"><i class="fa fa-check"></i><b>2.3</b> New frontiers - explorer’s survival toolkit</a></li>
+<li class="chapter" data-level="2.4" data-path="introduction-to-computational-biomedicine-and-machine-learning.html"><a href="introduction-to-computational-biomedicine-and-machine-learning.html#systems-level-thinking"><i class="fa fa-check"></i><b>2.4</b> Systems-level thinking</a></li>
+</ul></li>
+<li class="chapter" data-level="3" data-path="networks.html"><a href="networks.html"><i class="fa fa-check"></i><b>3</b> Networks</a><ul>
+<li class="chapter" data-level="3.1" data-path="networks.html"><a href="networks.html#biological-networks"><i class="fa fa-check"></i><b>3.1</b> Biological networks</a></li>
+<li class="chapter" data-level="3.2" data-path="networks.html"><a href="networks.html#disease-from-a-network-perspective"><i class="fa fa-check"></i><b>3.2</b> Disease from a network-perspective</a></li>
+<li class="chapter" data-level="3.3" data-path="networks.html"><a href="networks.html#identifying-the-functional-modules"><i class="fa fa-check"></i><b>3.3</b> Identifying the functional modules</a></li>
+<li class="chapter" data-level="3.4" data-path="networks.html"><a href="networks.html#identifying-interactions"><i class="fa fa-check"></i><b>3.4</b> Identifying interactions</a></li>
+<li class="chapter" data-level="3.5" data-path="networks.html"><a href="networks.html#network-structure-vs-dynamics"><i class="fa fa-check"></i><b>3.5</b> Network structure vs dynamics</a></li>
+</ul></li>
+<li class="chapter" data-level="4" data-path="quantitative-biomedicine.html"><a href="quantitative-biomedicine.html"><i class="fa fa-check"></i><b>4</b> Quantitative biomedicine</a><ul>
+<li class="chapter" data-level="4.1" data-path="quantitative-biomedicine.html"><a href="quantitative-biomedicine.html#network-components-vs-parameters"><i class="fa fa-check"></i><b>4.1</b> Network components vs parameters</a></li>
+</ul></li>
+<li class="chapter" data-level="5" data-path="language-barriers.html"><a href="language-barriers.html"><i class="fa fa-check"></i><b>5</b> Language barriers</a><ul>
+<li class="chapter" data-level="5.1" data-path="language-barriers.html"><a href="language-barriers.html#descriptive-language---qualitative"><i class="fa fa-check"></i><b>5.1</b> Descriptive language - qualitative</a></li>
+<li class="chapter" data-level="5.2" data-path="language-barriers.html"><a href="language-barriers.html#quantitative-language"><i class="fa fa-check"></i><b>5.2</b> Quantitative language</a></li>
+<li class="chapter" data-level="5.3" data-path="language-barriers.html"><a href="language-barriers.html#programming-languages"><i class="fa fa-check"></i><b>5.3</b> Programming languages</a></li>
+<li class="chapter" data-level="5.4" data-path="language-barriers.html"><a href="language-barriers.html#interdisciplinary-science"><i class="fa fa-check"></i><b>5.4</b> Interdisciplinary science</a></li>
+</ul></li>
+<li class="chapter" data-level="6" data-path="data-science.html"><a href="data-science.html"><i class="fa fa-check"></i><b>6</b> Data science</a><ul>
+<li class="chapter" data-level="6.1" data-path="data-science.html"><a href="data-science.html#learning-from-data"><i class="fa fa-check"></i><b>6.1</b> Learning from data</a></li>
+<li class="chapter" data-level="6.2" data-path="data-science.html"><a href="data-science.html#data-driven-research"><i class="fa fa-check"></i><b>6.2</b> Data-driven research</a></li>
+<li class="chapter" data-level="6.3" data-path="data-science.html"><a href="data-science.html#inspired-by-the-brain"><i class="fa fa-check"></i><b>6.3</b> Inspired by the brain</a></li>
+<li class="chapter" data-level="6.4" data-path="data-science.html"><a href="data-science.html#data-representation"><i class="fa fa-check"></i><b>6.4</b> Data representation</a></li>
+<li class="chapter" data-level="6.5" data-path="data-science.html"><a href="data-science.html#physical-vs-statistical-model"><i class="fa fa-check"></i><b>6.5</b> Physical vs statistical model</a></li>
+</ul></li>
+<li class="chapter" data-level="7" data-path="statistics-perspective.html"><a href="statistics-perspective.html"><i class="fa fa-check"></i><b>7</b> Statistics perspective</a><ul>
+<li class="chapter" data-level="7.1" data-path="statistics-perspective.html"><a href="statistics-perspective.html#statistical-models-and-scientific-hypotheses"><i class="fa fa-check"></i><b>7.1</b> Statistical models and scientific hypotheses</a></li>
+<li class="chapter" data-level="7.2" data-path="statistics-perspective.html"><a href="statistics-perspective.html#probability"><i class="fa fa-check"></i><b>7.2</b> Probability</a></li>
+</ul></li>
+<li class="chapter" data-level="8" data-path="intro.html"><a href="intro.html"><i class="fa fa-check"></i><b>8</b> How to contribute to the book</a><ul>
+<li class="chapter" data-level="8.1" data-path="intro.html"><a href="intro.html#r-markdown-instructions-from-bookdown-example"><i class="fa fa-check"></i><b>8.1</b> R markdown instructions from bookdown example:</a></li>
+</ul></li>
+<li class="chapter" data-level="" data-path="references.html"><a href="references.html"><i class="fa fa-check"></i>References</a></li>
+<li class="divider"></li>
+<li><a href="https://github.com/rstudio/bookdown" target="blank">Published with bookdown</a></li>
+
+</ul>
+
+      </nav>
+    </div>
+
+    <div class="book-body">
+      <div class="body-inner">
+        <div class="book-header" role="navigation">
+          <h1>
+            <i class="fa fa-circle-o-notch fa-spin"></i><a href="./">Introduction to Computational Biomedicine</a>
+          </h1>
+        </div>
+
+        <div class="page-wrapper" tabindex="-1" role="main">
+          <div class="page-inner">
+
+            <section class="normal" id="section-">
+<div id="data-science" class="section level1">
+<h1><span class="header-section-number">Chapter 6</span> Data science</h1>
+<p>Data science focuses on the study of scientific methods for extracting knowledge and insights from data. The techniques and theories come from broad areas of mathematics, statistics, information sciences, and computer science. Machine learning (ML), data mining, and artificial intelligence are an integral part of data science. The three are connected to each other and it may depend on who you ask what that picture looks like (e.g. some include everything under AI, other draw overlapping circles). To make some distinctions and links, expertise in databases and data management is more often mentioned in context of data mining. Machine learning on the other hand is often seen as an inherent part of data mining and artificial intelligence. However, in AI the “traditional” ML is distinguished from deep learning that has its roots in neural networks that spurred a lot of interest already in the 1950s. Deep learning really leaped forward in the 2010s owing to explosion of digital data availability, advances in algorithms and computational power.</p>
+<p>Data science is making enormous impact in the biosciences, such as Deepmind’s Alphafold to predict protein tertiary structures from sequence, and nothing suggests that its relevance in (bio)medicine will dwindle in the future. Seizing the opportunity early to learn these methods is a great resource for life science researchers.</p>
+<div id="learning-from-data" class="section level2">
+<h2><span class="header-section-number">6.1</span> Learning from data</h2>
+<p>One of the famous definitions of ML is</p>
+<p><em>A computer program is said to learn from experience E with respect to some class of tasks T and performance measure P, if its performance at tasks in T, as measured by P, improves with experience E.</em></p>
+<p>In other words, any program that learns about the world from experience. While the term machine learning has blown up in recent years, a more traditional term is <em>statistical learning</em>, as most algorithms essentially boil down to clever use of statistics.</p>
+<p>How does this differ from conventional programming?</p>
+<p><img src="assets/ml_vs_programming.jpg" /><!-- --></p>
+</div>
+<div id="data-driven-research" class="section level2">
+<h2><span class="header-section-number">6.2</span> Data-driven research</h2>
+<p>Historically, any type of data analysis was most often performed after data is collected. Today, these approaches are used already earlier, and in this manner they can inform designing new experiments. The transformation that led to this was technological - we can collect whole genome sequences, acquire 3D brain imaging data, or record movies of protein dynamics inside cells. Most importantly, such data are also made available to the scientific community, enabling any researcher to access databases that may host information about every protein inside a cell, or store the original data collected from high-throughput studies. This offers the possibility to use data science methods for discovering interesting patterns or statistical associations in the data, which upon visualization might reveal insight on biology that can then be used to propose hypotheses to be tested in new experiments.</p>
+<p>Later, in the statistics perspective section we will re-visit this as we discuss conventional scientific hypothesis testing.</p>
+</div>
+<div id="inspired-by-the-brain" class="section level2">
+<h2><span class="header-section-number">6.3</span> Inspired by the brain</h2>
+<p><img src="assets/neuron_artificial_biological.png" /><!-- --></p>
+<p>Artificial Neural networks (NNs) make up a subset of algorithms within the broader category of machine learning. Broadly speaking, NNs can be thought of as simple models of biological neural systems, in which layers of neurons propagate information from input to output, facilitated by connections (“synapses”) between the neurons in adjacent layers. We model them simply enough as matrix multiplications. These networks can learn by adjusting the synapse strengths, much like the way animal brains learn through long term potentiation.</p>
+<p>They are extremely versatile in that the possible variation in model (the number and type of interconnected layers of neurons, and how many neurons per layer) is virtually endless.Neural networks can for example be taught to perform classification, just as animal brains are extremely powerful to classify the information they receive and make decisions based on it (e.g., is it a mouse or a tiger that is just in front of me?). Provided with enough data, they now consistently outperform traditional ML models.</p>
+<p>In this course, we also discuss interdisciplinary paths - the discussion of Andrew Ng and Geoffrey Hinton (both very influential in the field of AI) in this video reveals that Geoffrey got influenced by many different fields in his path towards the innovations in AI that is now famous for.</p>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/-eyhCTvrEtE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+</iframe>
+</div>
+<div id="data-representation" class="section level2">
+<h2><span class="header-section-number">6.4</span> Data representation</h2>
+<p>Next, we introduce a few important concepts. The main point is not for you to memorize everything, but to expose you to concepts that you will encounter later if you take a data science course.</p>
+<p><em>Feature space</em> What is data? Depending on who you ask you might get a different answer, but for ML purposes we can usually describe a single data point as a vector of numbers, each number representing the value of some feature. An example of a numerical feature could be continuous like height or a price of a product, or discrete like the number of mutations in a gene. Non-numerical features could include your preference in movies or whether or not you use tobacco. All these features not only can, but actually require to be represented numerically before you can start to do machine learning.</p>
+<p><img src="assets/feature_space.png" /><!-- --></p>
+<p>In an abstract manner, we can visualize each feature as spatial dimension, and each data point is simply a point in this space, referred to as feature space. Often we have tens or hundreds of features, and it is easy to lose intuition. Nonetheless, realizing that almost all data can be represented in this very generic manner, we can easily conceptualize any problem within this framework, whether it be health related data, shopping habits or government intelligence and crime statistics.</p>
+<p><em>Overfitting</em>
+Machine learning can almost always be abstracted to the fitting of a mathematical function to some experimental data. Intuition will have it that the closer we fit to our data points, the more successful we are. This intuition however is only true up to a certain point. After this point, we are essentially “perfecting” our model on trying to predict random noise and outliers. The image below clearly explains why a perfect fit usually is a symptom of overfitting: the blue line would severely misjudge the training point (red) between -5 and -4. For this reason, a simpler linear model is preferred: despite getting some of the training points wrong, it generalizes better, i.e. it would allow to make better predictions about unseen data.</p>
+<p><img src="assets/Overfitted_Data_Ghiles_CCBYSA4_0.png" /><!-- --></p>
+<p>Overfitting is the antithesis of proper generalization. As an analogy of overfitting, you can imagine a student who intensively memorizes every fact without genuine understanding, and thereby performs poorly on new problems (but near perfect on already seen ones). This is exactly how you can spot overfitting: you always keep some of the data you have for testing and when training the model this test data is not used. Then you compare the model performance both in training and test sets. If the model is overfitted, the test error is much higher than the training error. Keep in mind though, that underfitting is also a possibility. In this case, you have selected a too simple model.</p>
+<p><em>Parameters and hyperparameters</em>
+After a model has been selected, ML is all about finding a set of parameters which reduces what is known as the error function (cost function, see below). For instance in linear regression, the parameters are the coefficients of the regression line (what is actually being learned). This optimization of what value to select for each parameter is what the ML algorithm automatically finds. Another set of parameters, hyperparameters have to be predefined prior to training the model, and usually relate to the way the model is trained (for instance, what should the rate of learning be).</p>
+<p><em>Cost function</em>
+It is always useful, and often necessary to quantify the model error. This is usually some variation of the deviation between prediction and ground truth (e.g. mean squared error, MSE). While training our data, we are looking for the model parameters which make the error as small as possible. We thus formulate a function, the cost function (also known as loss function), which is a function of the model parameters. The way a model is fitted (or trained) to some data is (explicitly or implicitly) through reducing the cost function. Just like we above conceptualized data features in a hyperdimensional feature space, we can do the same with model parameters. Thus we can imagine a hilly landscape in 3 dimensions, where the x- and y-axis components (e.g. GPS coordinates) represent the parameter values, and the z-axis component (altitude of each point) represents the error. Different models have clever ways to navigate in this parameter landscape in order to reach a local minimum, like a saddle or a valley. Notice however that there might not be a guarantee that the minimum reached is the global minimum, for instance the sea level.</p>
+<p><em>Model complexity</em>
+A useful distinction between models can be made by considering their complexity. Note that the word “complex” is not synonymous to “complicated”. Complexity simply refers to something composed of many parts. In this context, complexity is related to the number of parameters the model holds. The more parameters we have, the more complex is our model. Simple linear regression has a low number of parameters, but neural networks (especially deep neural networks) have plenty. When doing machine learning, you should generally test multiple models, always starting with the less complex (although more ‘boring’) alternatives. The reason for this is the general tendency for complex models to overfit as well as requiring more training data. A topic that usually comes up in discussions of complexity is bias-variance tradeoff: complex models have usually a low bias, but a high variance. Simple models have it opposite.</p>
+<p><em>The curse of dimensionality</em>
+Another common problem relates to the number of features (dimensionality) of the input data. Consider a 2-dimensional input space, where each feature can take the value 0,1 or 2. There are a total of 3^2=9 combinations of inputs. As we increase dimensions from 2 to 3 dimensions, we drastically increase the number of possible combinations of inputs from 9 to 3^3=27. Usually the dimensionality far supersedes 3 dimensions. If we want to get a representative sample of this state space, we need exponentially more and more training samples. Even more, many of the features will be completely irrelevant to our final prediction. This makes training on high-dimensional data challenging, but there are methods to deal with it (incl. dimensionality reduction).</p>
+<p><em>Preprocessing</em>
+A model can never be of higher quality than the data it has been trained on. This can be summarized in the mantra “Garbage in, garbage out”, putting a well-deserved emphasis on ensuring that your data is of decent quality. Moreover, many ML models require the data to come in a certain format, or to be normalized first. In fact, a staggering amount of time of a machine learner’s time goes to preparing the data to be modelled. For these reasons we need to review the data. Images should be plotted and inspected, tabular data should be plotted (histograms, line plots etc). It can also be useful to make note of the mean and median values (if the data is numerical), or normalize it (neural networks require normalization). For non-numerical data (such as classifications of healthy or sick), we need some way to translate the categories into numbers, so they can be understood by a computer. For simple problems,we can simply replace the category with a ‘1’ or a ‘0’, while other problems require slightly more elaborate schemes (e.g. one-hot encoding).</p>
+<p><em>Feature selection and extraction</em>
+Traditional machine learning requires manual feature selection: you as a scientist need to decide which features you want to gather or use as input to your ML model. There are also statistical techniques to select the “best” (most predictive) features from a dataset. Another related concept is feature extraction, in which new features are created by combining the available ones. This is often done through dimensionality reduction. In modern deep learning, feature selection and extraction has become minimal, by letting the algorithm do it automatically. This is known as feature learning.</p>
+<p><em>Regularization</em>
+The sensitivity of many learners to overfit can be handled using various techniques, colloquially known as regularization. Regularization techniques are used widely in linear regression to make it robust against outliers and noise, known as L1 and L2 regularization. Neural networks may also be regularized using dropout (random removal of neurons).</p>
+</div>
+<div id="physical-vs-statistical-model" class="section level2">
+<h2><span class="header-section-number">6.5</span> Physical vs statistical model</h2>
+<p>You may be wondering how the data science approach connects with systems-level thinking? This is actually an open question. However, there are interesting possibilities for synergy. As food-for-thought, here is a <a href="https://www.nature.com/articles/s41586-019-0912-1.pdf"> Nature article </a> discussing this in context of trying to understand how the Earth behaves, as a system. This article brings up the distinction where physical modelling and machine learning have been seen as two different fields with very different scientific paradigms (theory-driven versus data-driven). In the physical approaches, physical laws are combined to draft causal models where a certain feature (for instance, the gravity force from the moon), has a certain effect (ocean tides). Therefore, physical approaches are in principle directly interpretable and offer the potential of extrapolation beyond the observed conditions. But the quality of the predictions is generally tied to the limited number of ingredients that have been accounted for in the model. In contrast, data-driven approaches are highly flexible in adapting to data that has been collected and are amenable to finding unexpected patterns (surprises). But interpretation, and in particular causality, is often harder to infer. A classic example drawn from “The Visual Display of Quantitative Information” textbook by Edward Tufte illustrates the difficulty of interpreting statistical correlations:</p>
+<p><img src="assets/StockvsRadiation.png" /><!-- --></p>
+<p>For these reasons, physical (or biological) and statistical models can also be synergistic!</p>
+<p>Additional reading:</p>
+<p><a href="https://www.nature.com/articles/s41592-019-0432-9"> Marx 2009. Machine learning, practically speaking </a></p>
+<p><a href="https://www.statlearning.com"> An Introduction to Statistical Learning (book) </a></p>
+
+</div>
+</div>
+            </section>
+
+          </div>
+        </div>
+      </div>
+<a href="language-barriers.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
+<a href="statistics-perspective.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
+    </div>
+  </div>
+<script src="libs/gitbook-2.6.7/js/app.min.js"></script>
+<script src="libs/gitbook-2.6.7/js/lunr.js"></script>
+<script src="libs/gitbook-2.6.7/js/clipboard.min.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-search.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-sharing.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-fontsettings.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-bookdown.js"></script>
+<script src="libs/gitbook-2.6.7/js/jquery.highlight.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-clipboard.js"></script>
+<script>
+gitbook.require(["gitbook"], function(gitbook) {
+gitbook.start({
+"sharing": {
+"github": false,
+"facebook": true,
+"twitter": true,
+"linkedin": false,
+"weibo": false,
+"instapaper": false,
+"vk": false,
+"all": ["facebook", "twitter", "linkedin", "weibo", "instapaper"]
+},
+"fontsettings": {
+"theme": "white",
+"family": "sans",
+"size": 2
+},
+"edit": {
+"link": null,
+"text": null
+},
+"history": {
+"link": null,
+"text": null
+},
+"view": {
+"link": null,
+"text": null
+},
+"download": ["testBook.pdf", "testBook.epub"],
+"toc": {
+"collapse": "subsection"
+}
+});
+});
+</script>
+
+</body>
+
+</html>
