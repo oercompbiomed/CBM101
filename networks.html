@@ -24,7 +24,7 @@
 <meta name="author" content="ERASMUS+ OERCompBioMed network" />
 
 
-<meta name="date" content="2021-02-14" />
+<meta name="date" content="2021-09-02" />
 
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="apple-mobile-web-app-capable" content="yes" />
@@ -33,7 +33,6 @@
   
 <link rel="prev" href="introduction-to-computational-biomedicine-and-machine-learning.html"/>
 <link rel="next" href="quantitative-biomedicine.html"/>
-<script src="libs/header-attrs-2.6/header-attrs.js"></script>
 <script src="libs/jquery-2.2.3/jquery.min.js"></script>
 <link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
 <link href="libs/gitbook-2.6.7/css/plugin-table.css" rel="stylesheet" />
@@ -51,20 +50,22 @@
 
 
 
+<script src="libs/accessible-code-block-0.0.1/empty-anchor.js"></script>
 
 
 <style type="text/css">
-pre > code.sourceCode { white-space: pre; position: relative; }
-pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
-pre > code.sourceCode > span:empty { height: 1.2em; }
+code.sourceCode > span { display: inline-block; line-height: 1.25; }
 code.sourceCode > span { color: inherit; text-decoration: inherit; }
+code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode { white-space: pre; position: relative; }
 pre.sourceCode { margin: 0; }
 @media screen {
 div.sourceCode { overflow: auto; }
 }
 @media print {
-pre > code.sourceCode { white-space: pre-wrap; }
-pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+code.sourceCode { white-space: pre-wrap; }
+code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
 }
 pre.numberSource code
   { counter-reset: source-line 0; }
@@ -84,7 +85,7 @@ pre.numberSource { margin-left: 3em; border-left: 1px solid #aaaaaa;  padding-le
 div.sourceCode
   {   }
 @media screen {
-pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+code.sourceCode > span > a:first-child::before { text-decoration: underline; }
 }
 code span.al { color: #ff0000; font-weight: bold; } /* Alert */
 code span.an { color: #60a0b0; font-weight: bold; font-style: italic; } /* Annotation */
@@ -133,40 +134,46 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <li><a href="./">Computational Biomedicine booklet</a></li>
 
 <li class="divider"></li>
-<li class="chapter" data-level="1" data-path="index.html"><a href="index.html"><i class="fa fa-check"></i><b>1</b> Prerequisites</a>
-<ul>
+<li class="chapter" data-level="1" data-path="index.html"><a href="index.html"><i class="fa fa-check"></i><b>1</b> Prerequisites</a><ul>
 <li class="chapter" data-level="1.1" data-path="index.html"><a href="index.html#learning-objectives"><i class="fa fa-check"></i><b>1.1</b> Learning objectives</a></li>
 <li class="chapter" data-level="1.2" data-path="index.html"><a href="index.html#future"><i class="fa fa-check"></i><b>1.2</b> Future</a></li>
 </ul></li>
-<li class="chapter" data-level="2" data-path="introduction-to-computational-biomedicine-and-machine-learning.html"><a href="introduction-to-computational-biomedicine-and-machine-learning.html"><i class="fa fa-check"></i><b>2</b> Introduction to Computational Biomedicine and Machine Learning</a>
-<ul>
+<li class="chapter" data-level="2" data-path="introduction-to-computational-biomedicine-and-machine-learning.html"><a href="introduction-to-computational-biomedicine-and-machine-learning.html"><i class="fa fa-check"></i><b>2</b> Introduction to Computational Biomedicine and Machine Learning</a><ul>
 <li class="chapter" data-level="2.1" data-path="introduction-to-computational-biomedicine-and-machine-learning.html"><a href="introduction-to-computational-biomedicine-and-machine-learning.html#what-is-this-course-about"><i class="fa fa-check"></i><b>2.1</b> What is this course about?</a></li>
 <li class="chapter" data-level="2.2" data-path="introduction-to-computational-biomedicine-and-machine-learning.html"><a href="introduction-to-computational-biomedicine-and-machine-learning.html#systems-biomedicine"><i class="fa fa-check"></i><b>2.2</b> Systems biomedicine</a></li>
 <li class="chapter" data-level="2.3" data-path="introduction-to-computational-biomedicine-and-machine-learning.html"><a href="introduction-to-computational-biomedicine-and-machine-learning.html#new-frontiers---explorers-survival-toolkit"><i class="fa fa-check"></i><b>2.3</b> New frontiers - explorer’s survival toolkit</a></li>
 <li class="chapter" data-level="2.4" data-path="introduction-to-computational-biomedicine-and-machine-learning.html"><a href="introduction-to-computational-biomedicine-and-machine-learning.html#systems-level-thinking"><i class="fa fa-check"></i><b>2.4</b> Systems-level thinking</a></li>
 </ul></li>
-<li class="chapter" data-level="3" data-path="networks.html"><a href="networks.html"><i class="fa fa-check"></i><b>3</b> Networks</a>
-<ul>
+<li class="chapter" data-level="3" data-path="networks.html"><a href="networks.html"><i class="fa fa-check"></i><b>3</b> Networks</a><ul>
 <li class="chapter" data-level="3.1" data-path="networks.html"><a href="networks.html#biological-networks"><i class="fa fa-check"></i><b>3.1</b> Biological networks</a></li>
 <li class="chapter" data-level="3.2" data-path="networks.html"><a href="networks.html#disease-from-a-network-perspective"><i class="fa fa-check"></i><b>3.2</b> Disease from a network-perspective</a></li>
 <li class="chapter" data-level="3.3" data-path="networks.html"><a href="networks.html#identifying-the-functional-modules"><i class="fa fa-check"></i><b>3.3</b> Identifying the functional modules</a></li>
 <li class="chapter" data-level="3.4" data-path="networks.html"><a href="networks.html#identifying-interactions"><i class="fa fa-check"></i><b>3.4</b> Identifying interactions</a></li>
 <li class="chapter" data-level="3.5" data-path="networks.html"><a href="networks.html#network-structure-vs-dynamics"><i class="fa fa-check"></i><b>3.5</b> Network structure vs dynamics</a></li>
 </ul></li>
-<li class="chapter" data-level="4" data-path="quantitative-biomedicine.html"><a href="quantitative-biomedicine.html"><i class="fa fa-check"></i><b>4</b> Quantitative biomedicine</a>
-<ul>
+<li class="chapter" data-level="4" data-path="quantitative-biomedicine.html"><a href="quantitative-biomedicine.html"><i class="fa fa-check"></i><b>4</b> Quantitative biomedicine</a><ul>
 <li class="chapter" data-level="4.1" data-path="quantitative-biomedicine.html"><a href="quantitative-biomedicine.html#network-components-vs-parameters"><i class="fa fa-check"></i><b>4.1</b> Network components vs parameters</a></li>
 </ul></li>
-<li class="chapter" data-level="5" data-path="language-barriers.html"><a href="language-barriers.html"><i class="fa fa-check"></i><b>5</b> Language barriers</a>
-<ul>
+<li class="chapter" data-level="5" data-path="language-barriers.html"><a href="language-barriers.html"><i class="fa fa-check"></i><b>5</b> Language barriers</a><ul>
 <li class="chapter" data-level="5.1" data-path="language-barriers.html"><a href="language-barriers.html#descriptive-language---qualitative"><i class="fa fa-check"></i><b>5.1</b> Descriptive language - qualitative</a></li>
 <li class="chapter" data-level="5.2" data-path="language-barriers.html"><a href="language-barriers.html#quantitative-language"><i class="fa fa-check"></i><b>5.2</b> Quantitative language</a></li>
 <li class="chapter" data-level="5.3" data-path="language-barriers.html"><a href="language-barriers.html#programming-languages"><i class="fa fa-check"></i><b>5.3</b> Programming languages</a></li>
 <li class="chapter" data-level="5.4" data-path="language-barriers.html"><a href="language-barriers.html#interdisciplinary-science"><i class="fa fa-check"></i><b>5.4</b> Interdisciplinary science</a></li>
 </ul></li>
-<li class="chapter" data-level="6" data-path="intro.html"><a href="intro.html"><i class="fa fa-check"></i><b>6</b> How to contribute to the book</a>
-<ul>
-<li class="chapter" data-level="6.1" data-path="intro.html"><a href="intro.html#r-markdown-instructions-from-bookdown-example"><i class="fa fa-check"></i><b>6.1</b> R markdown instructions from bookdown example:</a></li>
+<li class="chapter" data-level="6" data-path="data-science.html"><a href="data-science.html"><i class="fa fa-check"></i><b>6</b> Data science</a><ul>
+<li class="chapter" data-level="6.1" data-path="data-science.html"><a href="data-science.html#learning-from-data"><i class="fa fa-check"></i><b>6.1</b> Learning from data</a></li>
+<li class="chapter" data-level="6.2" data-path="data-science.html"><a href="data-science.html#data-driven-research"><i class="fa fa-check"></i><b>6.2</b> Data-driven research</a></li>
+<li class="chapter" data-level="6.3" data-path="data-science.html"><a href="data-science.html#inspired-by-the-brain"><i class="fa fa-check"></i><b>6.3</b> Inspired by the brain</a></li>
+<li class="chapter" data-level="6.4" data-path="data-science.html"><a href="data-science.html#data-representation"><i class="fa fa-check"></i><b>6.4</b> Data representation</a></li>
+<li class="chapter" data-level="6.5" data-path="data-science.html"><a href="data-science.html#physical-vs-statistical-model"><i class="fa fa-check"></i><b>6.5</b> Physical vs statistical model</a></li>
+</ul></li>
+<li class="chapter" data-level="7" data-path="statistics-perspective.html"><a href="statistics-perspective.html"><i class="fa fa-check"></i><b>7</b> Statistics perspective</a><ul>
+<li class="chapter" data-level="7.1" data-path="statistics-perspective.html"><a href="statistics-perspective.html#statistical-models-and-scientific-hypotheses"><i class="fa fa-check"></i><b>7.1</b> Statistical models and scientific hypotheses</a></li>
+<li class="chapter" data-level="7.2" data-path="statistics-perspective.html"><a href="statistics-perspective.html#probability"><i class="fa fa-check"></i><b>7.2</b> Probability</a></li>
+</ul></li>
+<li class="chapter" data-level="8" data-path="sign-up-for-inter-disciplinary-training.html"><a href="sign-up-for-inter-disciplinary-training.html"><i class="fa fa-check"></i><b>8</b> Sign-up for inter-disciplinary training!</a></li>
+<li class="chapter" data-level="9" data-path="intro.html"><a href="intro.html"><i class="fa fa-check"></i><b>9</b> How to contribute to the book</a><ul>
+<li class="chapter" data-level="9.1" data-path="intro.html"><a href="intro.html#r-markdown-instructions-from-bookdown-example"><i class="fa fa-check"></i><b>9.1</b> R markdown instructions from bookdown example:</a></li>
 </ul></li>
 <li class="chapter" data-level="" data-path="references.html"><a href="references.html"><i class="fa fa-check"></i>References</a></li>
 <li class="divider"></li>
@@ -189,25 +196,25 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
           <div class="page-inner">
 
             <section class="normal" id="section-">
-<div id="networks" class="section level1" number="3">
+<div id="networks" class="section level1">
 <h1><span class="header-section-number">Chapter 3</span> Networks</h1>
 <p>Let’s start by an analogy. Let’s envision biological systems as train networks.
 <a href="https://media.uef.fi/View.aspx?id=65542~5j~C5GUS5vAwm&code=AE~w3I4pTBhJssEXhcCUSUSVbKif7yPImJpIzQvy8bfG2hfrLxaKKMQ9lI67P&ax=7D~LSp9erM3CiCzTL"> Video 1 </a></p>
 <p>This is what we talk about in the video:
 We will be looking at the train network in Finland. Nodes on this network are city train stations, connected by railways. For a cell biologist, these nodes can be genes, proteins, or other biological molecules, connected by molecular interactions, or even cellular states connected by transitions. For a neurologist, they are neuronal cells, connected by synapses. For an ecologist, these nodes are individual species, connected by trophic predator-prey interactions.</p>
-<div id="biological-networks" class="section level2" number="3.1">
+<div id="biological-networks" class="section level2">
 <h2><span class="header-section-number">3.1</span> Biological networks</h2>
 <p>Most if not all the current diseases that challenge our therapeutic abilities have cell biological roots, so let’s adopt the point of view of a cell biologist. A cellular function is defined by a particular response to a particular stimulus, multiple stimuli, or the absence of stimulus.</p>
 <p>It is analogous to a well-defined travel from, for instance Oulu in the north to Lappeenranta in the south. This trip generally involves a train change in Kouvola. For the cellular function to be performed correctly, the Lappeenranta protein node or cellular state has to be activated in due time.</p>
 </div>
-<div id="disease-from-a-network-perspective" class="section level2" number="3.2">
+<div id="disease-from-a-network-perspective" class="section level2">
 <h2><span class="header-section-number">3.2</span> Disease from a network-perspective</h2>
 <p>Diseases occur when the cellular response to the stimulus is not appropriate, in other words when the travel does not end up where or when it should. For instance, activating the Lahti node instead of the Lappeenranta node could mean activating cell proliferation rather than quiescence, leading to cancer.</p>
 <p>On cellular level, diseases perturb how messages are propagated (train travelers) propagate throughout the network. Treating a disease is equivalent to being able to counteract network perturbations, in our train analogy to get to Lappeenranta, regardless of the nature of the perturbations. And if possible, not adding more perturbations.</p>
 <p>To treat the Lahti node problem, we could just… blow up the Lahti station. This way, no train will ever end up in Lahti, or even transit through the station. This is what we do when we use antiproliferative drugs to treat cancer. And clearly, this certainly affects other travelers, other cellular responses to other stimuli, explaining the toxicity of anticancer agents for instance. In addition, it does not guarantee you will get to Lappeenranta. You could even get to a worse node!</p>
 <p>So we definitely need a finer approach, and this requires a deeper knowledge of how the train network works.</p>
 </div>
-<div id="identifying-the-functional-modules" class="section level2" number="3.3">
+<div id="identifying-the-functional-modules" class="section level2">
 <h2><span class="header-section-number">3.3</span> Identifying the functional modules</h2>
 <ul>
 <li>Do you think that a traveler from Oulu to Lappeenranta needs to know all the timetables of all the Finnish trains to circumvent network perturbations and go to destination?</li>
@@ -216,7 +223,7 @@ We will be looking at the train network in Finland. Nodes on this network are ci
 <p>So let’s get back to square one, where our cell is an unknown, mysterious land. With genome sequencing efforts, high-throughput computational analysis of the sequences, and further biochemical characterizations, we have identified tens of thousands of cellular network components, like proteins or mRNAs. This data is in large part openly shared to the scientific community through large data repositories.</p>
 <p>This is still work in progress, as we are continuously identifying new network nodes, like for instance recently long non-coding RNAs or small ORFs that code for microproteins of a few residues.</p>
 </div>
-<div id="identifying-interactions" class="section level2" number="3.4">
+<div id="identifying-interactions" class="section level2">
 <h2><span class="header-section-number">3.4</span> Identifying interactions</h2>
 <ul>
 <li>Do you think knowledge of the train stations is sufficient to travel from Oulu to Lappeenranta?</li>
@@ -224,14 +231,14 @@ We will be looking at the train network in Finland. Nodes on this network are ci
 <p>Obviously, not. So, in parallel, scientists are using genetics, biophysical, biochemical, cell biological and many other approaches to characterize the interactions between these nodes, the railway routes. A very common approach is to close one station and look which travels are affected, the knock-out approach, or to shut down one railway line and analyze the resulting perturbations, like for instance when a particular protein-protein interaction is disrupted by a controlled point mutation.</p>
 <p>And this is where we stand as per 2020. We are progressively revealing a dense network of interactions between cellular objects, and how well-identified disease-causing mutations modify these interactions. We are therefore learning about finer and finer details of the regional and local train networks, and how these networks are structurally altered in disease.</p>
 </div>
-<div id="network-structure-vs-dynamics" class="section level2" number="3.5">
+<div id="network-structure-vs-dynamics" class="section level2">
 <h2><span class="header-section-number">3.5</span> Network structure vs dynamics</h2>
-<p>Yet we lack ways to efficiently circumvent perturbations on our favorite Oulu Lappeenranta route. And indeed, the more node connections we are revealing, the more it becomes clear that this knowledge is both absolutely required, and at the same time insufficient to predict how to pharmacologically control the response of the network to a given stimulus, or “information.” Indeed, the knowledge of the network structure, for instance relevant proteins and their interactions, does not tell how it is functionally organized to gather, store and process information and signals [1]. Knowing the network does not tell us where and when the trains are circulating, how the biological information flows through the network.</p>
+<p>Yet we lack ways to efficiently circumvent perturbations on our favorite Oulu Lappeenranta route. And indeed, the more node connections we are revealing, the more it becomes clear that this knowledge is both absolutely required, and at the same time insufficient to predict how to pharmacologically control the response of the network to a given stimulus, or “information”. Indeed, the knowledge of the network structure, for instance relevant proteins and their interactions, does not tell how it is functionally organized to gather, store and process information and signals [1]. Knowing the network does not tell us where and when the trains are circulating, how the biological information flows through the network.</p>
 <p>And because we are talking about information, let’s borrow some concepts from information specialists: the journalists. In journalism, a piece of information is considered complete if it encloses the answers to the 6 W’s, 6 basic questions:</p>
 <ul>
 <li>Who? What? When? Where? hoW? and Why?</li>
 </ul>
-<p>The identification of biological network components answers “who” does “what.” In many instances, the information of when, where and in particular how or how much is missing. As explained in details in the next video, this lack of quantitative information can have a very detrimental effect on our understanding of how a given network works. And this precludes our understanding of the “why” biological networks are structured the way they are, and are hijacked by well-identified disease-causing network perturbation. The systems biology, or systems biomedicine approach is aiming to understand biological systems at a global, functional level, in order to decipher their design principles.</p>
+<p>The identification of biological network components answers “who” does “what”. In many instances, the information of when, where and in particular how or how much is missing. As explained in details in the next video, this lack of quantitative information can have a very detrimental effect on our understanding of how a given network works. And this precludes our understanding of the “why” biological networks are structured the way they are, and are hijacked by well-identified disease-causing network perturbation. The systems biology, or systems biomedicine approach is aiming to understand biological systems at a global, functional level, in order to decipher their design principles.</p>
 <p>And this strategy is particularly relevant in medicine. As different individuals from the same species, we have slightly different genomes, and our cellular networks are a tiny bit different. In addition, we have different lifestyles and even the networks of twins are differentially tuned. Thus, the same disease perturbation in different individuals might have different outcomes, and would thus require slightly adjusted treatments. This observation is at the basis of the concept of personalized medicine.</p>
 <ul>
 <li>Does that mean that any treatment, for any disease must be personalized to be efficient?</li>

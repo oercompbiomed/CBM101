@@ -24,7 +24,7 @@
 <meta name="author" content="ERASMUS+ OERCompBioMed network" />
 
 
-<meta name="date" content="2021-08-31" />
+<meta name="date" content="2021-09-02" />
 
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="apple-mobile-web-app-capable" content="yes" />
@@ -33,7 +33,6 @@
   
 <link rel="prev" href="quantitative-biomedicine.html"/>
 <link rel="next" href="data-science.html"/>
-<script src="libs/header-attrs-2.6/header-attrs.js"></script>
 <script src="libs/jquery-2.2.3/jquery.min.js"></script>
 <link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
 <link href="libs/gitbook-2.6.7/css/plugin-table.css" rel="stylesheet" />
@@ -51,20 +50,22 @@
 
 
 
+<script src="libs/accessible-code-block-0.0.1/empty-anchor.js"></script>
 
 
 <style type="text/css">
-pre > code.sourceCode { white-space: pre; position: relative; }
-pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
-pre > code.sourceCode > span:empty { height: 1.2em; }
+code.sourceCode > span { display: inline-block; line-height: 1.25; }
 code.sourceCode > span { color: inherit; text-decoration: inherit; }
+code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode { white-space: pre; position: relative; }
 pre.sourceCode { margin: 0; }
 @media screen {
 div.sourceCode { overflow: auto; }
 }
 @media print {
-pre > code.sourceCode { white-space: pre-wrap; }
-pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+code.sourceCode { white-space: pre-wrap; }
+code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
 }
 pre.numberSource code
   { counter-reset: source-line 0; }
@@ -84,7 +85,7 @@ pre.numberSource { margin-left: 3em; border-left: 1px solid #aaaaaa;  padding-le
 div.sourceCode
   {   }
 @media screen {
-pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+code.sourceCode > span > a:first-child::before { text-decoration: underline; }
 }
 code span.al { color: #ff0000; font-weight: bold; } /* Alert */
 code span.an { color: #60a0b0; font-weight: bold; font-style: italic; } /* Annotation */
@@ -133,53 +134,46 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <li><a href="./">Computational Biomedicine booklet</a></li>
 
 <li class="divider"></li>
-<li class="chapter" data-level="1" data-path="index.html"><a href="index.html"><i class="fa fa-check"></i><b>1</b> Prerequisites</a>
-<ul>
+<li class="chapter" data-level="1" data-path="index.html"><a href="index.html"><i class="fa fa-check"></i><b>1</b> Prerequisites</a><ul>
 <li class="chapter" data-level="1.1" data-path="index.html"><a href="index.html#learning-objectives"><i class="fa fa-check"></i><b>1.1</b> Learning objectives</a></li>
 <li class="chapter" data-level="1.2" data-path="index.html"><a href="index.html#future"><i class="fa fa-check"></i><b>1.2</b> Future</a></li>
 </ul></li>
-<li class="chapter" data-level="2" data-path="introduction-to-computational-biomedicine-and-machine-learning.html"><a href="introduction-to-computational-biomedicine-and-machine-learning.html"><i class="fa fa-check"></i><b>2</b> Introduction to Computational Biomedicine and Machine Learning</a>
-<ul>
+<li class="chapter" data-level="2" data-path="introduction-to-computational-biomedicine-and-machine-learning.html"><a href="introduction-to-computational-biomedicine-and-machine-learning.html"><i class="fa fa-check"></i><b>2</b> Introduction to Computational Biomedicine and Machine Learning</a><ul>
 <li class="chapter" data-level="2.1" data-path="introduction-to-computational-biomedicine-and-machine-learning.html"><a href="introduction-to-computational-biomedicine-and-machine-learning.html#what-is-this-course-about"><i class="fa fa-check"></i><b>2.1</b> What is this course about?</a></li>
 <li class="chapter" data-level="2.2" data-path="introduction-to-computational-biomedicine-and-machine-learning.html"><a href="introduction-to-computational-biomedicine-and-machine-learning.html#systems-biomedicine"><i class="fa fa-check"></i><b>2.2</b> Systems biomedicine</a></li>
 <li class="chapter" data-level="2.3" data-path="introduction-to-computational-biomedicine-and-machine-learning.html"><a href="introduction-to-computational-biomedicine-and-machine-learning.html#new-frontiers---explorers-survival-toolkit"><i class="fa fa-check"></i><b>2.3</b> New frontiers - explorer’s survival toolkit</a></li>
 <li class="chapter" data-level="2.4" data-path="introduction-to-computational-biomedicine-and-machine-learning.html"><a href="introduction-to-computational-biomedicine-and-machine-learning.html#systems-level-thinking"><i class="fa fa-check"></i><b>2.4</b> Systems-level thinking</a></li>
 </ul></li>
-<li class="chapter" data-level="3" data-path="networks.html"><a href="networks.html"><i class="fa fa-check"></i><b>3</b> Networks</a>
-<ul>
+<li class="chapter" data-level="3" data-path="networks.html"><a href="networks.html"><i class="fa fa-check"></i><b>3</b> Networks</a><ul>
 <li class="chapter" data-level="3.1" data-path="networks.html"><a href="networks.html#biological-networks"><i class="fa fa-check"></i><b>3.1</b> Biological networks</a></li>
 <li class="chapter" data-level="3.2" data-path="networks.html"><a href="networks.html#disease-from-a-network-perspective"><i class="fa fa-check"></i><b>3.2</b> Disease from a network-perspective</a></li>
 <li class="chapter" data-level="3.3" data-path="networks.html"><a href="networks.html#identifying-the-functional-modules"><i class="fa fa-check"></i><b>3.3</b> Identifying the functional modules</a></li>
 <li class="chapter" data-level="3.4" data-path="networks.html"><a href="networks.html#identifying-interactions"><i class="fa fa-check"></i><b>3.4</b> Identifying interactions</a></li>
 <li class="chapter" data-level="3.5" data-path="networks.html"><a href="networks.html#network-structure-vs-dynamics"><i class="fa fa-check"></i><b>3.5</b> Network structure vs dynamics</a></li>
 </ul></li>
-<li class="chapter" data-level="4" data-path="quantitative-biomedicine.html"><a href="quantitative-biomedicine.html"><i class="fa fa-check"></i><b>4</b> Quantitative biomedicine</a>
-<ul>
+<li class="chapter" data-level="4" data-path="quantitative-biomedicine.html"><a href="quantitative-biomedicine.html"><i class="fa fa-check"></i><b>4</b> Quantitative biomedicine</a><ul>
 <li class="chapter" data-level="4.1" data-path="quantitative-biomedicine.html"><a href="quantitative-biomedicine.html#network-components-vs-parameters"><i class="fa fa-check"></i><b>4.1</b> Network components vs parameters</a></li>
 </ul></li>
-<li class="chapter" data-level="5" data-path="language-barriers.html"><a href="language-barriers.html"><i class="fa fa-check"></i><b>5</b> Language barriers</a>
-<ul>
+<li class="chapter" data-level="5" data-path="language-barriers.html"><a href="language-barriers.html"><i class="fa fa-check"></i><b>5</b> Language barriers</a><ul>
 <li class="chapter" data-level="5.1" data-path="language-barriers.html"><a href="language-barriers.html#descriptive-language---qualitative"><i class="fa fa-check"></i><b>5.1</b> Descriptive language - qualitative</a></li>
 <li class="chapter" data-level="5.2" data-path="language-barriers.html"><a href="language-barriers.html#quantitative-language"><i class="fa fa-check"></i><b>5.2</b> Quantitative language</a></li>
 <li class="chapter" data-level="5.3" data-path="language-barriers.html"><a href="language-barriers.html#programming-languages"><i class="fa fa-check"></i><b>5.3</b> Programming languages</a></li>
 <li class="chapter" data-level="5.4" data-path="language-barriers.html"><a href="language-barriers.html#interdisciplinary-science"><i class="fa fa-check"></i><b>5.4</b> Interdisciplinary science</a></li>
 </ul></li>
-<li class="chapter" data-level="6" data-path="data-science.html"><a href="data-science.html"><i class="fa fa-check"></i><b>6</b> Data science</a>
-<ul>
+<li class="chapter" data-level="6" data-path="data-science.html"><a href="data-science.html"><i class="fa fa-check"></i><b>6</b> Data science</a><ul>
 <li class="chapter" data-level="6.1" data-path="data-science.html"><a href="data-science.html#learning-from-data"><i class="fa fa-check"></i><b>6.1</b> Learning from data</a></li>
 <li class="chapter" data-level="6.2" data-path="data-science.html"><a href="data-science.html#data-driven-research"><i class="fa fa-check"></i><b>6.2</b> Data-driven research</a></li>
 <li class="chapter" data-level="6.3" data-path="data-science.html"><a href="data-science.html#inspired-by-the-brain"><i class="fa fa-check"></i><b>6.3</b> Inspired by the brain</a></li>
 <li class="chapter" data-level="6.4" data-path="data-science.html"><a href="data-science.html#data-representation"><i class="fa fa-check"></i><b>6.4</b> Data representation</a></li>
 <li class="chapter" data-level="6.5" data-path="data-science.html"><a href="data-science.html#physical-vs-statistical-model"><i class="fa fa-check"></i><b>6.5</b> Physical vs statistical model</a></li>
 </ul></li>
-<li class="chapter" data-level="7" data-path="statistics-perspective.html"><a href="statistics-perspective.html"><i class="fa fa-check"></i><b>7</b> Statistics perspective</a>
-<ul>
+<li class="chapter" data-level="7" data-path="statistics-perspective.html"><a href="statistics-perspective.html"><i class="fa fa-check"></i><b>7</b> Statistics perspective</a><ul>
 <li class="chapter" data-level="7.1" data-path="statistics-perspective.html"><a href="statistics-perspective.html#statistical-models-and-scientific-hypotheses"><i class="fa fa-check"></i><b>7.1</b> Statistical models and scientific hypotheses</a></li>
 <li class="chapter" data-level="7.2" data-path="statistics-perspective.html"><a href="statistics-perspective.html#probability"><i class="fa fa-check"></i><b>7.2</b> Probability</a></li>
 </ul></li>
-<li class="chapter" data-level="8" data-path="intro.html"><a href="intro.html"><i class="fa fa-check"></i><b>8</b> How to contribute to the book</a>
-<ul>
-<li class="chapter" data-level="8.1" data-path="intro.html"><a href="intro.html#r-markdown-instructions-from-bookdown-example"><i class="fa fa-check"></i><b>8.1</b> R markdown instructions from bookdown example:</a></li>
+<li class="chapter" data-level="8" data-path="sign-up-for-inter-disciplinary-training.html"><a href="sign-up-for-inter-disciplinary-training.html"><i class="fa fa-check"></i><b>8</b> Sign-up for inter-disciplinary training!</a></li>
+<li class="chapter" data-level="9" data-path="intro.html"><a href="intro.html"><i class="fa fa-check"></i><b>9</b> How to contribute to the book</a><ul>
+<li class="chapter" data-level="9.1" data-path="intro.html"><a href="intro.html#r-markdown-instructions-from-bookdown-example"><i class="fa fa-check"></i><b>9.1</b> R markdown instructions from bookdown example:</a></li>
 </ul></li>
 <li class="chapter" data-level="" data-path="references.html"><a href="references.html"><i class="fa fa-check"></i>References</a></li>
 <li class="divider"></li>
@@ -202,22 +196,22 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
           <div class="page-inner">
 
             <section class="normal" id="section-">
-<div id="language-barriers" class="section level1" number="5">
+<div id="language-barriers" class="section level1">
 <h1><span class="header-section-number">Chapter 5</span> Language barriers</h1>
-<div id="descriptive-language---qualitative" class="section level2" number="5.1">
+<div id="descriptive-language---qualitative" class="section level2">
 <h2><span class="header-section-number">5.1</span> Descriptive language - qualitative</h2>
 <p>Biomedical systems are made of cells, cells of molecules, molecules of atoms …etc. The biology language has been developed over centuries to describe macroscopic biological systems, mostly at the qualitative level.</p>
 </div>
-<div id="quantitative-language" class="section level2" number="5.2">
+<div id="quantitative-language" class="section level2">
 <h2><span class="header-section-number">5.2</span> Quantitative language</h2>
-<p>Physics is an example of a quantitative language which can describe molecules, and to describe atoms. In quantum physics the langueage is that of mathematics.</p>
+<p>Physics is an example of a quantitative language which can describe molecules, and to describe atoms. In quantum physics the language is that of mathematics.</p>
 <p>These language differences stem from the historical distinction between life sciences and physical sciences, and we are now realizing that this distinction does not make a lot of sense.</p>
 </div>
-<div id="programming-languages" class="section level2" number="5.3">
+<div id="programming-languages" class="section level2">
 <h2><span class="header-section-number">5.3</span> Programming languages</h2>
 <p>Furthermore, you are using also another type of language, programming, to write down the analysis steps in a computer-understandable format, because most biological problems cannot be solved by current analytical mathematics.</p>
 </div>
-<div id="interdisciplinary-science" class="section level2" number="5.4">
+<div id="interdisciplinary-science" class="section level2">
 <h2><span class="header-section-number">5.4</span> Interdisciplinary science</h2>
 <p>When you are working on the quantitative analysis of cells - which is what you want to do for doing predictive biomedicine - you are at the crossroads of these languages, all of which have advantages and pitfalls.</p>
 <p>There is not, yet, any common language perfectly suited to quantitative cell biology or systems-level medicine that would be understood by experts of all these fields. Therefore, inter-disciplinary communication will require that biologists learn the basic concepts and formal language of quantitative sciences and basic programming skills, and that physicists or mathematicians eager to contribute in transforming future medicine learn some elementary cell and molecular biology concepts. This will enable you to collaborate and communicate with a broad range of specialists, physicists, mathematicians, computer scientists, geneticists, biochemists… etc.</p>

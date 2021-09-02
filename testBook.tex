@@ -5,13 +5,12 @@
 \documentclass[
 ]{book}
 \usepackage{lmodern}
-\usepackage{amsmath}
+\usepackage{amssymb,amsmath}
 \usepackage{ifxetex,ifluatex}
 \ifnum 0\ifxetex 1\fi\ifluatex 1\fi=0 % if pdftex
   \usepackage[T1]{fontenc}
   \usepackage[utf8]{inputenc}
   \usepackage{textcomp} % provide euro and other symbols
-  \usepackage{amssymb}
 \else % if luatex or xetex
   \usepackage{unicode-math}
   \defaultfontfeatures{Scale=MatchLowercase}
@@ -83,7 +82,6 @@
 \newcommand{\VerbatimStringTok}[1]{\textcolor[rgb]{0.31,0.60,0.02}{#1}}
 \newcommand{\WarningTok}[1]{\textcolor[rgb]{0.56,0.35,0.01}{\textbf{\textit{#1}}}}
 \usepackage{longtable,booktabs}
-\usepackage{calc} % for calculating minipage widths
 % Correct order of tables after \paragraph or \subparagraph
 \usepackage{etoolbox}
 \makeatletter
@@ -92,7 +90,7 @@
 % Allow footnotes in longtable head/foot
 \IfFileExists{footnotehyper.sty}{\usepackage{footnotehyper}}{\usepackage{footnote}}
 \makesavenoteenv{longtable}
-\usepackage{graphicx}
+\usepackage{graphicx,grffile}
 \makeatletter
 \def\maxwidth{\ifdim\Gin@nat@width>\linewidth\linewidth\else\Gin@nat@width\fi}
 \def\maxheight{\ifdim\Gin@nat@height>\textheight\textheight\else\Gin@nat@height\fi}
@@ -110,15 +108,12 @@
   \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
 \setcounter{secnumdepth}{5}
 \usepackage{booktabs}
-\ifluatex
-  \usepackage{selnolig}  % disable illegal ligatures
-\fi
 \usepackage[]{natbib}
 \bibliographystyle{apalike}
 
 \title{Introduction to Computational Biomedicine}
 \author{ERASMUS+ OERCompBioMed network}
-\date{2021-02-14}
+\date{2021-09-02}
 
 \begin{document}
 \maketitle
@@ -157,7 +152,7 @@ Short summary
 
 This book accompanies course materials that we share via GitHub. The materials have been put together with the goal to introduce computational biomedicine to students who may enroll to Biomedicine curriculum programs, however we have also used the materials to teach computational students about possibilities of different methods in context of biomedical applications.
 
-The material covers important tools and data resources in this field, and through applications we aim to demonstrate what basic knowledge in network analysis, mathematical models, statistics and machine learning that is needed to work with and understand results from high-throughput biomedical experiments (imaging and omics). For each topic there are hands-on data analysis exercises in Jupyter notebook format and this book is meant to cover some basic background related to each exercise.
+The material covers important tools and data resources in this field, and through applications we aim to demonstrate what basic knowledge in network analysis, mathematical models, statistics and machine learning is needed to work with and understand results from high-throughput biomedical experiments (imaging and omics). For each topic there are hands-on data analysis exercises in Jupyter notebook format and this book is meant to cover some basic background related to each exercise.
 
 \hypertarget{what-is-this-course-about}{%
 \section{What is this course about?}\label{what-is-this-course-about}}
@@ -318,7 +313,7 @@ Biomedical systems are made of cells, cells of molecules, molecules of atoms \ld
 \hypertarget{quantitative-language}{%
 \section{Quantitative language}\label{quantitative-language}}
 
-Physics is an example of a quantitative language which can describe molecules, and to describe atoms. In quantum physics the langueage is that of mathematics.
+Physics is an example of a quantitative language which can describe molecules, and to describe atoms. In quantum physics the language is that of mathematics.
 
 These language differences stem from the historical distinction between life sciences and physical sciences, and we are now realizing that this distinction does not make a lot of sense.
 
@@ -336,6 +331,190 @@ There is not, yet, any common language perfectly suited to quantitative cell bio
 
 Another current challenge in this field is related to what data and tools are available to the community at large (Macklin 2019) . It is an important goal to move beyond single-laboratory efforts to establish a community dedicated to promote compatible data and software usage.
 
+Additional reading:
+
+Computing skills for a biologist (book)
+
+\hypertarget{data-science}{%
+\chapter{Data science}\label{data-science}}
+
+Data science focuses on the study of scientific methods for extracting knowledge and insights from data. The techniques and theories come from broad areas of mathematics, statistics, information sciences, and computer science. Machine learning (ML), data mining, and artificial intelligence are an integral part of data science. The three are connected to each other and it may depend on who you ask what that picture looks like (e.g.~some include everything under AI, other draw overlapping circles). To make some distinctions and links, expertise in databases and data management is more often mentioned in context of data mining. Machine learning on the other hand is often seen as an inherent part of data mining and artificial intelligence. However, in AI the ``traditional'' ML is distinguished from deep learning that has its roots in neural networks that spurred a lot of interest already in the 1950s. Deep learning really leaped forward in the 2010s owing to explosion of digital data availability, advances in algorithms and computational power.
+
+Data science is making enormous impact in the biosciences, such as Deepmind's Alphafold to predict protein tertiary structures from sequence, and nothing suggests that its relevance in (bio)medicine will dwindle in the future. Seizing the opportunity early to learn these methods is a great resource for life science researchers.
+
+\hypertarget{learning-from-data}{%
+\section{Learning from data}\label{learning-from-data}}
+
+One of the famous definitions of ML is
+
+\emph{A computer program is said to learn from experience E with respect to some class of tasks T and performance measure P, if its performance at tasks in T, as measured by P, improves with experience E.}
+
+In other words, any program that learns about the world from experience. While the term machine learning has blown up in recent years, a more traditional term is \emph{statistical learning}, as most algorithms essentially boil down to clever use of statistics.
+
+How does this differ from conventional programming?
+
+\includegraphics{assets/ml_vs_programming.jpg}
+
+\hypertarget{data-driven-research}{%
+\section{Data-driven research}\label{data-driven-research}}
+
+Historically, any type of data analysis was most often performed after data is collected. Today, these approaches are used already earlier, and in this manner they can inform designing new experiments. The transformation that led to this was technological - we can collect whole genome sequences, acquire 3D brain imaging data, or record movies of protein dynamics inside cells. Most importantly, such data are also made available to the scientific community, enabling any researcher to access databases that may host information about every protein inside a cell, or store the original data collected from high-throughput studies. This offers the possibility to use data science methods for discovering interesting patterns or statistical associations in the data, which upon visualization might reveal insight on biology that can then be used to propose hypotheses to be tested in new experiments.
+
+Later, in the statistics perspective section we will re-visit this as we discuss conventional scientific hypothesis testing.
+
+\hypertarget{inspired-by-the-brain}{%
+\section{Inspired by the brain}\label{inspired-by-the-brain}}
+
+\includegraphics{assets/neuron_artificial_biological.png}
+
+Artificial Neural networks (NNs) make up a subset of algorithms within the broader category of machine learning. Broadly speaking, NNs can be thought of as simple models of biological neural systems, in which layers of neurons propagate information from input to output, facilitated by connections (``synapses'') between the neurons in adjacent layers. We model them simply enough as matrix multiplications. These networks can learn by adjusting the synapse strengths, much like the way animal brains learn through long term potentiation.
+
+They are extremely versatile in that the possible variation in model (the number and type of interconnected layers of neurons, and how many neurons per layer) is virtually endless.Neural networks can for example be taught to perform classification, just as animal brains are extremely powerful to classify the information they receive and make decisions based on it (e.g., is it a mouse or a tiger that is just in front of me?). Provided with enough data, they now consistently outperform traditional ML models.
+
+In this course, we also discuss interdisciplinary paths - the discussion of Andrew Ng and Geoffrey Hinton (both very influential in the field of AI) in this video reveals that Geoffrey got influenced by many different fields in his path towards the innovations in AI that is now famous for.
+
+\hypertarget{data-representation}{%
+\section{Data representation}\label{data-representation}}
+
+Next, we introduce a few important concepts. The main point is not for you to memorize everything, but to expose you to concepts that you will encounter later if you take a data science course.
+
+\emph{Feature space} What is data? Depending on who you ask you might get a different answer, but for ML purposes we can usually describe a single data point as a vector of numbers, each number representing the value of some feature. An example of a numerical feature could be continuous like height or a price of a product, or discrete like the number of mutations in a gene. Non-numerical features could include your preference in movies or whether or not you use tobacco. All these features not only can, but actually require to be represented numerically before you can start to do machine learning.
+
+\includegraphics{assets/feature_space.png}
+
+In an abstract manner, we can visualize each feature as spatial dimension, and each data point is simply a point in this space, referred to as feature space. Often we have tens or hundreds of features, and it is easy to lose intuition. Nonetheless, realizing that almost all data can be represented in this very generic manner, we can easily conceptualize any problem within this framework, whether it be health related data, shopping habits or government intelligence and crime statistics.
+
+\emph{Overfitting}
+Machine learning can almost always be abstracted to the fitting of a mathematical function to some experimental data. Intuition will have it that the closer we fit to our data points, the more successful we are. This intuition however is only true up to a certain point. After this point, we are essentially ``perfecting'' our model on trying to predict random noise and outliers. The image below clearly explains why a perfect fit usually is a symptom of overfitting: the blue line would severely misjudge the training point (red) between -5 and -4. For this reason, a simpler linear model is preferred: despite getting some of the training points wrong, it generalizes better, i.e.~it would allow to make better predictions about unseen data.
+
+\includegraphics{assets/Overfitted_Data_Ghiles_CCBYSA4_0.png}
+
+Overfitting is the antithesis of proper generalization. As an analogy of overfitting, you can imagine a student who intensively memorizes every fact without genuine understanding, and thereby performs poorly on new problems (but near perfect on already seen ones). This is exactly how you can spot overfitting: you always keep some of the data you have for testing and when training the model this test data is not used. Then you compare the model performance both in training and test sets. If the model is overfitted, the test error is much higher than the training error. Keep in mind though, that underfitting is also a possibility. In this case, you have selected a too simple model.
+
+\emph{Parameters and hyperparameters}
+After a model has been selected, ML is all about finding a set of parameters which reduces what is known as the error function (cost function, see below). For instance in linear regression, the parameters are the coefficients of the regression line (what is actually being learned). This optimization of what value to select for each parameter is what the ML algorithm automatically finds. Another set of parameters, hyperparameters have to be predefined prior to training the model, and usually relate to the way the model is trained (for instance, what should the rate of learning be).
+
+\emph{Cost function}
+It is always useful, and often necessary to quantify the model error. This is usually some variation of the deviation between prediction and ground truth (e.g.~mean squared error, MSE). While training our data, we are looking for the model parameters which make the error as small as possible. We thus formulate a function, the cost function (also known as loss function), which is a function of the model parameters. The way a model is fitted (or trained) to some data is (explicitly or implicitly) through reducing the cost function. Just like we above conceptualized data features in a hyperdimensional feature space, we can do the same with model parameters. Thus we can imagine a hilly landscape in 3 dimensions, where the x- and y-axis components (e.g.~GPS coordinates) represent the parameter values, and the z-axis component (altitude of each point) represents the error. Different models have clever ways to navigate in this parameter landscape in order to reach a local minimum, like a saddle or a valley. Notice however that there might not be a guarantee that the minimum reached is the global minimum, for instance the sea level.
+
+\emph{Model complexity}
+A useful distinction between models can be made by considering their complexity. Note that the word ``complex'' is not synonymous to ``complicated''. Complexity simply refers to something composed of many parts. In this context, complexity is related to the number of parameters the model holds. The more parameters we have, the more complex is our model. Simple linear regression has a low number of parameters, but neural networks (especially deep neural networks) have plenty. When doing machine learning, you should generally test multiple models, always starting with the less complex (although more `boring') alternatives. The reason for this is the general tendency for complex models to overfit as well as requiring more training data. A topic that usually comes up in discussions of complexity is bias-variance tradeoff: complex models have usually a low bias, but a high variance. Simple models have it opposite.
+
+\emph{The curse of dimensionality}
+Another common problem relates to the number of features (dimensionality) of the input data. Consider a 2-dimensional input space, where each feature can take the value 0,1 or 2. There are a total of 3\^{}2=9 combinations of inputs. As we increase dimensions from 2 to 3 dimensions, we drastically increase the number of possible combinations of inputs from 9 to 3\^{}3=27. Usually the dimensionality far supersedes 3 dimensions. If we want to get a representative sample of this state space, we need exponentially more and more training samples. Even more, many of the features will be completely irrelevant to our final prediction. This makes training on high-dimensional data challenging, but there are methods to deal with it (incl.~dimensionality reduction).
+
+\emph{Preprocessing}
+A model can never be of higher quality than the data it has been trained on. This can be summarized in the mantra ``Garbage in, garbage out'', putting a well-deserved emphasis on ensuring that your data is of decent quality. Moreover, many ML models require the data to come in a certain format, or to be normalized first. In fact, a staggering amount of time of a machine learner's time goes to preparing the data to be modelled. For these reasons we need to review the data. Images should be plotted and inspected, tabular data should be plotted (histograms, line plots etc). It can also be useful to make note of the mean and median values (if the data is numerical), or normalize it (neural networks require normalization). For non-numerical data (such as classifications of healthy or sick), we need some way to translate the categories into numbers, so they can be understood by a computer. For simple problems,we can simply replace the category with a `1' or a `0', while other problems require slightly more elaborate schemes (e.g.~one-hot encoding).
+
+\emph{Feature selection and extraction}
+Traditional machine learning requires manual feature selection: you as a scientist need to decide which features you want to gather or use as input to your ML model. There are also statistical techniques to select the ``best'' (most predictive) features from a dataset. Another related concept is feature extraction, in which new features are created by combining the available ones. This is often done through dimensionality reduction. In modern deep learning, feature selection and extraction has become minimal, by letting the algorithm do it automatically. This is known as feature learning.
+
+\emph{Regularization}
+The sensitivity of many learners to overfit can be handled using various techniques, colloquially known as regularization. Regularization techniques are used widely in linear regression to make it robust against outliers and noise, known as L1 and L2 regularization. Neural networks may also be regularized using dropout (random removal of neurons).
+
+\hypertarget{physical-vs-statistical-model}{%
+\section{Physical vs statistical model}\label{physical-vs-statistical-model}}
+
+You may be wondering how the data science approach connects with systems-level thinking? This is actually an open question. However, there are interesting possibilities for synergy. As food-for-thought, here is a Nature article discussing this in context of trying to understand how the Earth behaves, as a system. This article brings up the distinction where physical modelling and machine learning have been seen as two different fields with very different scientific paradigms (theory-driven versus data-driven). In the physical approaches, physical laws are combined to draft causal models where a certain feature (for instance, the gravity force from the moon), has a certain effect (ocean tides). Therefore, physical approaches are in principle directly interpretable and offer the potential of extrapolation beyond the observed conditions. But the quality of the predictions is generally tied to the limited number of ingredients that have been accounted for in the model. In contrast, data-driven approaches are highly flexible in adapting to data that has been collected and are amenable to finding unexpected patterns (surprises). But interpretation, and in particular causality, is often harder to infer. A classic example drawn from ``The Visual Display of Quantitative Information'' textbook by Edward Tufte illustrates the difficulty of interpreting statistical correlations:
+
+\includegraphics{assets/StockvsRadiation.png}
+
+Can we safely believe that the solar activity causes fluctuations in the stock market? For these reasons, physical (or biological) and statistical models can also be synergistic!
+
+Additional reading:
+
+Marx 2009. Machine learning, practically speaking
+
+An Introduction to Statistical Learning (book)
+
+\hypertarget{statistics-perspective}{%
+\chapter{Statistics perspective}\label{statistics-perspective}}
+
+Compared to data science, using statistics has long history in research. The goals could be summarized as:
+
+Describe: summarize data in a simplified way that we can understand
+
+Decide: make decisions based on data, in the face of uncertainty
+
+Predict: make predictions about new situations based on our knowledge of previous situations
+
+Let's consider an example where we have data across 100 000 study participants (which we call the sample) regarding their vitamin D levels. We also have the health records available and would be interested to study association between the vitamin levels and disease prevalence, for example.
+
+Compared to machine learning, statistics tries to make the data better understandable for a human. Given our study of 100,000 people, one way to describe this data in a simple way is to divide the data into groups, after ordering them in terms of their intake of vitamin D; the first quantile contains the 20\% of people with the lowest intake, and the 5th quantile contains the 20\% with the highest intake. Now, instead of 100,000 data points, we could plot vitamin D intake level (categories) against cancer-related deaths. In fact, one way to think about statistics is aggregation, i.e.~we throw away details of the study participants and make conclusions based on data summaries that consists of a small set of ``data metrics'', or statistics (e.g mean and standard deviation, or reporting quantiles).
+
+If we indeed observed a trend between vitamin levels and cancer based on our summary, we might want to proceed to evaluate this relationship further. There is a lot of uncertainty in the data, in any real-world dataset; for example, it would be normal to have some people with high vitamin intake who died of cancer, and, similarly, some people with very low intake who never had cancer. Given the observed variability, we want to \emph{decide} whether the trend we see in the data is large enough that we wouldn't expect it to occur randomly \emph{if there was not truly a relationship} (null hypothesis) between vitamin intake and cancer incidence. Statistics provide the tools to make these kinds of decisions.
+
+\hypertarget{statistical-models-and-scientific-hypotheses}{%
+\section{Statistical models and scientific hypotheses}\label{statistical-models-and-scientific-hypotheses}}
+
+Below you find a set of steps that we generally go through when we want to use a statistical model to test a scientific hypothesis (\emph{decide} to accept or reject it):
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\tightlist
+\item
+  Specify your question of interest
+\item
+  Identify or collect the appropriate data
+\item
+  Prepare the data for analysis
+\item
+  Determine the appropriate model
+\item
+  Fit the model to the data
+\item
+  Criticize the model to make sure it fits properly
+\item
+  Test hypothesis and quantify effect size
+\end{enumerate}
+
+\emph{Choice of model} Centuries of statistics research have provides guidelines that can help decide what type of models are suitable for which type of data and questions. For example, a normal distribution fit could be a good model to capture key properties (such as expected value) for continuous valued measurements but not appropriate for discrete data such as counts.
+
+One such example is sequencing data! Before, in the 1990s when microarray technology was used to compare gene expression levels in biological samples, researchers could utilize the powerful statistics tools available for continuous (log)-normal data, including linear models. The whole workflow had to be ``re-invented'', i.e.~built around a different toolset suitable for discrete data, when sequencing-based count data from RNA-seq became common.
+
+\emph{The good and bad p-value} The idea of following steps 1-7 is very logical. However, it turns out that it is more difficult to publish results when the study concludes that the hypothesis proposed initially should be rejected (negative results). Similarly, expensive experiments have led to design of ``minimalistic'' studies where we attempt to make conclusions based on smallest possible sample sizes. This has led to many problems, referred to as p-hacking. So a word of caution is at place here about the pitfalls you should avoid:
+
+p-hacking is if you:
+
+-Analyze data after every subject, and stop collecting data once p\textless0.05
+
+-Analyze many different variables, but only report those with p\textless0.05
+
+-Collect many different experimental conditions, but only report those with p\textless0.05
+
+-Exclude participants to get p\textless0.05
+
+-Transform the data to get p\textless0.05
+
+Any of the above, corrupts the whole scientific process, as no real conclusions can be drawn.
+
+\hypertarget{probability}{%
+\section{Probability}\label{probability}}
+
+Probability is the branch of mathematics that deals with chance and uncertainty. Instead of going after some arbitrary p-value threshold, it is much more useful to accept that there is uncertainty in our conclusions, for example by including confidence intervals, and using concepts from probability theory.
+
+You might associate probabilities with the calculations you learned in school for experiments such as rolling a dice, where a certain number of possible outcomes are possible. Then you apply the calculation on a certain observed sequence of events (sample). Alternatively, you could be observing passing cars at the intersection and recording those that are electric cars.
+
+Many biomedical experiments involve sampling and can be related to the ``classical probability'' experiments. For example, a blood sample where we count certain cell types is similar to the ``electric car counting'' situation, and mathematically a model (probability distribution) has been proposed that allows you to calculate the probability of observing a certain number of events (e.g.~T-lymphocytes) per fixed time/volume (1 ml of blood sample), if we know how many to expect on average. A Poisson model can be used to calculate the probability of a given number of events occurring in a fixed interval of time or space, i.e.~it would be appropriate for the situation above. The choice of the ``model'' is based on the type of experiment that was performed.
+
+From this basic foundation, an interesting path of probability theory emerges - this idea was so revolutionary that it led to two different statistics ``schools'' - the frequentists and Bayesians. To get an idea what the difference is, it is first important to understand conditional probabilities, from which the Bayes' rule is derived. We will not go into details here but instead ask - Why is this interesting? In simple words, the Bayes rule gives us a mathematical way to update our beliefs on the basis of data .
+
+Frequentists interprets probabilities ``in long-run'' i.e.~in situations where we can sample many times (or indefinately), e.g.~coin flip. This is less useful if the event can only happen once. For Bayesians probability is as a degree of belief in a particular proposition. This would be better-suited e.g.~to answer at the start of the Covid-19 pandemic in 2019 ``How likely will we have a vaccine developed during 2020?''. The frequencies to calculate the frequentist probability were not available. Based on our prior beliefs (e.g.~how long it took historically to develop vaccines) and knowledge (e.g.~how many labs worked on it then, how many succeeded, and how many would be trying to develop the drug now), we could propose a Bayesian probability calculation for this situation.
+
+\emph{Predicting} is important concept in statistics which is also encountered in machine learning. In both, the idea is to fit a model to the data collected. It is good to keep in mind that when we want to generalize from the data we already have to some other situation, we assume that the particular sample that we have available is representative of a larger population.
+
+Models (and predictions made based on them) can also be updated when new data is collected (Bayes' rule). Many of the sophisticated predictive machine learning models have their roots in probability theory.
+
+Additional reading:
+
+Statistics versus Machine learning
+
+\hypertarget{sign-up-for-inter-disciplinary-training}{%
+\chapter{Sign-up for inter-disciplinary training!}\label{sign-up-for-inter-disciplinary-training}}
+
+In conclusion, \emph{because} modern biomedical challenges involves biological systems that are very complex, multi-scale and multi-parametric, the use of traditional intuition-based scientific methodologies need to be complemented with additional tools. In this brief introduction, we have mentioned systems-level thinking, network analysis, data science tools, biostatistics and machine learning methods, and computer programming as part of this survival toolkit.
+These topics are covered in several courses provided in your University, and this knowledge in \emph{quantitative science} in the broad sense can be useful well beyond biomedicine (e.g., road traffic regulation, Earth dynamics \& climate change\ldots). Signing-up to such courses will help you develop inter-disciplinary skills early enough in your career, to provide you with high-flexibility to adjust to various scientific environments and anticipate evolutions in the job market.
+
 \hypertarget{intro}{%
 \chapter{How to contribute to the book}\label{intro}}
 
@@ -348,8 +527,8 @@ Figures and tables with captions will be placed in \texttt{figure} and \texttt{t
 
 \begin{Shaded}
 \begin{Highlighting}[]
-\FunctionTok{par}\NormalTok{(}\AttributeTok{mar =} \FunctionTok{c}\NormalTok{(}\DecValTok{4}\NormalTok{, }\DecValTok{4}\NormalTok{, .}\DecValTok{1}\NormalTok{, .}\DecValTok{1}\NormalTok{))}
-\FunctionTok{plot}\NormalTok{(pressure, }\AttributeTok{type =} \StringTok{\textquotesingle{}b\textquotesingle{}}\NormalTok{, }\AttributeTok{pch =} \DecValTok{19}\NormalTok{)}
+\KeywordTok{par}\NormalTok{(}\DataTypeTok{mar =} \KeywordTok{c}\NormalTok{(}\DecValTok{4}\NormalTok{, }\DecValTok{4}\NormalTok{, }\FloatTok{.1}\NormalTok{, }\FloatTok{.1}\NormalTok{))}
+\KeywordTok{plot}\NormalTok{(pressure, }\DataTypeTok{type =} \StringTok{'b'}\NormalTok{, }\DataTypeTok{pch =} \DecValTok{19}\NormalTok{)}
 \end{Highlighting}
 \end{Shaded}
 
@@ -366,9 +545,9 @@ Reference a figure by its code chunk label with the \texttt{fig:} prefix, e.g., 
 
 \begin{Shaded}
 \begin{Highlighting}[]
-\NormalTok{knitr}\SpecialCharTok{::}\FunctionTok{kable}\NormalTok{(}
-  \FunctionTok{head}\NormalTok{(iris, }\DecValTok{20}\NormalTok{), }\AttributeTok{caption =} \StringTok{\textquotesingle{}Here is a nice table!\textquotesingle{}}\NormalTok{,}
-  \AttributeTok{booktabs =} \ConstantTok{TRUE}
+\NormalTok{knitr}\OperatorTok{::}\KeywordTok{kable}\NormalTok{(}
+  \KeywordTok{head}\NormalTok{(iris, }\DecValTok{20}\NormalTok{), }\DataTypeTok{caption =} \StringTok{'Here is a nice table!'}\NormalTok{,}
+  \DataTypeTok{booktabs =} \OtherTok{TRUE}
 \NormalTok{)}
 \end{Highlighting}
 \end{Shaded}
