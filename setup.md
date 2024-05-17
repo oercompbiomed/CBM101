@@ -132,8 +132,6 @@ CBM101/E_Biostatistics>`jupyter notebook`
 
 and you will load the `R kernel` when opening an  `.ipynb`  notebook, say `ProbsAndDistr.ipynb` in the `Probabilities-and-Distributions` folder.
 
-
-
 Using Anaconda for the R programming language in Jupyter Notebookhttps see: https://docs.anaconda.com/anaconda/navigator/tutorials/r-lang
 
 More features and a user-friendly environment to run R scripts outside jupyter are available through [RStudio](https://www.rstudio.com)
@@ -144,13 +142,4 @@ Install the necessary libraries (only needed once) by executing (shift-enter), e
 
 ## Edit and live-preview markdown files, e.g. `README.md`
 
-The [Atom text editor](https://atom.io)  has a [live-preview mode](https://github.com/atom/markdown-preview) for markdown files. The keyboard shortcut is CTRL+SHIFT+M.
-
-## Install Jupyter/Python on Android
-
-
-* Download Pydroid3 app from Play store (note: Pydroid uses ads)
-* Run the app (this will install Python)
-* Click on the 3 bars button (menu), then choose “PIP” (library installer), there is a search menu, typer “Jupyter” then click on Install
-* You might be asked to install the Python repository plugin if it has not been done before: do it (possible to uninstall it after installing Jupyter)
-* Once the installation of Jupyter is complete, go back to PIP, click again on the 3 bar button (menu) and run “terminal”. In the terminal type “jupyter notebook”, you’re done!
+You can use the [Markdown Live Preview](https://markdownlivepreview.com/) page to directly see the formated text.
